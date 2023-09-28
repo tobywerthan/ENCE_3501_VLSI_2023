@@ -50,13 +50,11 @@
     <p>    
         The layout was created using three n-well resistors each with a width of 15<span>&#411;</span> and length of 175.44<span>&#411;</span>. With the given value of R<sub>sq</sub> (855 <span>&#8486;</span>/square), and by choosing a width value, the length was calculated as follows:
     </p>
-
-    <p>    
+    
         10000 = (855)*(L/15)
         L = (10000*15)/855
         L = 175.44
-    </p>
-    
+        
 <p align="center">
   <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
 </p>
