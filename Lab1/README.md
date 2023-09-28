@@ -17,7 +17,7 @@
 
 <h2> Voltage Divider </h2> <a name="vdiv"></a>
 <dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
-<dl><dd><dl><p>Hello World</p></dl></dd></dl>
+<dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
 
 <h3>Layout</h3> <a name="vdivSchem"></a>
 
