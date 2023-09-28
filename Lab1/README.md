@@ -21,7 +21,7 @@
 
 <dl><dd><dl><dd>
     <p>    
-        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k<span>&#8486;</span>
+        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k<span>&#8486;</span>, meaning the resistor connected to the input has a resistance of 20k<span>&#8486;</span>
     </p>
     
 <p align="center">
