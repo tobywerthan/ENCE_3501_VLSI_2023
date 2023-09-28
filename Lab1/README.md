@@ -2,7 +2,7 @@
 
 <h2>Table of Contents</h2>
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-<summary>Click to expand</summary>
+<summary>"Click to expand"</summary>
 <details>
 - [Introduction](#why-markdown)
 - [Voltage Divider](#advanced-formatting-tips)
