@@ -1,4 +1,4 @@
-## Lab 1
+# Lab 1
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Voltage Divider](#vdiv)
