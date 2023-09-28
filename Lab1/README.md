@@ -26,8 +26,8 @@
 <dl><dd><h3>Simulation</h3> <a name="vdivSim"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
 
-## 5-Bit R2R DAC <a name="dac"></a>
-hello
+<h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
+
 <dl><dd><h3>Schematic</h3> <a name="dacSchem"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
 
