@@ -76,7 +76,7 @@
 <dl><dd><h3>Simulation</h3> <a name="vdivSim"></a></dd></dl> 
 <dl><dd><dl><dd>
 <p>
-The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. 
+The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The icon generated from the original schematic was used in this simulation, which implemented the circuit as a "black box".
 </p>
     <p align="center">
   <img width="350" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
