@@ -23,9 +23,8 @@
     <p>    
         The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k<span>&#8486;</span>, meaning the resistor connected to the input has a resistance of 20k<span>&#8486;</span>. 
     </p>
-    
 <p align="center">
-  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
+  <img width="300" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
 </p>
 <p align="center">Figure 1 (Schematic provided for the voltage divider)</p>
     <p>    
@@ -35,6 +34,14 @@
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
 </p>
 <p align="center">Figure 2 (Schematic of the voltage divider in Electric VLSI)</p>
+    <p>    
+        An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
+    </p>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3cf9f3d1-42e4-42c7-857a-abcbea9a2550">
+</p>
+<p align="center">Figure 2 (Schematic of the voltage divider in Electric VLSI)</p>
+    ![icon_1](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3cf9f3d1-42e4-42c7-857a-abcbea9a2550)
 
 </dd></dl></dd></dl>
 
