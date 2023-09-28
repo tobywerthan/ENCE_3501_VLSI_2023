@@ -19,6 +19,9 @@
 
 <dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
+<p align="center">
+  <img width="460" height="300" src="https://picsum.photos/460/300">
+</p>
 
 <dl><dd><h3>Layout</h3> <a name="vdivLay"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
