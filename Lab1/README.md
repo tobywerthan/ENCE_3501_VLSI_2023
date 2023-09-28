@@ -20,7 +20,7 @@
 <dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
-    <p>    The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground.
+    <p>    The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground.</p>
 <p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
 </p>
