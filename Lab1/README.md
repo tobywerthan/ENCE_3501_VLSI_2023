@@ -22,6 +22,7 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
 </p>
+<p align="center">Figure 1 (Schematic of the voltage divider used in the 5-bit DAC)</p>
 
 <dl><dd><h3>Layout</h3> <a name="vdivLay"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
