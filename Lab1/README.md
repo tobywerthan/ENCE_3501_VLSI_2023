@@ -54,7 +54,10 @@
         10000 = (855)*(L/15)
         L = (10000*15)/855
         L = 175.44
-        
+            
+<p>    
+    The inputs and outputs are connected to their respective nodes using metal contacts. 
+</p>
 <p align="center">
   <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
 </p>
