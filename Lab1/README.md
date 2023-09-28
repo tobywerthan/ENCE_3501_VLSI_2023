@@ -22,9 +22,14 @@
 <dl><dd><dl><dd>
     
 <p align="center">
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
+</p>
+<p align="center">Figure 1 (Schematic provided for the voltage divider)</p>
+
+<p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
 </p>
-<p align="center">Figure 1 (Schematic of the voltage divider used in the 5-bit DAC)</p>
+<p align="center">Figure 2 (Schematic of the voltage divider in Electric VLSI)</p>
 
 </dd></dl></dd></dl>
 
