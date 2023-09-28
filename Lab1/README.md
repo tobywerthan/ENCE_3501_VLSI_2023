@@ -38,7 +38,7 @@
         An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
     </p>
 <p align="center">
-  <img width="300" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3cf9f3d1-42e4-42c7-857a-abcbea9a2550">
+  <img width="270" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3cf9f3d1-42e4-42c7-857a-abcbea9a2550">
 </p>
 <p align="center">Figure 3 (Icon generated from the voltage divider in Electric VLSI)</p>
 
