@@ -51,7 +51,7 @@
         Blah Blah Blah. 
     </p>
 <p align="center">
-  <img width="5000" height="750" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
+  <img width="750" height="750" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
 </p>
 <p align="center">Figure 4 (Schematic provided for the voltage divider)</p>
 
