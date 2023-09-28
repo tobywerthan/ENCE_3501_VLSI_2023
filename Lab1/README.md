@@ -51,10 +51,10 @@
         Blah Blah Blah. 
     </p>
 <p align="center">
-  <img width="300" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
 </p>
-<p align="center">Figure 1 (Schematic provided for the voltage divider)</p>
-    
+<p align="center">Figure 4 (Schematic provided for the voltage divider)</p>
+
 </p></dd></dl></dd></dl>
 
 <dl><dd><h3>Simulation</h3> <a name="vdivSim"></a></dd></dl> 
