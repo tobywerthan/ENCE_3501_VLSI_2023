@@ -1,5 +1,4 @@
 ## Lab 1
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Voltage Divider](#vdiv)
@@ -11,8 +10,6 @@
     2. [Layout](#dacLay)
     3. [Simulations](#dacSim)
 4. [5-Bit R2R DAC](#conclusion)
-  
-
 ## Introduction <a name="introduction"></a>
 hello
 ## Voltage Divider <a name="vdiv"></a>
