@@ -1,39 +1,35 @@
 ## Lab 1
 
 ## Table of Contents
-<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-<summary>"Click to expand"</summary>
-<details>
-- [Introduction](#Introduction)
-- [Voltage Divider](#advanced-formatting-tips)
-  - [Schematic](#left-alignment)
-  - [Layout](#right-alignment)
-  - [Simulations](#center-alignment-example)
-- [5-Bit R2R DAC](#advanced-formatting-tips)
-  - [Schematic](#left-alignment)
-  - [Layout](#right-alignment)
-  - [Simulations](#center-alignment-example)
-- [Conclusion](#useful-packages)
-</details>
-<!-- AUTO-GENERATED-CONTENT:END -->
+1. [Introduction](#introduction)
+2. [Voltage Divider](#vdiv)
+    1. [Schematic](#vdivSchem)
+    2. [Layout](#vdivLay)
+    3. [Simulations](#vdivSim)
+3. [5-Bit R2R DAC](#dac)
+    1. [Schematic](#dacSchem)
+    2. [Layout](#dacLay)
+    3. [Simulations](#dacSim)
+4. [5-Bit R2R DAC](#conclusion)
+  
 
-## Introduction
+## Introduction <a name="introduction"></a>
 hello
-## Voltage Divider
+## Voltage Divider <a name="vdiv"></a>
 hello
-### Schematic
+### Schematic <a name="vdivSchem"></a>
 hello
-### Layout
+### Layout <a name="vdivLay"></a>
 hello
-### Simulations
+### Simulations <a name="vdivSim"></a>
 hello
-## 5-Bit R2R DAC
+## 5-Bit R2R DAC <a name="dac"></a>
 hello
-### Schematic
+### Schematic <a name="dacSchem"></a>
 hello
-### Layout
+### Layout <a name="dacLay"></a>
 hello
-### Simulations
+### Simulations <a name="dacSim"></a>
 hello
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 hello
