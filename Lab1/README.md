@@ -79,10 +79,11 @@
 The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. 
 </p>
     <p align="center">
-  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/76a24d5d-e9b1-4ea4-9890-029b8a843473">
+  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
 </p>
-<p align="center">Figure 5 (3D view of the layout created in Electric VLSI)</p>
+<p align="center">Figure 6 (3D view of the layout created in Electric VLSI)</p>
 </dd></dl></dd></dl>
+![schematic_sim](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1)
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
