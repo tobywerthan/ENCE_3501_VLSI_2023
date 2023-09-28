@@ -79,11 +79,18 @@
 The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The icon generated from the original schematic was used in this simulation, which implemented the circuit as a "black box".
 </p>
     <p align="center">
-  <img width="350" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
+  <img width="300" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
 </p>
-<p align="center">Figure 6 (3D view of the layout created in Electric VLSI)</p>
+<p align="center">Figure 7 (Simulation schematic of the voltage divider in Electric VLSI)</p>
+<p>
+A snippet of the spice code for the simulation is provided below:
+</p>
+    
+    vdd vin 0 DC 5V
+    .op
+    
 </dd></dl></dd></dl>
-![schematic_sim](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1)
+
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
