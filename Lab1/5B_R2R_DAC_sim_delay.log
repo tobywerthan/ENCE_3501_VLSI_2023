@@ -1,0 +1,22 @@
+Circuit: *** SPICE deck for cell 5B_R2R_DAC_sim_delay{sch} from library Werthan_5B_R2R_DAC
+
+.OP point found by inspection.
+
+Date: Tue Sep 26 16:45:09 2023
+Total elapsed time: 0.472 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 48084
+traniter = 48084
+tranpoints = 24043
+accept = 24042
+rejected = 1
+matrix size = 13
+fillins = 0
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1:      33 opcodes  0.4/[0.3]/0.4
+Matrix Compiler2: off  [0.2]/0.3/0.2
+
