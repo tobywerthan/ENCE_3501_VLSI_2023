@@ -74,7 +74,11 @@
 </p></dd></dl></dd></dl>
 
 <dl><dd><h3>Simulation</h3> <a name="vdivSim"></a></dd></dl> 
-<dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
+<dl><dd><dl><dd>
+<p>
+The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. 
+</p>
+</dd></dl></dd></dl>
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
