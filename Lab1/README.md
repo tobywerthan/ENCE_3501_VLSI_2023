@@ -63,6 +63,14 @@
 </p>
 <p align="center">Figure 4 (Layout of the voltage divider created in Electric VLSI)</p>
 
+<p>    
+    The 3D view of the layout provides a clearer display of the n-well resistors and how they are connected. 
+</p>
+<p align="center">
+  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/76a24d5d-e9b1-4ea4-9890-029b8a843473">
+</p>
+<p align="center">Figure 4 (Layout of the voltage divider created in Electric VLSI)</p>
+
 </p></dd></dl></dd></dl>
 
 <dl><dd><h3>Simulation</h3> <a name="vdivSim"></a></dd></dl> 
