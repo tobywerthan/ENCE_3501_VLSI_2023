@@ -101,7 +101,7 @@ Evout||D5G8;X11.5;Y0.5;|pin@4||U
 X
 
 # Cell 5B_R2R_DAC;1{sch}
-C5B_R2R_DAC;1{sch}||schematic|1695927510405|1695928570887|
+C5B_R2R_DAC;1{sch}||schematic|1695927510405|1695933812998|
 I5B_R2R_DAC;1{ic}|5B_R2R_D@0||24|5|||D5G4;
 IWerthan_R_Divider:R_Divider;1{ic}|R_Divide@0||-5|15|||D5G4;
 IWerthan_R_Divider:R_Divider;1{ic}|R_Divide@1||-5|0|||D5G4;
@@ -116,7 +116,7 @@ NOff-Page|conn@3||-10.5|-15||||
 NOff-Page|conn@4||-10.5|-30||||
 NOff-Page|conn@5||-10.5|-45||||
 NGround|gnd@0||-1|-62.5||||
-Ngeneric:Invisible-Pin|pin@0||23.5|-26.5|||||SIM_spice_card(D5G4;)S[*v4 b4 0,*v3 b3 0,*v2 b2 0,*v1 b1 b0,*vin b0 0 DC 5,*.op]
+Ngeneric:Invisible-Pin|pin@0||23.5|-19|||||SIM_spice_card(D5G3;)S[*v4 b4 0,*v3 b3 0,*v2 b2 0,*v1 b1 b0,*vin b0 0 DC 5,*.op]
 NResistor|resnwell@0||-1|-57.5|||R|3|ATTR_length(D5G0.25;X-1.5;)D175.44|ATTR_width(D5G0.5;X1.5;)D15.0|SCHEM_resistance(D5G1;)S10k
 Awire|net@0|||900|R_Divide@4|bot|-1|-50|resnwell@0|b|-1|-55.5
 Awire|net@1|||2700|R_Divide@4|out|-1|-40|R_Divide@3|bot|-1|-35
@@ -169,7 +169,7 @@ Evout||D5G1.5;X1.5;|conn@1|a|U
 X
 
 # Cell 5B_R2R_DAC_sim;1{lay}
-C5B_R2R_DAC_sim;1{lay}||mocmos|1695930522854|1695931727637||DRC_last_good_drc_area_date()G1695931732851|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1695931732851
+C5B_R2R_DAC_sim;1{lay}||mocmos|1695930522854|1695934076228||DRC_last_good_drc_area_date()G1695931732851|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1695931732851
 I5B_R2R_DAC;1{lay}|5B_R2R_D@0||3|136|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Pin|pin@5||-90|-183||||
@@ -180,7 +180,7 @@ NMetal-1-Pin|pin@9||-117.5|43.5||||
 NMetal-1-Pin|pin@10||-117.5|106.5||||
 NMetal-1-Pin|pin@11||-117.5|169.5||||
 NMetal-1-Pin|pin@12||124|124.5||||
-Ngeneric:Invisible-Pin|pin@13||193.5|72.5|||||SIM_spice_card(D5G8;)S[v4 b4 0,v3 b3 0,v2 b2 0,v1 b1 b0,vin b0 0 DC 5,.op]
+Ngeneric:Invisible-Pin|pin@13||157.5|-1.5|||||SIM_spice_card(D5G12;)S[v4 b4 0,v3 b3 0,v2 b2 0,v1 b1 b0,vin b0 0 DC 5,.op]
 AMetal-1|net@5|||S1800|5B_R2R_D@0|gnd|-90|-169|pin@6||-90|-169
 AMetal-1|net@6|||S2700|pin@5||-90|-183|pin@6||-90|-169
 AMetal-1|net@7|||S1800|pin@7||-117.5|-82.5|5B_R2R_D@0|b0@793745744|-99|-82.5
