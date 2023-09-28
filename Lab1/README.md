@@ -21,7 +21,8 @@
 
 <dl><dd><dl><dd>
     <p>    
-        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k </p> $R=1\ \mathsf{k\Omega}$
+        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k <span>&#8486;</span>
+    </p>
     
 <p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
