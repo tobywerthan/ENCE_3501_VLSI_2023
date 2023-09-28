@@ -16,7 +16,9 @@
 <dl>
 
 ## Voltage Divider <a name="vdiv"></a>
-hello
+<dl>
+    <dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd>
+<dl>
 ### Schematic <a name="vdivSchem"></a>
 hello
 ### Layout <a name="vdivLay"></a>
