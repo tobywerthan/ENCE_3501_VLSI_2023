@@ -20,12 +20,16 @@
 <dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
-    <p>    The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground.</p>
+    <p>    
+        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k </p> $R=1\ \mathsf{k\Omega}$
+    
 <p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
 </p>
 <p align="center">Figure 1 (Schematic provided for the voltage divider)</p>
-
+    <p>    
+        When designing the schematic in Electric VLSI, 
+    </p>
 <p align="center">
   <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
 </p>
