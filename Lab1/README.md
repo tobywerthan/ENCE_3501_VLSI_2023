@@ -20,7 +20,7 @@
 <dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
 <p align="center">
-  ![schematic_1](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686)
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
 </p>
 
 <dl><dd><h3>Layout</h3> <a name="vdivLay"></a></dd></dl> 
