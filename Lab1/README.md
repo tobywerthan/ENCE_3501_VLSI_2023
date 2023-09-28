@@ -4,7 +4,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <summary>"Click to expand"</summary>
 <details>
-- [Introduction](#why-markdown)
+- [Introduction](#Introduction)
 - [Voltage Divider](#advanced-formatting-tips)
   - [Schematic](#left-alignment)
   - [Layout](#right-alignment)
