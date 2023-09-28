@@ -11,7 +11,7 @@
     3. [Simulations](#dacSim)
 4. [Conclusion](#conclusion)
 ## Introduction <a name="introduction"></a>
-<p style="paddingLeft: 500px">
+<p style="padding-left: 500px">
     hello
 </p>
 
