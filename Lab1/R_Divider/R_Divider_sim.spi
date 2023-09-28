@@ -1,7 +1,7 @@
 *** SPICE deck for cell R_Divider_sim{lay} from library Werthan_R_Divider
 *** Created on Fri Sep 22, 2023 11:38:53
-*** Last revised on Sun Sep 24, 2023 15:21:48
-*** Written on Sun Sep 24, 2023 15:21:51 by Electric VLSI Design System, version 9.07
+*** Last revised on Sun Sep 24, 2023 15:13:29
+*** Written on Thu Sep 28, 2023 14:21:25 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
@@ -16,6 +16,6 @@ Rresnwell@2 bot out 10k
 XR_Divide@0 gnd vin vout Werthan_R_Divider__R_Divider
 
 * Spice Code nodes in cell cell 'R_Divider_sim{lay}'
-vdd vin 0 DC 1V
+vdd vin 0 DC 5V
 .op
 .END

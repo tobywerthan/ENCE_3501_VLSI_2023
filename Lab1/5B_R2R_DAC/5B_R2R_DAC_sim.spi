@@ -1,0 +1,35 @@
+*** SPICE deck for cell 5B_R2R_DAC_sim{lay} from library Werthan_5B_R2R_DAC
+*** Created on Thu Sep 28, 2023 13:48:42
+*** Last revised on Thu Sep 28, 2023 14:08:47
+*** Written on Thu Sep 28, 2023 14:09:14 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_R_Divider__R_Divider FROM CELL Werthan_R_Divider:R_Divider{lay}
+.SUBCKT Werthan_R_Divider__R_Divider bot in out
+Rresnwell@0 net@2 in 10k
+Rresnwell@1 net@2 out 10k
+Rresnwell@2 bot out 10k
+.ENDS Werthan_R_Divider__R_Divider
+
+*** SUBCIRCUIT Werthan_5B_R2R_DAC__5B_R2R_DAC FROM CELL 5B_R2R_DAC{lay}
+.SUBCKT Werthan_5B_R2R_DAC__5B_R2R_DAC b0 b1 b2 b3 b4 gnd vout
+XR_Divide@0 net@0 b4 vout Werthan_R_Divider__R_Divider
+XR_Divide@1 net@7 b3 net@0 Werthan_R_Divider__R_Divider
+XR_Divide@2 net@11 b2 net@7 Werthan_R_Divider__R_Divider
+XR_Divide@3 net@15 b1 net@11 Werthan_R_Divider__R_Divider
+XR_Divide@4 net@28 b0 net@15 Werthan_R_Divider__R_Divider
+Rresnwell@0 net@28 gnd 10k
+.ENDS Werthan_5B_R2R_DAC__5B_R2R_DAC
+
+*** TOP LEVEL CELL: 5B_R2R_DAC_sim{lay}
+X_5B_R2R_D@0 b0 b1 b2 b3 b4 gnd vout Werthan_5B_R2R_DAC__5B_R2R_DAC
+
+* Spice Code nodes in cell cell '5B_R2R_DAC_sim{lay}'
+v4 b4 0
+v3 b3 0
+v2 b2 0
+v1 b1 b0
+vin b0 0 DC 5
+.op
+.END
