@@ -18,13 +18,10 @@
 ## Voltage Divider <a name="vdiv"></a>
 <dl>
     <dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd>
+    <dd><h3>Layout</h3> <a name="vdivSchem"></a></dd>
+    <dd><h3>Simulation</h3> <a name="vdivSchem"></a></dd>
 <dl>
-### Schematic <a name="vdivSchem"></a>
-hello
-### Layout <a name="vdivLay"></a>
-hello
-### Simulations <a name="vdivSim"></a>
-hello
+
 ## 5-Bit R2R DAC <a name="dac"></a>
 hello
 ### Schematic <a name="dacSchem"></a>
