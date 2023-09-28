@@ -1,6 +1,6 @@
-<h1>Lab 1</h1>
+## Lab 1
 
-<h2>Table of Contents</h2>
+## Table of Contents
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <summary>"Click to expand"</summary>
 <details>
@@ -16,3 +16,4 @@
 - [Conclusion](#useful-packages)
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
+
