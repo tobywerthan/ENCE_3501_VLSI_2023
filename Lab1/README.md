@@ -17,10 +17,12 @@
 
 ## Voltage Divider <a name="vdiv"></a>
 <dl>
-    <dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd>
+    <dd><h3>Schematic</h3> <a name="vdivSchem"></a>
     <dl>
         <dd>Typing stuff</dd>
     </dl>
+    </dd>
+
     <dd><h3>Layout</h3> <a name="vdivSchem"></a></dd>
     <dd><h3>Simulation</h3> <a name="vdivSchem"></a></dd>
 <dl>
