@@ -138,7 +138,7 @@ A snippet of the spice code can be found in Figure 7.
 </p>
 </p>
     <p align="center">
-  <img width="1000" height="100" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8538a7fb-fcc1-427c-a585-887e7f7bdad5">
+  <img width="1000" height="100" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/fb66ce67-9c2d-402d-bc9c-52ce8b17aa99">
 </p>
 <p align="center">Figure 9 (NCC check results of the voltage divider)</p>
 
