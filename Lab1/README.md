@@ -125,12 +125,17 @@ A snippet of the spice code can be found in Figure 7.
 <dl><dd><h3>Schematic</h3> <a name="dacSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
-    <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first input of the DAC and ground.</p>
+    <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
 <p align="center">
   <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e84802ee-b4ac-4806-a32a-16dc44e80916">
 </p>
 <p align="center">Figure 9 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
-
+    <p>An icon was then generated from the schematic. This is an important step as the icon will be used in the simulation schematic for the 5-bit R2R DAC.</p>
+<p align="center">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/730415a0-79d7-4fd2-a2bc-a9bacfdd393e">
+</p>
+<p align="center">Figure 10 (Icon of the 5-bit R2R schematic in Electric VLSI)</p>
+    
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Layout</h3> <a name="dacLay"></a></dd></dl> 
