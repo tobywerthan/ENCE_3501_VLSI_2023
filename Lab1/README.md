@@ -21,7 +21,7 @@
 
 <dl><dd><dl><dd>
     <p>    
-        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resisor connected to ground has a resistance value of 10k<span>&#8486;</span>, meaning the resistor connected to the input has a resistance of 20k<span>&#8486;</span>. 
+        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resistor connected to ground has a resistance value of 10k<span>&#8486;</span>, meaning the resistor connected to the input has a resistance of 20k<span>&#8486;</span>. 
     </p>
 <p align="center">
   <img width="300" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
@@ -123,7 +123,15 @@ A snippet of the spice code can be found in Figure 7.
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
 <dl><dd><h3>Schematic</h3> <a name="dacSchem"></a></dd></dl> 
-<dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
+
+<dl><dd><dl><dd>
+    <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first input of the DAC and ground.</p>
+<p align="center">
+  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e84802ee-b4ac-4806-a32a-16dc44e80916">
+</p>
+<p align="center">Figure 9 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
+
+</dd></dl></dd></dl>
 
 <dl><dd><h3>Layout</h3> <a name="dacLay"></a></dd></dl> 
 <dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
