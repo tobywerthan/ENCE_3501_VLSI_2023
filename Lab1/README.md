@@ -275,7 +275,7 @@ A snippet of the spice code can be found below:
 <p align="center">Figure 27 (Simulation layout results in LTSpice)</p>
 
 <p>
-    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the 5-bt DAC can be found in Figure 23. 
+    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the 5-bt DAC can be found in Figure 28. 
 </p>
 </p>
     <p align="center">
