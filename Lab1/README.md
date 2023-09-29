@@ -1,3 +1,4 @@
+<div align="left">
 # Lab 1
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -234,3 +235,4 @@ A snippet of the spice code can be found below
 
 <h3>Conclusion</h3>  <a name="conclusion"></a>
 hello
+</div>
