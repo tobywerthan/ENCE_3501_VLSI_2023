@@ -230,7 +230,7 @@ A snippet of the spice code can be found below
 </p>
     <p align="center">
   <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/72494f77-87fc-4932-90c7-f83f5f6ea5d0">
-</p>d
+</p>
 <p align="center">Figure 21 (Simulation layout results in LTSpice)</p>
 
 </dd></dl></dd></dl>
