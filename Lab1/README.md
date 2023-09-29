@@ -19,7 +19,7 @@ ENCE 3501
     4. [Simulations](#dacSim)
 4. [Conclusion](#conclusion)
 
-*Note: If images are hard to view, please click on them. A new tab will open and the full-size image will open there.*
+*Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 <div align="left">
 <h2>Introduction</h2>  <a name="introduction"></a>
 <dl><dd>
