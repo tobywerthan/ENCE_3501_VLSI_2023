@@ -194,7 +194,7 @@ A snippet of the spice code for the simulation is provided below:
 <p align="center">Figure 15 (Simulation schematic results in LTSpice)</p>
 
 <p>
-The schematic was simulated with b4 connected to a pulse source, and the rest of the inputs connected to ground. A 10pF load driving capacitor was connected to the circuit as well. A successful simulation depends on the delay of the DAC with the 10pF capacitor, which ideally would be around 70ns. 
+The schematic was simulated with b4 connected to a pulse source, and the rest of the inputs connected to ground. A 10pF load driving capacitor was connected to the circuit as well. A successful simulation depends on the delay of the DAC with the 10pF capacitor, which ideally would be around 100ns. 
 </p>
 <p align="center">
   <img width="600" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a9e0a431-74d0-423e-a9be-5da4597f274a">
