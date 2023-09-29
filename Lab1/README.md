@@ -1,4 +1,11 @@
 # Lab 1
+
+Toby Werthan
+
+09/29/2023
+
+ENCE 3501
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Voltage Divider](#vdiv)
@@ -17,7 +24,7 @@
        The purpose of this lab was to create a 5-bit R2R DAC in Electric VLSI. The DAC was created through voltage divider subcomponents, which helped streamline the design process. The schematic that the VLSI designs presented in this document are based on can be found in Figure 1. 
     </p>
     <p align="center">
-  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8f5528c-e35c-443d-ae9e-9c57a5af6a0e">
+  <img width="460" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8f5528c-e35c-443d-ae9e-9c57a5af6a0e">
 </p>
 <p align="center">Figure 1 (Provided schematic of the 5-bit R2R DAC)</p>
 </dd><dl>
@@ -218,7 +225,7 @@ The simulation of the layout passed 5V through the inputs b0 and b1, while all o
 <p align="center">Figure 19 (Simulation layout of the 5-bit R2R DAC in Electric VLSI)</p>
 
 <p>
-A snippet of the spice code can be found below
+A snippet of the spice code can be found below:
 </p>
 
     v4 b4 0
