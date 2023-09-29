@@ -1,4 +1,4 @@
-<h1>Lab 1</h1> 
+# Lab 1
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Voltage Divider](#vdiv)
@@ -10,10 +10,13 @@
     2. [Layout](#dacLay)
     3. [Simulations](#dacSim)
 4. [Conclusion](#conclusion)
-## Introduction <a name="introduction"></a>
-<dl>
-    <dd>hello</dd>
-<dl>
+<div align="left">
+<h2>Introduction</h2>  <a name="introduction"></a>
+<dl><dd>
+    <p>
+       hello 
+    </p>
+</dd><dl>
 
 <h2> Voltage Divider </h2> <a name="vdiv"></a>
 
