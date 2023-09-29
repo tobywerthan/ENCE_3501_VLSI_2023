@@ -81,32 +81,35 @@ The simulation of the schematic passed 5V through the input of the circuit. A su
     <p align="center">
   <img width="300" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
 </p>
-<p align="center">Figure 7 (Simulation schematic of the voltage divider in Electric VLSI)</p>
+<p align="center">Figure 6 (Simulation schematic of the voltage divider in Electric VLSI)</p>
 <p>
 A snippet of the spice code for the simulation is provided below:
 </p>
     
     vdd vin 0 DC 5V
     .op
+<p align="center">Figure 7 (Spice simulation code for the voltage divider)</p>
+
 <p>
     The results of the simulation were successful because the output voltage was 1.667V. This means that the schematic was accurately designed. 
 </p>
-
+</p>
+    <p align="center">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e751828d-8389-4b5f-a963-e4d57679cda9">
+</p>
+<p align="center">Figure 8 (Simulation schematic results in LTSpice)</p>
 <p>
 The simulation of the layout passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The original layout was used in this simulation, which implemented the circuit as a "black box".
 </p>
     <p align="center">
-  <img width="300" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
+  <img width="700" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bb68848b-8ac1-4f55-9d2e-dcc2654c203a">
 </p>
-<p align="center">Figure 7 (Simulation schematic of the voltage divider in Electric VLSI)</p>
+<p align="center">Figure 9 (Simulation layout of the voltage divider in Electric VLSI)</p>
 <p>
-A snippet of the spice code for the simulation is provided below:
-</p>
-    
-    vdd vin 0 DC 5V
-    .op
+
     
 </dd></dl></dd></dl>
+![layout_sim](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bb68848b-8ac1-4f55-9d2e-dcc2654c203a)
 
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
