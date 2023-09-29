@@ -286,6 +286,6 @@ A snippet of the spice code can be found below:
 <p align="center">Figure 28 (NCC check results of the 5-bit DAC)</p>
 </dd></dl></dd></dl>
 
-<h3>Conclusion</h3>  <a name="conclusion"></a>
+<h2>Conclusion</h3>  <a name="conclusion"></a>
 Building out the voltage divider subcomponent for each input of the DAC improved the design efficiency immensely. Because the voltage divider was created and verified before implementing the 5-bit DAC, it brought some comfort to use the voltage divider in the design of the 5-bit DAC as well. The 5-bit R2R DAC created in this lab has been tested at each stage of development, and has passed all simulations. The 5-bit DAC library made in Electric VLSI can now be used for future projects and will also be used as a demonstration of how to connect pads to a circuit in Lab 2. 
 </div>
