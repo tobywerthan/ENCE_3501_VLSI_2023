@@ -1,4 +1,4 @@
-# Lab 1 5-Bit R2R DAC In Electric VLSI
+# Lab 1: 5-Bit R2R DAC In Electric VLSI
 
 Toby Werthan
 
