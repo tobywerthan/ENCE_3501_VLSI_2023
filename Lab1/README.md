@@ -109,9 +109,16 @@ The simulation of the layout passed 5V through the input of the circuit. A succe
 <p>
 A snippet of the spice code can be found in Figure 7.
 </p>
-    
-</dd></dl></dd></dl>
+<p>
+    The results of the simulation were successful because the output voltage was 1.667V. This means that the layout was accurately designed. 
+</p>
+</p>
+    <p align="center">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/59f78a15-7d4f-4c71-aca1-120cdab89d24">
+</p>
+<p align="center">Figure 8 (Simulation layout results in LTSpice)</p>
 
+</dd></dl></dd></dl>
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
