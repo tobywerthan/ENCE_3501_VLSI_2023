@@ -106,10 +106,11 @@ The simulation of the layout passed 5V through the input of the circuit. A succe
 </p>
 <p align="center">Figure 9 (Simulation layout of the voltage divider in Electric VLSI)</p>
 <p>
-
+<p>
+A snippet of the spice code can be found in Figure 7.
+</p>
     
 </dd></dl></dd></dl>
-![layout_sim](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bb68848b-8ac1-4f55-9d2e-dcc2654c203a)
 
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
