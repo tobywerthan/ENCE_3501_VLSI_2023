@@ -24,7 +24,7 @@ ENCE 3501
 <h2>Introduction</h2>  <a name="introduction"></a>
 <dl><dd>
     <p>
-       The purpose of this lab was to create a 5-bit R2R DAC in Electric VLSI. The DAC was created through voltage divider subcomponents, which helped streamline the design process. The schematic that the VLSI designs presented in this document are based on can be found in Figure 1. 
+       The purpose of this lab was to create a 5-bit R2R DAC in Electric VLSI. The DAC was created through voltage divider subcomponents, this helped streamline the design process. The schematic that the VLSI designs presented in this document are based on can be found in Figure 1. 
     </p>
     <p align="center">
   <img width="460" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8f5528c-e35c-443d-ae9e-9c57a5af6a0e">
@@ -93,7 +93,7 @@ ENCE 3501
 <dl><dd><h3>Simulations</h3> <a name="vdivSim"></a></dd></dl> 
 <dl><dd><dl><dd>
 <p>
-The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The icon generated from the original schematic was used in this simulation, which implemented the circuit as a "black box".
+The simulation of the schematic passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The icon generated from the original schematic was used in this simulation, this implemented the circuit as a "black box".
 </p>
     <p align="center">
   <img width="300" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d89cf0c0-1a84-491f-a73e-bec12c26fac1">
@@ -116,7 +116,7 @@ A snippet of the spice code for the simulation is provided below:
 </p>
 <p align="center">Figure 9 (Simulation schematic results in LTSpice)</p>
 <p>
-The simulation of the layout passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The original layout was used in this simulation, which implemented the circuit as a "black box".
+The simulation of the layout passed 5V through the input of the circuit. A successful simulation is determined by the voltage value of the output, which would ideally be 1.667V. The original layout was used in this simulation, this implemented the circuit as a "black box".
 </p>
     <p align="center">
   <img width="700" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bb68848b-8ac1-4f55-9d2e-dcc2654c203a">
@@ -202,7 +202,7 @@ A snippet of the spice code can be found in Figure 8.
 
 <dl><dd><dl><dd>
     <p>
-The simulation of the schematic passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The icon generated from the schematic was used in this simulation, which implemented the circuit as a "black box".
+The simulation of the schematic passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The icon generated from the schematic was used in this simulation, this implemented the circuit as a "black box".
 </p>
     <p align="center">
   <img width="500" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8052a52f-7bd4-4fcb-8a73-a16e50ea678f">
@@ -226,7 +226,7 @@ A snippet of the spice code for the simulation is provided below:
 <p align="center">Figure 21 (Simulation schematic results in LTSpice)</p>
 
 <p>
-The schematic was simulated with b4 connected to a pulse source, and the rest of the inputs connected to ground. A 10pF load driving capacitor was connected to the circuit as well. A successful simulation depends on the delay of the DAC with the 10pF capacitor, which ideally would be around 100ns. 
+The schematic was simulated with b4 connected to a pulse source, and the rest of the inputs connected to ground. A 10pF load driving capacitor was connected to the circuit as well. A successful simulation depends on the delay of the DAC with the 10pF capacitor, which ideally would be 70ns. 
 </p>
 <p align="center">
   <img width="600" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a9e0a431-74d0-423e-a9be-5da4597f274a">
@@ -249,7 +249,7 @@ A snippet of the spice code for the simulation is provided below:
 </p>
 <p align="center">Figure 24 (Simulation load capacitor schematic results in LTSpice)</p>
 
-The simulation of the layout passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The previously created 5-bit DAC was used in this simulation, which implemented entire layout as a "black box".
+The simulation of the layout passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The previously created 5-bit DAC was used in this simulation, this implemented the entire layout as a "black box".
 </p>
     <p align="center">
   <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/03aa4a4a-d1e7-41ae-a7ab-95c6e9001ef7">
