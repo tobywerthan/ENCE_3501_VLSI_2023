@@ -136,7 +136,7 @@ A snippet of the spice code can be found in Figure 8.
 <p align="center">Figure 11 (Simulation layout results in LTSpice)</p>
 
 <p>
-    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the voltage divider can be found in Figure 9. 
+    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the voltage divider can be found in Figure 12. 
 </p>
 </p>
     <p align="center">
