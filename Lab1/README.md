@@ -145,13 +145,13 @@ A snippet of the spice code can be found in Figure 7.
 <p align="center">
   <img width="600" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0aac0efc-ed6e-47cb-bafb-3074b97c7455">
 </p>
-<p align="center">Figure 9 (Simulation layout results in LTSpice)</p>   
+<p align="center">Figure 9 (Hand calculations for R<sub>EQ</sub> of the DAC)</p>   
 
-<p>All of the information neeeded is calculate the delay caused by a 10pF load capcitor on the 5-bit DAC. In order to calculate the delay, the equation <span>&#964;</span> = C*R<sub>EQ</sub> is used. The hand calculations for the delay can be found in figure 10.</p>
+<p>All of the information is needed to calculate the delay caused by a 10pF load capacitor on the 5-bit DAC. In order to calculate the delay, the equation <span>&#964;</span> = C*R<sub>EQ</sub> is used. The hand calculations for the delay can be found in figure 10.</p>
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f7e3c5-e883-45d1-bc4f-ebe7723a6a46">
+  <img width="600" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f7e3c5-e883-45d1-bc4f-ebe7723a6a46">
 </p>
-<p align="center">Figure 10 (Simulation layout results in LTSpice)</p>   
+<p align="center">Figure 10 (Hand calculations for the delay caused by a 10pF load capacitor)</p>   
 
 
 </dd></dl></dd></dl>
