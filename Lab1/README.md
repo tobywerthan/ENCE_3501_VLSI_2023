@@ -133,6 +133,15 @@ A snippet of the spice code can be found in Figure 7.
 </p>
 <p align="center">Figure 8 (Simulation layout results in LTSpice)</p>
 
+<p>
+    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the voltage divider can be found in Figure 9. 
+</p>
+</p>
+    <p align="center">
+  <img width="1000" height="100" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8538a7fb-fcc1-427c-a585-887e7f7bdad5">
+</p>
+<p align="center">Figure 9 (NCC check results of the voltage divider)</p>
+
 </dd></dl></dd></dl>
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
@@ -265,6 +274,14 @@ A snippet of the spice code can be found below:
 </p>
 <p align="center">Figure 21 (Simulation layout results in LTSpice)</p>
 
+<p>
+    An NCC check is run after the completion of the layout to ensure that the schematic and layout have the same topologies. The results of the NCC check on the 5-bt DAC can be found in Figure 23. 
+</p>
+</p>
+    <p align="center">
+  <img width="1000" height="100" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8538a7fb-fcc1-427c-a585-887e7f7bdad5">
+</p>
+<p align="center">Figure 23 (NCC check results of the 5-bit DAC)</p>
 </dd></dl></dd></dl>
 
 <h3>Conclusion</h3>  <a name="conclusion"></a>
