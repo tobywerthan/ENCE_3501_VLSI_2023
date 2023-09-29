@@ -14,8 +14,12 @@
 <h2>Introduction</h2>  <a name="introduction"></a>
 <dl><dd>
     <p>
-       The purpose of this lab was to create a 5-bit R2R DAC in Electric VLSI. The DAC was created through voltage divider subcomponents, which helped streamline the design process. The schematic that the VLSI designs presented in this document are based off of can be found in Figure 1. 
+       The purpose of this lab was to create a 5-bit R2R DAC in Electric VLSI. The DAC was created through voltage divider subcomponents, which helped streamline the design process. The schematic that the VLSI designs presented in this document are based on can be found in Figure 1. 
     </p>
+    <p align="center">
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8f5528c-e35c-443d-ae9e-9c57a5af6a0e">
+</p>
+<p align="center">Figure 1 (Provided schematic of the 5-bit R2R DAC)</p>
 </dd><dl>
 
 <h2> Voltage Divider </h2> <a name="vdiv"></a>
