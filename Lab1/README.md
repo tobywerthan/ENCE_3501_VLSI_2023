@@ -13,9 +13,10 @@ ENCE 3501
     2. [Layout](#vdivLay)
     3. [Simulations](#vdivSim)
 3. [5-Bit R2R DAC](#dac)
-    1. [Schematic](#dacSchem)
-    2. [Layout](#dacLay)
-    3. [Simulations](#dacSim)
+    1. [Hand Calculations](#dacHand)
+    2. [Schematic](#dacSchem)
+    3. [Layout](#dacLay)
+    4. [Simulations](#dacSim)
 4. [Conclusion](#conclusion)
 <div align="left">
 <h2>Introduction</h2>  <a name="introduction"></a>
@@ -136,10 +137,30 @@ A snippet of the spice code can be found in Figure 7.
 
 <h2> 5-Bit R2R DAC </h2> <a name="dac"></a>
 
+<dl><dd><h3>Hand Calculations</h3> <a name="dacHand"></a></dd></dl> 
+
+<dl><dd><dl><dd> 
+    
+<p>To find the equivalent resistance of the 5-bit DAC, all inputs must be grounded. The resistance should be measured between the output and ground. The hand calculations for R<sub>EQ</sub> can be seen in Figure 9.</p>
+<p align="center">
+  <img width="600" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0aac0efc-ed6e-47cb-bafb-3074b97c7455">
+</p>
+<p align="center">Figure 9 (Simulation layout results in LTSpice)</p>   
+
+<p>All of the information neeeded is calculate the delay caused by a 10pF load capcitor on the 5-bit DAC. In order to calculate the delay, the equation <span>&#964;</span> = C*R<sub>EQ</sub> is used. The hand calculations for the delay can be found in figure 10.</p>
+<p align="center">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f7e3c5-e883-45d1-bc4f-ebe7723a6a46">
+</p>
+<p align="center">Figure 10 (Simulation layout results in LTSpice)</p>   
+
+
+</dd></dl></dd></dl>
+
 <dl><dd><h3>Schematic</h3> <a name="dacSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
-    <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
+    
+<p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
 <p align="center">
   <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e84802ee-b4ac-4806-a32a-16dc44e80916">
 </p>
