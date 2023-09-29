@@ -132,17 +132,105 @@ A snippet of the spice code can be found in Figure 7.
 <p align="center">Figure 9 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>An icon was then generated from the schematic. This is an important step as the icon will be used in the simulation schematic for the 5-bit R2R DAC.</p>
 <p align="center">
-  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/730415a0-79d7-4fd2-a2bc-a9bacfdd393e">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/730415a0-79d7-4fd2-a2bc-a9bacfdd393e">
 </p>
-<p align="center">Figure 10 (Icon of the 5-bit R2R schematic in Electric VLSI)</p>
+<p align="center">Figure 10 (Icon of the 5-bit R2R DAC schematic in Electric VLSI)</p>
     
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Layout</h3> <a name="dacLay"></a></dd></dl> 
-<dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
+<dl><dd><dl><dd>
+    <p>The 5-bit R2R DAC layout was created using five of the previously created voltage divider layouts. The inputs and outputs are connected to their respective nodes using metal contacts. </p>
+    <p align="center">
+      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/36f439e1-52d5-454e-903f-bfd98acce083">
+    </p>
+<p align="center">Figure 11 (Layout of the 5-bit R2R DAC in Electric VLSI)</p>
+    <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
+        <p align="center">
+      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d0a0f24b-673e-415c-b44c-4ffeb0203924">
+    </p>
+<p align="center">Figure 12 (3D View of the layout in Electric VLSI)</p>
+</dd></dl></dd></dl>
 
-<dl><dd><h3>Simulation</h3> <a name="dacSim"></a></dd></dl> 
-<dl><dd><dl><dd><p>Hello World</p></dd></dl></dd></dl>
+<dl><dd><h3>Simulations</h3> <a name="dacSim"></a></dd></dl> 
+
+<dl><dd><dl><dd>
+    <p>
+The simulation of the schematic passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The icon generated from the schematic was used in this simulation, which implemented the circuit as a "black box".
+</p>
+    <p align="center">
+  <img width="500" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8052a52f-7bd4-4fcb-8a73-a16e50ea678f">
+</p>
+<p align="center">Figure 13 (Simulation schematic of the 5-bit R2R DAC in Electric VLSI)</p>
+<p>
+A snippet of the spice code for the simulation is provided below:
+</p>
+    
+    vin vin 0 DC 5
+    .op
+<p align="center">Figure 14 (Spice simulation code for the 5-bit R2R DAC)</p>
+
+<p>
+    The results of the simulation were successful because the output voltage was 0.46875V. This means that the schematic was accurately designed. 
+</p>
+</p>
+    <p align="center">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8de6f3b8-c6b1-463a-8048-1c157a6301cb">
+</p>
+<p align="center">Figure 15 (Simulation schematic results in LTSpice)</p>
+
+<p>
+The schematic was simulated with b4 connected to a pulse source, and the rest of the inputs connected to ground. A 10pF load driving capacitor was connected to the circuit as well. A successful simulation depends on the delay of the DAC with the 10pF capacitor, which ideally would be around 70ns. 
+</p>
+<p align="center">
+  <img width="600" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a9e0a431-74d0-423e-a9be-5da4597f274a">
+</p>
+<p align="center">Figure 16 (Simulation load capacitor schematic of the 5-bit R2R DAC)</p>
+    
+<p>
+A snippet of the spice code for the simulation is provided below:
+</p>
+    
+    vin vin 0 pulse(0v 2v 1u 1f 1f 3u 6u)
+    .tran 0 2.4u 0 100p
+<p align="center">Figure 17 (Spice simulation code for the load capacitor 5-bit R2R DAC)</p>
+<p>
+    The results of the simulation were successful because the measured delay of the DAC with the 10pF load capacitor was 70.83ns. This means that the layout was accurately designed. 
+</p>
+</p>
+    <p align="center">
+  <img width="700" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6a48b06f-bd67-40b4-95cf-17547dbc0384">
+</p>
+<p align="center">Figure 18 (Simulation load capacitor schematic results in LTSpice)</p>
+
+The simulation of the layout passed 5V through the inputs b0 and b1, while all other inputs were grounded. A successful simulation is determined by the voltage value of the output, which would ideally be 0.46875V. The previously created 5-bit DAC was used in this simulation, which implemented entire layout as a "black box".
+</p>
+    <p align="center">
+  <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/03aa4a4a-d1e7-41ae-a7ab-95c6e9001ef7">
+</p>
+<p align="center">Figure 19 (Simulation layout of the 5-bit R2R DAC in Electric VLSI)</p>
+
+<p>
+A snippet of the spice code can be found below
+</p>
+
+    v4 b4 0
+    v3 b3 0
+    v2 b2 0
+    v1 b1 b0
+    vin b0 0 DC 5
+    .op
+<p align="center">Figure 20 (Spice simulation code for the layout of the 5-bit R2R DAC)</p>   
+<p>
+    The results of the simulation were successful because the output voltage was 0.46875V. This means that the layout was accurately designed. 
+</p>
+</p>
+    <p align="center">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/72494f77-87fc-4932-90c7-f83f5f6ea5d0">
+</p>
+<p align="center">Figure 21 (Simulation layout results in LTSpice)</p>
+
+</dd></dl></dd></dl>
 
 <h3>Conclusion</h3>  <a name="conclusion"></a>
 hello
