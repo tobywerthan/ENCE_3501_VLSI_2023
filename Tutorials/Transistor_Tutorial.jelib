@@ -1,0 +1,60 @@
+# header information:
+HTransistor_Tutorial|9.07
+
+# Views:
+Vicon|ic
+Vlayout|lay
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell nmos;1{ic}
+Cnmos;1{ic}||artwork|1696268675915|1696268715373|E
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NBox|art@2||2|0|6|6||
+Nschematic:Bus_Pin|pin@0||2|5|||RRR|
+Nschematic:Wire_Pin|pin@1||2|3|||RRR|
+Nschematic:Bus_Pin|pin@2||-3|0||||
+Nschematic:Wire_Pin|pin@3||-1|0||||
+Nschematic:Bus_Pin|pin@4||2|-5|||R|
+Nschematic:Wire_Pin|pin@5||2|-3|||R|
+Aschematic:wire|net@0|||2700|pin@1||2|3|pin@0||2|5
+Aschematic:wire|net@1|||0|pin@3||-1|0|pin@2||-3|0
+Aschematic:wire|net@2|||900|pin@5||2|-3|pin@4||2|-5
+Edrain||D5G2;X-1;|pin@0||U
+Egate||D5G2;X-2;|pin@2||U
+Esource||D5G2;X-1;|pin@4||U
+X
+
+# Cell nmos;1{lay}
+Cnmos;1{lay}||mocmos|1696268666572|1696269233707||DRC_last_good_drc_area_date()G1696269234050|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1696269234050
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-N-Active-Con|contact@3||0|3.5|5|||
+NMetal-1-N-Active-Con|contact@4||0|-4.5|5|||
+NMetal-1-Polysilicon-1-Con|contact@5||-9.5|-0.5||||
+NN-Transistor|nmos@0||0|-0.5|7|||
+AN-Active|net@1|||S900|contact@3||0|3.5|nmos@0|diff-top|0|3.25
+AN-Active|net@2|||S2700|contact@4||0|-4.5|nmos@0|diff-bottom|0|-4.25
+APolysilicon-1|net@3|||S1800|contact@5||-9.5|-0.5|nmos@0|poly-left|-7|-0.5
+X
+
+# Cell nmos;1{sch}
+Cnmos;1{sch}||schematic|1696268283523|1696268675923|
+N4-Port-Transistor|NMOS|D5G1;Y-4;|-22|-2.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2.0|ATTR_width(D5G1;X0.5;Y-1;)S10.0
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NOff-Page|conn@0||-20|4.5|||RRR|
+NOff-Page|conn@1||-28|-2.5||||
+NOff-Page|conn@2||-20|-9.5|||R|
+NGround|gnd@0||-14|-9.5||||
+Inmos;1{ic}|nmos@0||-8|11.5|||D5G4;
+NWire_Pin|pin@0||-14|-3.5||||
+Awire|net@0|||1800|conn@1|y|-26|-2.5|NMOS|g|-23|-2.5
+Awire|net@1|||2700|conn@2|y|-20|-7.5|NMOS|s|-20|-4.5
+Awire|net@2|||900|conn@0|y|-20|2.5|NMOS|d|-20|-0.5
+Awire|net@3|||2700|gnd@0||-14|-7.5|pin@0||-14|-3.5
+Awire|net@5|||1800|NMOS|b|-20|-3.5|pin@0||-14|-3.5
+Edrain||D5G1;RX1.5;|conn@0|a|U
+Egate||D5G1;X2;|conn@1|a|U
+Esource||D5G1;RX-2;|conn@2|y|U
+X
