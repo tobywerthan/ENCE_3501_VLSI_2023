@@ -14,7 +14,7 @@ ENCE 3501
 3. [Padframe](#padframe)
     1. [Schematic](#padframeSchem)
     2. [Layout](#padframeLay)
-4. [Padframe](#padDac)
+4. [Padframe DAC](#padDac)
     1. [Schematic](#padDacSchem)
     2. [Layout](#padDacLay)
 5. [Conclusion](#conclusion)
