@@ -1,4 +1,4 @@
-# Lab 1: 5-Bit R2R DAC In Electric VLSI
+# Lab 2: Padframe DAC In Electric VLSI
 
 Toby Werthan
 
@@ -8,16 +8,16 @@ ENCE 3501
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Voltage Divider](#vdiv)
-    1. [Schematic](#vdivSchem)
-    2. [Layout](#vdivLay)
-    3. [Simulations](#vdivSim)
-3. [5-Bit R2R DAC](#dac)
-    1. [Hand Calculations](#dacHand)
-    2. [Schematic](#dacSchem)
-    3. [Layout](#dacLay)
-    4. [Simulations](#dacSim)
-4. [Conclusion](#conclusion)
+2. [Pad Cell](#cell)
+    1. [Schematic](#cellSchem)
+    2. [Layout](#cellLay)
+3. [Padframe](#padframe)
+    1. [Schematic](#padframeSchem)
+    2. [Layout](#padframeLay)
+4. [Padframe DAC](#padDac)
+    2. [Schematic](#padDacSchem)
+    3. [Layout](#padDacLay)
+5. [Conclusion](#conclusion)
 
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 <div align="left">
@@ -32,9 +32,9 @@ ENCE 3501
 <p align="center">Figure 1 (Provided schematic of the 5-bit R2R DAC)</p>
 </dd><dl>
 
-<h2> Voltage Divider </h2> <a name="vdiv"></a>
+<h2>Pad Cell</h2> <a name="cell"></a>
 
-<dl><dd><h3>Schematic</h3> <a name="vdivSchem"></a></dd></dl> 
+<dl><dd><h3>Schematic</h3> <a name="cellSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     <p>    
@@ -61,7 +61,7 @@ ENCE 3501
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Layout</h3> <a name="vdivLay"></a></dd></dl> 
+<dl><dd><h3>Layout</h3> <a name="cellLay"></a></dd></dl> 
 
 <dl><dd><dl><dd><p>
     <p>    
