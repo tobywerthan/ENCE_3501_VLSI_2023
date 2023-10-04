@@ -1,0 +1,28 @@
+*** SPICE deck for cell nmos{lay} from library Transistor_Tutorial
+*** Created on Mon Oct 02, 2023 11:44:26
+*** Last revised on Wed Oct 04, 2023 11:33:17
+*** Written on Wed Oct 04, 2023 11:33:26 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+*CMOS/BULK-NWELL (PRELIMINARY PARAMETERS)
+.OPTIONS NOMOD DEFL=3UM DEFW=3UM DEFAD=70P DEFAS=70P LIMPTS=1000
++ITL5=0 RELTOL=0.01 ABSTOL=500PA VNTOL=500UV LVLTIM=2
++LVLCOD=1
+.MODEL N NMOS LEVEL=1
++KP=60E-6 VTO=0.7 GAMMA=0.3 LAMBDA=0.05 PHI=0.6
++LD=0.4E-6 TOX=40E-9 CGSO=2.0E-10 CGDO=2.0E-10 CJ=.2MF/M^2
+.MODEL P PMOS LEVEL=1
++KP=20E-6 VTO=0.7 GAMMA=0.4 LAMBDA=0.05 PHI=0.6
++LD=0.6E-6 TOX=40E-9 CGSO=3.0E-10 CGDO=3.0E-10 CJ=.2MF/M^2
+.MODEL DIFFCAP D CJO=.2MF/M^2
+
+*** TOP LEVEL CELL: nmos{lay}
+Mnmos@0 source gate drain gnd NMOS L=0.6U W=3U AS=5.49P AD=4.95P PS=10.5U PD=9.3U
+
+* Spice Code nodes in cell cell 'nmos{lay}'
+vs source 0 DC 0
+vg gate 0 DC 0
+vd drain 0 DC 0
+.dc vd 0 5 1m vg 0 5 1
+.include C5_models.txt
+.END

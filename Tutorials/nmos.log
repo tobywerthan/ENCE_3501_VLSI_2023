@@ -1,0 +1,5 @@
+Circuit: *** SPICE deck for cell nmos{lay} from library Transistor_Tutorial
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Fatal Error: .option syntax error, unrecognized option: "lvlcod"
