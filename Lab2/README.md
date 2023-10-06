@@ -84,15 +84,15 @@ ENCE 3501
     
 <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
 <p align="center">
-  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e84802ee-b4ac-4806-a32a-16dc44e80916">
+  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81aef2e-1134-47df-b781-2ae18ee316ff">
 </p>
 <p align="center">Figure 15 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>An icon was then generated from the schematic. This is an important step as the icon will be used in the simulation schematic for the 5-bit R2R DAC.</p>
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/730415a0-79d7-4fd2-a2bc-a9bacfdd393e">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/acd1a8aa-63a1-47c5-a0eb-2cde9f6927a7">
 </p>
 <p align="center">Figure 16 (Icon of the 5-bit R2R DAC schematic in Electric VLSI)</p>
-    
+
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Layout</h3> <a name="padframeLay"></a></dd></dl> 
