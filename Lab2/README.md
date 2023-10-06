@@ -99,12 +99,12 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The 5-bit R2R DAC layout was created using five of the previously created voltage divider layouts. The inputs and outputs are connected to their respective nodes using metal contacts. </p>
     <p align="center">
-      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/36f439e1-52d5-454e-903f-bfd98acce083">
+      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2826707a-618b-4dba-a9af-1e09bba1ea02">
     </p>
 <p align="center">Figure 17 (Layout of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d0a0f24b-673e-415c-b44c-4ffeb0203924">
+      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4f414315-234f-4d28-8ef9-3e3603187b1a">
     </p>
 <p align="center">Figure 18 (3D View of the layout in Electric VLSI)</p>
 </dd></dl></dd></dl>
