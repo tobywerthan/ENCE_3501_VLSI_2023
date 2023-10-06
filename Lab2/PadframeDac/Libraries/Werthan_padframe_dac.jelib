@@ -304,7 +304,7 @@ Epin[8]||D5G2;X-0.5;|pin@12||U
 X
 
 # Cell padframe_dac;1{lay}
-Cpadframe_dac;1{lay}||mocmos|1696008623305|1696188714278||DRC_last_good_drc_area_date()G1696188721573|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1696188721573
+Cpadframe_dac;1{lay}||mocmos|1696008623305|1696532818412||DRC_last_good_drc_area_date()G1696188721573|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1696188721573
 I5B_R2R_DAC;1{lay}|5B_R2R_D@0||597.5|748|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||396|240||||
@@ -314,7 +314,7 @@ NMetal-1-Metal-2-Con|contact@3||240|792.5||||
 NMetal-1-Metal-2-Con|contact@4||400|968||||
 NMetal-1-Metal-2-Con|contact@5||806.5|970||||
 NMetal-1-Metal-2-Con|contact@6||951|789.5||||
-Ipadframe;1{lay}|padframe@0||0|0||A|D5G4;
+Ipadframe;1{lay}|padframe@0||20|40||A|D5G4;
 NMetal-1-Pin|pin@0||495.5|240||||
 NMetal-1-Pin|pin@1||802|443||||
 NMetal-1-Pin|pin@2||240|592.5||||
