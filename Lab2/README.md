@@ -38,13 +38,6 @@ ENCE 3501
 
 <dl><dd><dl><dd>
     <p>    
-        The schematic provided consisted of two resistors. The resistor connected to the input has double the resistance of the resistor connected to ground. The resistor connected to ground has a resistance value of 10k<span>&#8486;</span>, meaning the resistor connected to the input has a resistance of 20k<span>&#8486;</span>. 
-    </p>
-<p align="center">
-  <img width="300" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8a0ed93-952e-4907-bcc3-6ae84d8f48ec">
-</p>
-<p align="center">Figure 2 (Schematic provided for the voltage divider)</p>
-    <p>    
         When designing the schematic in Electric VLSI, the resistor connected to the input was implemented as two 10k<span>&#8486;</span> resistors in series. All of the inputs and outputs were created through exports. 
     </p>
 <p align="center">
@@ -68,13 +61,6 @@ ENCE 3501
         The layout was created using three n-well resistors each with a width of 15<span>&#411;</span> and length of 175.44<span>&#411;</span>. With the given value of R<sub>sq</sub> (855 <span>&#8486;</span>/square), and by choosing a width value, the length was calculated as follows:
     </p>
     
-        10000 = (855)*(L/15)
-        L = (10000*15)/855
-        L = 175.44
-            
-<p>    
-    The inputs and outputs are connected to their respective nodes using metal contacts. 
-</p>
 <p align="center">
   <img width="850" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
 </p>
