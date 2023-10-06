@@ -62,7 +62,7 @@ ENCE 3501
     </p>
     
 <p align="center">
-  <img width="850" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/bfc9021e-8cd8-4161-981f-2da6ebe5809e">
+  <img width="850" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
 </p>
 <p align="center">Figure 5 (Layout of the voltage divider created in Electric VLSI)</p>
 
@@ -70,7 +70,7 @@ ENCE 3501
     The 3D view of the layout provides a clearer display of the n-well resistors and how they are connected. 
 </p>
 <p align="center">
-  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/76a24d5d-e9b1-4ea4-9890-029b8a843473">
+  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
 </p>
 <p align="center">Figure 6 (3D view of the layout created in Electric VLSI)</p>
 
