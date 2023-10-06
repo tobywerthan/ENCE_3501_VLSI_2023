@@ -41,14 +41,14 @@ ENCE 3501
         When designing the schematic in Electric VLSI, the resistor connected to the input was implemented as two 10k<span>&#8486;</span> resistors in series. All of the inputs and outputs were created through exports. 
     </p>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cab1a99-886e-456a-9899-b8375553fd3c">
+  <img width="460" height="350" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cab1a99-886e-456a-9899-b8375553fd3c">
 </p>
 <p align="center">Figure 3 (Schematic of the voltage divider in Electric VLSI)</p>
     <p>    
         An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
     </p>
 <p align="center">
-  <img width="400" height="200" src=https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1c41cc2f-fc2f-4762-a57f-5918cf334449">
+  <img width="400" height="150" src=https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1c41cc2f-fc2f-4762-a57f-5918cf334449">
 </p>
 <p align="center">Figure 4 (Icon generated from the voltage divider in Electric VLSI)</p>
 
@@ -62,7 +62,7 @@ ENCE 3501
     </p>
     
 <p align="center">
-  <img width="850" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
 </p>
 <p align="center">Figure 5 (Layout of the voltage divider created in Electric VLSI)</p>
 
@@ -70,7 +70,7 @@ ENCE 3501
     The 3D view of the layout provides a clearer display of the n-well resistors and how they are connected. 
 </p>
 <p align="center">
-  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57658f7d-5351-4500-9335-afa907c40512">
+  <img width="500" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57658f7d-5351-4500-9335-afa907c40512">
 </p>
 <p align="center">Figure 6 (3D view of the layout created in Electric VLSI)</p>
 
@@ -84,12 +84,12 @@ ENCE 3501
     
 <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
 <p align="center">
-  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81aef2e-1134-47df-b781-2ae18ee316ff">
+  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81aef2e-1134-47df-b781-2ae18ee316ff">
 </p>
 <p align="center">Figure 15 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>An icon was then generated from the schematic. This is an important step as the icon will be used in the simulation schematic for the 5-bit R2R DAC.</p>
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/acd1a8aa-63a1-47c5-a0eb-2cde9f6927a7">
+  <img width="300" height="200" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/acd1a8aa-63a1-47c5-a0eb-2cde9f6927a7">
 </p>
 <p align="center">Figure 16 (Icon of the 5-bit R2R DAC schematic in Electric VLSI)</p>
 
@@ -99,7 +99,7 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The 5-bit R2R DAC layout was created using five of the previously created voltage divider layouts. The inputs and outputs are connected to their respective nodes using metal contacts. </p>
     <p align="center">
-      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2826707a-618b-4dba-a9af-1e09bba1ea02">
+      <img width="450" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2826707a-618b-4dba-a9af-1e09bba1ea02">
     </p>
 <p align="center">Figure 17 (Layout of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
@@ -117,12 +117,12 @@ ENCE 3501
     
 <p>Five of the previously created voltage divider icons were used to construct a 5-bit R2R DAC schematic. An additional 10k<span>&#8486;</span> resistor was connected to the first voltage divider of the DAC and ground.</p>
 <p align="center">
-  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/97c34dca-2a00-4242-9e53-2f373ca5e7da">
+  <img width="600" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/97c34dca-2a00-4242-9e53-2f373ca5e7da">
 </p>
 <p align="center">Figure 15 (Schematic of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>An icon was then generated from the schematic. This is an important step as the icon will be used in the simulation schematic for the 5-bit R2R DAC.</p>
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/072b4fa0-36d0-4683-8a1f-9d64bd503e0c">
+  <img width="250" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/072b4fa0-36d0-4683-8a1f-9d64bd503e0c">
 </p>
 <p align="center">Figure 16 (Icon of the 5-bit R2R DAC schematic in Electric VLSI)</p>
     
@@ -132,7 +132,7 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The 5-bit R2R DAC layout was created using five of the previously created voltage divider layouts. The inputs and outputs are connected to their respective nodes using metal contacts. </p>
     <p align="center">
-      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/10450cc7-0708-4429-a77b-2fbb7cdcecc9">
+      <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/10450cc7-0708-4429-a77b-2fbb7cdcecc9">
     </p>
 <p align="center">Figure 17 (Layout of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
@@ -142,7 +142,7 @@ ENCE 3501
 <p align="center">Figure 18 (3D View of the layout in Electric VLSI)</p>
         <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7a52d5ba-61e0-4e35-8fd9-2893b187b400">
+      <img width="900" height="675" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7a52d5ba-61e0-4e35-8fd9-2893b187b400">
     </p>
 <p align="center">Figure 18 (3D View of the layout in Electric VLSI)</p>
 </dd></dl></dd></dl>
