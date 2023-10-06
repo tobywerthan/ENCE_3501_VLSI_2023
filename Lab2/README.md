@@ -41,14 +41,14 @@ ENCE 3501
         When designing the schematic in Electric VLSI, the resistor connected to the input was implemented as two 10k<span>&#8486;</span> resistors in series. All of the inputs and outputs were created through exports. 
     </p>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/586d0a62-8ba9-4b1d-8890-c4dbf2423686">
+  <img width="460" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cab1a99-886e-456a-9899-b8375553fd3c">
 </p>
 <p align="center">Figure 3 (Schematic of the voltage divider in Electric VLSI)</p>
     <p>    
         An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
     </p>
 <p align="center">
-  <img width="270" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3cf9f3d1-42e4-42c7-857a-abcbea9a2550">
+  <img width="400" height="200" src=https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1c41cc2f-fc2f-4762-a57f-5918cf334449">
 </p>
 <p align="center">Figure 4 (Icon generated from the voltage divider in Electric VLSI)</p>
 
