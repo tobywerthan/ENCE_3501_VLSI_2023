@@ -70,7 +70,7 @@ ENCE 3501
     The 3D view of the layout provides a clearer display of the n-well resistors and how they are connected. 
 </p>
 <p align="center">
-  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
+  <img width="750" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57658f7d-5351-4500-9335-afa907c40512">
 </p>
 <p align="center">Figure 6 (3D view of the layout created in Electric VLSI)</p>
 
