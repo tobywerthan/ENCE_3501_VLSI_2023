@@ -132,21 +132,20 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The 5-bit R2R DAC layout was created using five of the previously created voltage divider layouts. The inputs and outputs are connected to their respective nodes using metal contacts. </p>
     <p align="center">
-      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/36f439e1-52d5-454e-903f-bfd98acce083">
+      <img width="450" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/10450cc7-0708-4429-a77b-2fbb7cdcecc9">
     </p>
 <p align="center">Figure 17 (Layout of the 5-bit R2R DAC in Electric VLSI)</p>
     <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d0a0f24b-673e-415c-b44c-4ffeb0203924">
+      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6e38fb20-90dd-46b1-815e-2c35455feb25">
     </p>
 <p align="center">Figure 18 (3D View of the layout in Electric VLSI)</p>
         <p>The 3D view of the layout provides a clearer display of the previous layouts and how they are connected.</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d0a0f24b-673e-415c-b44c-4ffeb0203924">
+      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7a52d5ba-61e0-4e35-8fd9-2893b187b400">
     </p>
 <p align="center">Figure 18 (3D View of the layout in Electric VLSI)</p>
 </dd></dl></dd></dl>
-
 
 <h2>Conclusion</h3>  <a name="conclusion"></a>
 Building out the voltage divider subcomponent for each input of the DAC improved the design efficiency immensely. Because the voltage divider was created and verified before implementing the 5-bit DAC, it brought some comfort to use the voltage divider in the design of the 5-bit DAC as well. The 5-bit R2R DAC created in this lab has been tested at each stage of development, and has passed all simulations. The 5-bit DAC library made in Electric VLSI can now be used for future projects and will also be used as a demonstration of how to connect pads to a circuit in Lab 2. 
