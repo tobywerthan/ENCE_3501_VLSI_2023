@@ -1,4 +1,4 @@
-# Lab 3: Integrated Circuit with Electrostatic Discharge Protection
+# Lab 3: Integrated NMOS Circuit with Electrostatic Discharge Protection
 
 Toby Werthan
 
