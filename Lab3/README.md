@@ -1,20 +1,20 @@
-# Lab 2: Padframe DAC In Electric VLSI
+# Lab 3: Integrated Circuit with Electrostatic Discharge Protection
 
 Toby Werthan
 
-10/6/2023
+10/13/2023
 
 ENCE 3501
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Pad Cell](#cell)
+2. [Pad Cell with ESD](#cell)
     1. [Schematic](#cellSchem)
     2. [Layout](#cellLay)
-3. [Padframe](#padframe)
+3. [Padframe with ESD](#padframe)
     1. [Schematic](#padframeSchem)
     2. [Layout](#padframeLay)
-4. [Padframe DAC](#padDac)
+4. [Final IC with ESD](#padDac)
     1. [Schematic](#padDacSchem)
     2. [Layout](#padDacLay)
 5. [Conclusion](#conclusion)
