@@ -41,14 +41,13 @@ ENCE 3501
         The design for the pad cell schematic was simple. The pad cell is simply a connection for the inner circuit. The layout is the more complex part of this process. 
     </p>
 <p align="center">
-  <img width="250" height="375" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4a4f7a4e-b07e-4624-a412-bc7572ad5d1b">https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f2f05465-f944-4808-9a7a-83e7060fdb37
-</p>
+  <img width="250" height="625" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4a4f7a4e-b07e-4624-a412-bc7572ad5d1b">
 <p align="center">Figure 2 (Schematic of the pad cell with ESD protection in Electric VLSI)</p>
     <p>    
         An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
     </p>
 <p align="center">
-  <img width="450" height="625" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f2f05465-f944-4808-9a7a-83e7060fdb37">
+  <img width="450" height="375" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4a4f7a4e-b07e-4624-a412-bc7572ad5d1b">
 </p>
 <p align="center">Figure 3 (Icon generated from the pad cell with ESD protection in Electric VLSI)</p>
 
