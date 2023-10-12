@@ -137,7 +137,7 @@ ENCE 3501
 <p align="center">Figure 12 (3D view of the layout in Electric VLSI)</p>
     <p>A final 3D render of the NMOS connected to the padframe shows a realistic image of what the IC might look like.</p>
     <p align="center">
-      <img width="1200" height="675" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/afc1f3e9-8846-4228-a9bc-073c0e64db1b">
+      <img width="863.5" height="432.5" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/afc1f3e9-8846-4228-a9bc-073c0e64db1b">
     </p>
 <p align="center">Figure 13 (3D render of the layout in Fusion360)</p>
 </dd></dl></dd></dl>
