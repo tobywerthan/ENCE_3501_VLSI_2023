@@ -27,7 +27,7 @@ ENCE 3501
        The purpose of this lab was to create a padframe and connect it to the 5-bit DAC created in lab 1. The padframe was created through pad cell subcomponents and buses for exports. The schematic that the VLSI designs presented in this document are based on can be found in Figure 1. 
     </p>
     <p align="center">
-  <img width="500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4ef6dbc3-81e1-406c-afe3-d20e2f3b2006">
+  <img width="500" height="500" src="">
 </p>
 <p align="center">Figure 1 (Schematic of a pad frame with the connected 5-bit DAC)</p>
 </dd><dl>
@@ -41,14 +41,14 @@ ENCE 3501
         The design for the pad cell schematic was simple. The pad cell is simply a connection for the inner circuit. The layout is the more complex part of this process. 
     </p>
 <p align="center">
-  <img width="460" height="350" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cab1a99-886e-456a-9899-b8375553fd3c">
+  <img width="460" height="350" src="">
 </p>
 <p align="center">Figure 2 (Schematic of the pad cell with ESD protection in Electric VLSI)</p>
     <p>    
         An icon was then generated from the schematic. This is an important step as the icon will be used to quickly build the 5-bit DAC. 
     </p>
 <p align="center">
-  <img width="400" height="100" src=https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1c41cc2f-fc2f-4762-a57f-5918cf334449">
+  <img width="400" height="100" src="">
 </p>
 <p align="center">Figure 3 (Icon generated from the pad cell with ESD protection in Electric VLSI)</p>
 
@@ -62,7 +62,7 @@ ENCE 3501
     </p>
     
 <p align="center">
-  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a8e95bc4-af4b-464e-ace6-ae18f1acd124">
+  <img width="400" height="400" src="">
 </p>
 <p align="center">Figure 4 (Layout of the pad cell with ESD protection created in Electric VLSI)</p>
 
@@ -70,7 +70,7 @@ ENCE 3501
     The 3D view of the layout provides a clearer display of the layers and how they are oriented. The overglass is rendered as if it is hovering over the metal two layer. This is not the case, this is just a graphical feature. 
 </p>
 <p align="center">
-  <img width="500" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57658f7d-5351-4500-9335-afa907c40512">
+  <img width="500" height="400" src="">
 </p>
 <p align="center">Figure 5 (3D view of the layout created in Electric VLSI)</p>
 
@@ -84,12 +84,12 @@ ENCE 3501
     
 <p>The padframe schematic was created using the pad icon. The icon is connected to a bus with eight exports named, pin[1] through pin[8]. Eight pins are required in this design as the 5-bit DAC will have five outputs and inputs. </p>
 <p align="center">
-  <img width="400" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81aef2e-1134-47df-b781-2ae18ee316ff">
+  <img width="400" height="400" src="">
 </p>
 <p align="center">Figure 6 (Schematic of the padframe with ESD protection in Electric VLSI)</p>
     <p>An icon was then generated from the schematic. This is an important step as the icon will be used to connect the 5-bit DAC.</p>
 <p align="center">
-  <img width="300" height="200" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/acd1a8aa-63a1-47c5-a0eb-2cde9f6927a7">
+  <img width="300" height="200" src="">
 </p>
 <p align="center">Figure 7 (Icon of the padframe with ESD protection schematic in Electric VLSI)</p>
 
@@ -99,12 +99,12 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The padframe layout was created by generating an array of eight-by-eight pads. The pads in the center were deleted, along with the pads on the corners.</p>
     <p align="center">
-      <img width="450" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2826707a-618b-4dba-a9af-1e09bba1ea02">
+      <img width="450" height="450" src="">
     </p>
 <p align="center">Figure 8 (Layout of the padframe with ESD protection in Electric VLSI)</p>
     <p>The 3D view of the layout provides a clearer display of how the pads are oriented</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4f414315-234f-4d28-8ef9-3e3603187b1a">
+      <img width="600" height="450" src="">
     </p>
 <p align="center">Figure 9 (3D view of the layout in Electric VLSI)</p>
 </dd></dl></dd></dl>
@@ -117,12 +117,12 @@ ENCE 3501
     
 <p>The schematic of the padframe connected to the 5-bit DAC was created by connecting a bus of eight pins to the padframe icon. Each pin was then individually connected to the 5-bit DAC.</p>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/97c34dca-2a00-4242-9e53-2f373ca5e7da">
+  <img width="700" height="400" src="">
 </p>
 <p align="center">Figure 10 (Schematic of the padframe with ESD protection connected to an NMOS transistor)</p>
     <p>An icon was then generated from the schematic.</p>
 <p align="center">
-  <img width="250" height="300" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/072b4fa0-36d0-4683-8a1f-9d64bd503e0c">
+  <img width="250" height="300" src="">
 </p>
 <p align="center">Figure 11 (Icon of the padframe with ESD protection connected to an NMOS transistor)</p>
     
@@ -132,17 +132,17 @@ ENCE 3501
 <dl><dd><dl><dd>
     <p>The 5-bit DAC was connected to each respective pin using a metal one-to-metal two contacts. The transition between these two metal layers is essential as the pads would not be properly connected otherwise.</p>
     <p align="center">
-      <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/10450cc7-0708-4429-a77b-2fbb7cdcecc9">
+      <img width="500" height="600" src="">
     </p>
 <p align="center">Figure 12 (Layout of the padframe with ESD protection connected to an NMOS transistor)</p>
     <p>The 3D view of the layout provides a clearer display of the padframe, ESD protection and it connects to the NMOS transistor.</p>
         <p align="center">
-      <img width="600" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6e38fb20-90dd-46b1-815e-2c35455feb25">
+      <img width="600" height="450" src="">
     </p>
 <p align="center">Figure 13 (3D view of the layout in Electric VLSI)</p>
         <p>A final 3D render of the NMOS connected to the padframe shows a realistic image of what the IC might look like.</p>
         <p align="center">
-      <img width="900" height="675" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7a52d5ba-61e0-4e35-8fd9-2893b187b400">
+      <img width="900" height="675" src="">
     </p>
 <p align="center">Figure 14 (3D render of the layout in Electric VLSI)</p>
 </dd></dl></dd></dl>
