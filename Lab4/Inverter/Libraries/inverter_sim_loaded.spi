@@ -1,0 +1,38 @@
+*** SPICE deck for cell inverter_sim_loaded{sch} from library Werthan_inverter
+*** Created on Wed Oct 18, 2023 18:55:48
+*** Last revised on Wed Oct 18, 2023 21:48:13
+*** Written on Wed Oct 18, 2023 21:48:20 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_inverter__inverter_1 FROM CELL inverter_1{sch}
+.SUBCKT Werthan_inverter__inverter_1 in out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 out in gnd gnd NMOS L=1.8U W=1.8U
+Mpmos@0 out in vdd vdd PMOS L=1.8U W=3.6U
+.ENDS Werthan_inverter__inverter_1
+
+*** SUBCIRCUIT Werthan_inverter__inverter_2 FROM CELL inverter_2{sch}
+.SUBCKT Werthan_inverter__inverter_2 in out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 out in gnd gnd NMOS L=1.8U W=7.2U
+Mpmos@0 out in vdd vdd PMOS L=1.8U W=14.4U
+.ENDS Werthan_inverter__inverter_2
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: inverter_sim_loaded{sch}
+Ccap@0 gnd vout1 {x}
+Ccap@1 gnd vout2 {x}
+Xinverter@0 vin vout1 Werthan_inverter__inverter_1
+Xinverter@1 vin vout2 Werthan_inverter__inverter_2
+
+* Spice Code nodes in cell cell 'inverter_sim_loaded{sch}'
+vdd vdd 0 DC 5
+vin vin 0 pulse(0v 5v 5n 1n 1n 12n 25n)
+.step param x list 1f 10f 100f
+.trans 0 25n 0 100p
+.include C5_models.txt
+.END
