@@ -57,7 +57,7 @@ ENCE 3501
 
 <dl><dd><dl><dd><p>
     <p>    
-        The layout was created using the provided NMOS and PMOS from the standard library. The PMOS is connected to a nWell that is exported as vdd, and the NMOS is connected to a pWell exported as ground. The NMOS and PMOS are connected together according to the schematic. A screenshot of the layout is seen in Figure 5
+        The layout was created using the provided NMOS and PMOS from the standard library. The PMOS is connected to a nWell that is exported as vdd, and the NMOS is connected to a pWell exported as ground. The NMOS and PMOS are connected together according to the schematic. A screenshot of the layout is seen in Figure 5.
     </p>
     <p align="center">
       <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/29169f0d-77a3-40f0-806b-a7a4459a0dde">
