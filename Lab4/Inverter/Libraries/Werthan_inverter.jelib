@@ -222,7 +222,7 @@ Evout2||D5G2;X2.5;|conn@2|y|U
 X
 
 # Cell inverter_sim_loaded;1{sch}
-Cinverter_sim_loaded;1{sch}||schematic|1697676948409|1697687293014|
+Cinverter_sim_loaded;1{sch}||schematic|1697676948409|1697692855867|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NCapacitor|cap@0||5.5|-1|||||SCHEM_capacitance(D5G1;)S{x}
 NCapacitor|cap@1||5.5|-13|||||SCHEM_capacitance(D5G1;)S{x}
@@ -235,7 +235,7 @@ Iinverter_1;1{ic}|inverter@0||-0.5|2.5|||D5G4;
 Iinverter_2;1{ic}|inverter@1||-0.5|-9.5|||D5G4;
 NWire_Pin|pin@0||-6.5|-9.5||||
 NWire_Pin|pin@1||-6.5|2.5||||
-Ngeneric:Invisible-Pin|pin@2||-0.5|9|||||SIM_spice_card(D5G1;)S[vdd vdd 0 DC 5,vin vin 0 pulse(0v 5v 5n 1n 1n 12n 25n),.step param x list 1f 10f 100f,.trans 0 25n 0 100p]
+Ngeneric:Invisible-Pin|pin@2||-0.5|9|||||SIM_spice_card(D5G1;)S[vdd vdd 0 DC 5,vin vin 0 pulse(0v 5v 5n 1n 1n 12n 25n),.step param x list 100f 1p 10p 100p,.trans 0 25n 0 100p]
 Ngeneric:Invisible-Pin|pin@3||0|12.5|||||SIM_spice_card(D5G1;)S.include C5_models.txt
 Awire|net@0|||0|inverter@1|in|-5.5|-9.5|pin@0||-6.5|-9.5
 Awire|net@1|||1800|conn@0|y|-8|2.5|pin@1||-6.5|2.5

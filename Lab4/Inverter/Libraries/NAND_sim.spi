@@ -1,0 +1,25 @@
+*** SPICE deck for cell NAND_sim{lay} from library Werthan_Full_Adder
+*** Created on Fri Oct 20, 2023 10:05:32
+*** Last revised on Fri Oct 20, 2023 11:49:52
+*** Written on Fri Oct 20, 2023 11:49:56 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_Full_Adder__NAND FROM CELL NAND{lay}
+.SUBCKT Werthan_Full_Adder__NAND A B gnd vdd Y
+Mnmos@0 net@8 B gnd gnd NMOS L=0.6U W=1.8U AS=14.67P AD=1.62P PS=25.5U PD=3.6U
+Mnmos@2 Y A net@8 gnd NMOS L=0.6U W=1.8U AS=1.62P AD=2.115P PS=3.6U PD=4.75U
+Mpmos@0 Y B vdd vdd PMOS L=0.6U W=1.8U AS=8.82P AD=2.115P PS=16.2U PD=4.75U
+Mpmos@1 vdd A Y vdd PMOS L=0.6U W=1.8U AS=2.115P AD=8.82P PS=4.75U PD=16.2U
+.ENDS Werthan_Full_Adder__NAND
+
+*** TOP LEVEL CELL: NAND_sim{lay}
+XNAND@0 in vdd gnd vdd out Werthan_Full_Adder__NAND
+
+* Spice Code nodes in cell cell 'NAND_sim{lay}'
+vdd vdd 0 DC 5
+vin in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+cload out 0 250fF
+.tran 0 40n
+.include C5_models.txt
+.END

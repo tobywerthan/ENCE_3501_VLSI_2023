@@ -1,0 +1,37 @@
+*** SPICE deck for cell ring_oscillator_sim{lay} from library Werthan_Ring_Oscillator
+*** Created on Wed Nov 01, 2023 12:19:44
+*** Last revised on Wed Nov 01, 2023 12:20:25
+*** Written on Wed Nov 01, 2023 12:20:49 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_Ring_Oscillator__NOT_gate FROM CELL NOT_gate{lay}
+.SUBCKT Werthan_Ring_Oscillator__NOT_gate A gnd vdd Y
+Mnmos@0 gnd A Y gnd N_1u L=0.6U W=3U AS=7.425P AD=13.5P PS=12.3U PD=23.7U
+Mpmos@0 Y A vdd vdd P_1u L=0.6U W=6U AS=18.45P AD=7.425P PS=29.7U PD=12.3U
+.ENDS Werthan_Ring_Oscillator__NOT_gate
+
+*** SUBCIRCUIT Werthan_Ring_Oscillator__ring_oscillator FROM CELL ring_oscillator{lay}
+.SUBCKT Werthan_Ring_Oscillator__ring_oscillator gnd osc_out vdd
+XNOT_gate@0 net@0 gnd vdd net@1 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@1 net@1 gnd vdd net@2 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@2 osc_out gnd vdd net@0 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@3 net@3 gnd vdd net@4 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@4 net@4 gnd vdd net@5 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@5 net@2 gnd vdd net@3 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@6 net@6 gnd vdd net@7 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@7 net@7 gnd vdd net@8 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@8 net@5 gnd vdd net@6 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@9 net@8 gnd vdd net@9 Werthan_Ring_Oscillator__NOT_gate
+XNOT_gate@10 net@9 gnd vdd osc_out Werthan_Ring_Oscillator__NOT_gate
+.ENDS Werthan_Ring_Oscillator__ring_oscillator
+
+*** TOP LEVEL CELL: ring_oscillator_sim{lay}
+Xring_osc@0 gnd osc_out vdd Werthan_Ring_Oscillator__ring_oscillator
+
+* Spice Code nodes in cell cell 'ring_oscillator_sim{lay}'
+vdd vdd 0 DC 5v
+vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+.tran 0 40n
+.include cmosedu_models.txt
+.END
