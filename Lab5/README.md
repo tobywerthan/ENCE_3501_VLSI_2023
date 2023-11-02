@@ -29,7 +29,7 @@ ENCE 3501
 
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 
-<div align="left" width="1000">
+<p align="left" width="1000">
     
 <h2>Introduction</h2>  <a name="introduction"></a>
 
@@ -481,12 +481,17 @@ ENCE 3501
 </dd></dl></dd></dl>
 
 <h2>Conclusion</h3>  <a name="conclusion"></a>
+
 <p>
     Lab 4 explored the creation of a logic gate using CMOS technology. The inverter was created in varying sizes and was tested with multiple load capacitor values. This inverter will  be used to create more complex CMOS layouts in the future. The figure below is a 3D rendering of both inverters. Inverter 2 is on the left and Inverter1 is on the right. 
 </p>
-    <p align="center">
-  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6c66c6d2-0051-4cd8-b6a5-610a51c69717">
+
+<p align="center">
+    <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6c66c6d2-0051-4cd8-b6a5-610a51c69717">
 </p>
-<p align="center">Figure 22 (3D Rendering of both inverters in Fusion360)</p>
-</div>
+<p align="center">
+    Figure 22 (3D Rendering of both inverters in Fusion360)
+</p>
+
+</p>
 
