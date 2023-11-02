@@ -7,7 +7,7 @@ Toby Werthan
 
 ENCE 3501
 
-<p align="center">
+<div align="center">
     ## Table of Contents
     1. [Introduction](#introduction)
     2. [NAND](#nand)
@@ -27,7 +27,7 @@ ENCE 3501
         2. [Layout](#fulladderLay)
         3. [Simulations](#fulladderSim)
     4. [Conclusion](#conclusion)
-</p>
+</div>
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 
 <p align="left" width="1000">
