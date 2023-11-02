@@ -7,30 +7,29 @@ Toby Werthan
 
 ENCE 3501
 
-<div align="center">
-    ## Table of Contents
-    1. [Introduction](#introduction)
-    2. [NAND](#nand)
-        1. [Schematic](#nandSchem)
-        2. [Layout](#nandLay)
-        3. [Simulations](#nandSim)
-    3. [NOT](#not)
-        1. [Schematic](#notSchem)
-        2. [Layout](#notLay)
-        3. [Simulations](#notSim)
-    3. [XOR](#xor)
-        1. [Schematic](#xorSchem)
-        2. [Layout](#xorLay)
-        3. [Simulations](#xorSim)
-    3. [Full Adder](#fulladder)
-        1. [Schematic](#fulladderSchem)
-        2. [Layout](#fulladderLay)
-        3. [Simulations](#fulladderSim)
-    4. [Conclusion](#conclusion)
-</div>
+## Table of Contents
+1. [Introduction](#introduction)
+2. [NAND](#nand)
+    1. [Schematic](#nandSchem)
+    2. [Layout](#nandLay)
+    3. [Simulations](#nandSim)
+3. [NOT](#not)
+    1. [Schematic](#notSchem)
+    2. [Layout](#notLay)
+    3. [Simulations](#notSim)
+3. [XOR](#xor)
+    1. [Schematic](#xorSchem)
+    2. [Layout](#xorLay)
+    3. [Simulations](#xorSim)
+3. [Full Adder](#fulladder)
+    1. [Schematic](#fulladderSchem)
+    2. [Layout](#fulladderLay)
+    3. [Simulations](#fulladderSim)
+4. [Conclusion](#conclusion)
+
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 
-<p align="left" width="1000">
+<p align="center" width="1000">
     
 <h2>Introduction</h2>  <a name="introduction"></a>
 
@@ -45,7 +44,7 @@ ENCE 3501
 </p>
 <p align="center">
     Figure 1 (Provided schematic of the Full Adde)
-/p>
+</p>
     
 </dd><dl>
 
