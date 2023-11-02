@@ -68,7 +68,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="(https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c0a8b634-59cf-4933-a59c-ff557f1db653">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c0a8b634-59cf-4933-a59c-ff557f1db653">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the NAND schematic in Electric VLSI)
