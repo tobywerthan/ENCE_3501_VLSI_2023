@@ -385,7 +385,7 @@ Evdd||D5G2;|well@1||U
 X
 
 # Cell XOR;1{sch}
-CXOR;1{sch}||schematic|1697817993356|1698893727099|
+CXOR;1{sch}||schematic|1697817993356|1698897033611|
 IXOR;1{ic}|XOR@0||40|3|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||10|3||||
@@ -414,20 +414,20 @@ NWire_Pin|pin@14||-25|-11||||
 NWire_Pin|pin@15||-25|10.5||||
 NWire_Pin|pin@16||-21|10||||
 NWire_Pin|pin@17||-17|10||||
-NWire_Pin|pin@18||-21|-11||||
 NWire_Pin|pin@20||-27|10.5||||
 NWire_Pin|pin@21||-27|6||||
 NWire_Pin|pin@22||-26.5|-11||||
 NWire_Pin|pin@24||-7.5|6.5||||
 NWire_Pin|pin@25||-7.5|12||||
 NWire_Pin|pin@26||-26.5|-16||||
-NWire_Pin|pin@27||-17|-11||||
 NWire_Pin|pin@28||-7.5|0||||
 NWire_Pin|pin@29||-7.5|-5.5||||
 NWire_Pin|pin@30||7.5|12||||
 NWire_Pin|pin@31||7.5|6.5||||
 NWire_Pin|pin@32||7.5|0||||
 NWire_Pin|pin@33||7.5|-5.5||||
+NWire_Pin|pin@35||-21|-11||||
+NWire_Pin|pin@36||-17|-11||||
 NTransistor|pmos@0||4.5|12|||XYR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D6.0|SIM_spice_model(D5G1;X-2;Y2;)SPMOS
 NTransistor|pmos@1||4.5|6.5|||XYR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D6.0|SIM_spice_model(D5G1;X-2;Y2;)SPMOS
 NTransistor|pmos@2||-4.5|12|||YR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D6.0|SIM_spice_model(D5G1;X-2;Y2;)SPMOS
@@ -446,7 +446,6 @@ Awire|a_not|D5G1;X2.5;||1800|nmos@1|g|5.5|-5.5|pin@33||7.5|-5.5
 Awire|b_in|D5G1;Y-3.5;||900|pin@22||-26.5|-11|pin@26||-26.5|-16
 Awire|b_in|D5G1;X-2.5;||0|nmos@3|g|-5.5|-5.5|pin@29||-7.5|-5.5
 Awire|b_in|D5G1;X2.5;||1800|pmos@0|g|5.5|12|pin@30||7.5|12
-Awire|b_not|D5G1;X3.5;||1800|pin@18||-21|-11|pin@27||-17|-11
 Awire|b_not|D5G1;X-2.5;||0|pmos@3|g|-5.5|6.5|pin@24||-7.5|6.5
 Awire|b_not|D5G1;X2.5;||1800|nmos@0|g|5.5|0|pin@32||7.5|0
 Awire|net@3|||0|nmos@1|s|2.5|-7.5|pin@0||0|-7.5
@@ -482,12 +481,13 @@ Awire|net@52|||2700|pin@6||-25|7|pin@15||-25|10.5
 Awire|net@53|||2700|pin@15||-25|10.5|pin@7||-25|13.5
 Awire|net@55|||2700|nmos@4|d|-21|9|pin@16||-21|10
 Awire|net@56|||2700|pin@16||-21|10|pmos@4|d|-21|11.5
-Awire|net@58|||2700|nmos@5|d|-21|-12|pin@18||-21|-11
-Awire|net@59|||2700|pin@18||-21|-11|pmos@5|d|-21|-9.5
 Awire|net@61|||1800|conn@5|y|-28|10.5|pin@20||-27|10.5
 Awire|net@62|||1800|pin@20||-27|10.5|pin@15||-25|10.5
 Awire|net@64|||1800|conn@6|y|-27.5|-11|pin@22||-26.5|-11
 Awire|net@65|||1800|pin@22||-26.5|-11|pin@14||-25|-11
+Awire|net@69|||2700|nmos@5|d|-21|-12|pin@35||-21|-11
+Awire|net@70|||2700|pin@35||-21|-11|pmos@5|d|-21|-9.5
+Awire|net@71|||1800|pin@35||-21|-11|pin@36||-17|-11
 EA||D5G2;X-1.5;|conn@5|a|U
 EB||D5G2;X-1.5;|conn@6|a|U
 EY||D5G2;X1;|conn@0|y|U
