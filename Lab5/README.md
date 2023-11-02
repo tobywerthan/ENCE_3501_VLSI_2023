@@ -1,9 +1,9 @@
 
-# Lab 4: CMOS Inverter In Electric VLSI
+# Lab 5: CMOS Full Adder
 
 Toby Werthan
 
-10/20/2023
+11/3/2023
 
 ENCE 3501
 
