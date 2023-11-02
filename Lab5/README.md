@@ -29,7 +29,7 @@ ENCE 3501
 
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
 
-<div align="left">
+<div align="left" width="100%">
     
 <h2>Introduction</h2>  <a name="introduction"></a>
 
