@@ -57,7 +57,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/15c6e131-2acd-4d6e-b568-6fa15b7ca730">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f642b1fe-d95a-4673-abd2-294617d220da">
 </p>
 <p align="center">
     Figure 2 (Schematic of the NAND gate in Electric VLSI)
@@ -68,7 +68,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eeff7ef8-5b0f-42ef-9822-0e5845e25dbb">
+  <img width="500" height="250" src="(https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c0a8b634-59cf-4933-a59c-ff557f1db653">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the NAND schematic in Electric VLSI)
@@ -85,7 +85,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/29169f0d-77a3-40f0-806b-a7a4459a0dde">
+  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a2aeea65-f90a-4474-a80b-408748d38906">
 </p>
 <p align="center">
     Figure 4 (Layout of the NAND gate created in Electric VLSI)
@@ -96,12 +96,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f4c45eb-c75c-4d2e-9b78-ee179dc978d6">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0949042e-512e-43d3-a1d0-54e3db09f169">
 </p>
 <p align="center">
     Figure 5 (3D view of the layout created in Electric VLSI)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Simulations</h3> <a name="nandSim"></a></dd></dl> 
@@ -113,7 +113,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ba260e1e-8eba-4a66-bf4a-e54b7854f9cd">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d83f51a1-1d7f-4878-bfbd-1609a9c2e226">
 </p>
 <p align="center">
     Figure 6 (Simulation schematic of the NAND gate in Electric VLSI)
@@ -126,8 +126,8 @@ ENCE 3501
         .include C5_models.txt
         
         vdd vdd 0 DC 5
-        vin vin 0 DC 0
-        .dc vin 0 5 1m
+        vin in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+        .tran 0 40n
 <p align="center">
     Figure 7 (Spice simulation code for the NAND gate with no load)
 </p>
@@ -137,7 +137,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81979c2-36e0-489b-8668-6e5c13fd1bd1">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/356808d3-3c64-468b-b137-259d1590656b">
 </p>
 <p align="center">
     Figure 8 (Simulation results of the NAND gate with no load in LTSpice)
@@ -148,7 +148,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="800" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0a697f6e-72c2-495b-81ba-d377fafc5f78">
+  <img width="800" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a43e18a9-ca9c-4f4c-b2f3-95f81afb08c1">
 </p>
 <p align="center">
     Figure 9 (Simulation schematic of the NAND gate with a load capacitor in Electric VLSI)
@@ -161,9 +161,9 @@ ENCE 3501
     .include C5_models.txt
         
     vdd vdd 0 DC 5
-    vin vin 0 pulse(0v 5v 5n 1n 1n 12n 25n)
-    .step param x list 100f 1p 10p 100p
-    .trans 0 25n 0 100p
+    va va 0 pulse(0v 5v 0n 1n 1n 10n 20n)
+    vb vb 0 pulse(0v 5v 5n 1n 1n 10n 20n)
+    .trans 0 40n
 <p align="center">
     Figure 10 (Spice simulation code for the NAND gate with a load capacitor)
 </p>
@@ -173,7 +173,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0bc38806-7cb9-413a-ba2d-6d5d5f7c4509">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e25beb75-d462-4dc9-961a-cb8dbe4a37ca">
 </p>
 <p align="center">
     Figure 11 (Simulation results of the NAND gate with the first load in LTSpice)
@@ -192,7 +192,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/15c6e131-2acd-4d6e-b568-6fa15b7ca730">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/befcb96f-4a2d-494f-b5e2-77f299955ef8">
 </p>
 <p align="center">
     Figure 2 (Schematic of the Inverter 1 in Electric VLSI)
@@ -203,7 +203,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eeff7ef8-5b0f-42ef-9822-0e5845e25dbb">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e9539ba7-1199-45fe-b434-4537553142c2">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the Inverter 1 schematic in Electric VLSI)
@@ -220,7 +220,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/29169f0d-77a3-40f0-806b-a7a4459a0dde">
+  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b044e900-ff8b-49ef-8fa9-a380712cd8f1">
 </p>
 <p align="center">
     Figure 4 (Layout of Inverter 1 created in Electric VLSI)
@@ -231,7 +231,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f4c45eb-c75c-4d2e-9b78-ee179dc978d6">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b47e18f4-7802-447d-86c7-224686b45456">
 </p>
 <p align="center">
     Figure 5 (3D view of the layout created in Electric VLSI)
@@ -248,7 +248,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ba260e1e-8eba-4a66-bf4a-e54b7854f9cd">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c6ff54a-7e58-4c51-ba94-fdf1ce5e6e57">
 </p>
 <p align="center">
     Figure 6 (Simulation schematic of the inverters in Electric VLSI)
@@ -261,8 +261,8 @@ ENCE 3501
         .include C5_models.txt
         
         vdd vdd 0 DC 5
-        vin vin 0 DC 0
-        .dc vin 0 5 1m
+        vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+        .tran 0 40n
 <p align="center">
     Figure 7 (Spice simulation code for the inverters with no load)
 </p>
@@ -272,12 +272,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81979c2-36e0-489b-8668-6e5c13fd1bd1">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/986759aa-8381-4635-8cda-c278be0b17f0">
 </p>
 <p align="center">
     Figure 8 (Simulation results of Inverter 1 with no load in LTSpice)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 <h2> XOR </h2> <a name="xor"></a>
@@ -291,7 +291,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/15c6e131-2acd-4d6e-b568-6fa15b7ca730">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e17bcc01-4099-45cc-a087-7ed34e984dbb">
 </p>
 <p align="center">
     Figure 2 (Schematic of the Inverter 1 in Electric VLSI)
@@ -302,7 +302,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eeff7ef8-5b0f-42ef-9822-0e5845e25dbb">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/276c2eaa-6769-4dc3-a00b-a05148fbc62d">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the Inverter 1 schematic in Electric VLSI)
@@ -319,7 +319,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/29169f0d-77a3-40f0-806b-a7a4459a0dde">
+  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cfa0177-c678-4031-bc3c-9402ac3bf95b">
 </p>
 <p align="center">
     Figure 4 (Layout of Inverter 1 created in Electric VLSI)
@@ -330,12 +330,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f4c45eb-c75c-4d2e-9b78-ee179dc978d6">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/87aa1787-1140-4094-9eaf-c711c8a7bc6b">
 </p>
 <p align="center">
     Figure 5 (3D view of the layout created in Electric VLSI)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Simulations</h3> <a name="xorSim"></a></dd></dl> 
@@ -347,7 +347,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ba260e1e-8eba-4a66-bf4a-e54b7854f9cd">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/41c0dd6a-baf2-4819-a8cc-ede1fc182388">
 </p>
 <p align="center">
     Figure 6 (Simulation schematic of the inverters in Electric VLSI)
@@ -360,8 +360,8 @@ ENCE 3501
         .include C5_models.txt
         
         vdd vdd 0 DC 5
-        vin vin 0 DC 0
-        .dc vin 0 5 1m
+        vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+        .tran 0 40n
 <p align="center">
     Figure 7 (Spice simulation code for the inverters with no load)
 </p>
@@ -371,12 +371,48 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81979c2-36e0-489b-8668-6e5c13fd1bd1">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68bdaefd-9717-4015-9f08-0cd6eb04f311">
 </p>
 <p align="center">
     Figure 8 (Simulation results of Inverter 1 with no load in LTSpice)
 </p>
-    
+
+<p>
+    The second simulation of Inverter 1 tests the switching point of the inverter. Ideally, the switching point of the inverter is half of vdd. The spice code puts 5V through the inverter over a period of 1 ms.
+</p>
+
+<p align="center">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c0f7efdc-4b77-40b4-b6d3-929810523ca4">
+</p>
+<p align="center">
+    Figure 6 (Simulation schematic of the inverters in Electric VLSI)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include C5_models.txt
+        
+        vdd vdd 0 DC 5
+        va va 0 pulse(0v 5v 0n 1n 1n 10n 20n)
+        vb vb 0 pulse(0v 5v 5n 1n 1n 10n 20n)
+        .tran 0 40n
+<p align="center">
+    Figure 7 (Spice simulation code for the inverters with no load)
+</p>
+
+<p>
+    The results of the simulation were successful because the switching point was 2.416V. Because vdd was 5V, the switching point is roughly half of vdd. 
+</p>
+
+<p align="center">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/979dc294-0001-4abc-b393-69664a2873df">
+</p>
+<p align="center">
+    Figure 8 (Simulation results of Inverter 1 with no load in LTSpice)
+</p>
+
 </dd></dl></dd></dl>
 
 <h2> Full Adder </h2> <a name="fulladder"></a>
@@ -390,7 +426,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/15c6e131-2acd-4d6e-b568-6fa15b7ca730">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/37ff86fc-1aa0-411e-b58e-7656b94a550c">
 </p>
 <p align="center">
     Figure 2 (Schematic of the Inverter 1 in Electric VLSI)
@@ -399,9 +435,10 @@ ENCE 3501
 <p>    
     An icon was then generated from the schematic. This is an important step as the icon will be used to simulate the inverter. 
 </p>
+![FullAdder_icon_1](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7dd58241-c9ec-4bd2-a01e-81332df425ec)
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eeff7ef8-5b0f-42ef-9822-0e5845e25dbb">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7dd58241-c9ec-4bd2-a01e-81332df425ec">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the Inverter 1 schematic in Electric VLSI)
@@ -418,7 +455,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/29169f0d-77a3-40f0-806b-a7a4459a0dde">
+  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cbd331d6-ced5-45e7-98aa-488a1d54cfc1">
 </p>
 <p align="center">
     Figure 4 (Layout of Inverter 1 created in Electric VLSI)
@@ -429,12 +466,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f4c45eb-c75c-4d2e-9b78-ee179dc978d6">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9142827e-ef21-4a33-b1ed-9339505243a6">
 </p>
 <p align="center">
     Figure 5 (3D view of the layout created in Electric VLSI)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 <dl><dd><h3>Simulations</h3> <a name="fulladderSim"></a></dd></dl> 
@@ -444,9 +481,9 @@ ENCE 3501
 <p>
     The first simulation of Inverter 1 tests the switching point of the inverter. Ideally, the switching point of the inverter is half of vdd. The spice code puts 5V through the inverter over a period of 1 ms.
 </p>
-    
+
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ba260e1e-8eba-4a66-bf4a-e54b7854f9cd">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3c19fa82-238c-4bc8-bb44-5804335452a1">
 </p>
 <p align="center">
     Figure 6 (Simulation schematic of the inverters in Electric VLSI)
@@ -459,8 +496,10 @@ ENCE 3501
         .include C5_models.txt
         
         vdd vdd 0 DC 5
-        vin vin 0 DC 0
-        .dc vin 0 5 1m
+        va a 0 pulse(0v 5v 0n 1n 1n 10n 20n)
+        vb b 0 pulse(0v 5v 5n 1n 1n 10n 20n)
+        vcin cin 0 pulse(0v 5v 2n 1n 1n 10n 20n)
+        .tran 0 60n
 <p align="center">
     Figure 7 (Spice simulation code for the inverters with no load)
 </p>
@@ -470,7 +509,33 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d81979c2-36e0-489b-8668-6e5c13fd1bd1">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a09e5a1c-dc23-4567-a5a9-3c92d6bae55e">
+</p>
+<p align="center">
+    Figure 8 (Simulation results of Inverter 1 with no load in LTSpice)
+</p>
+
+<p>
+    The second simulation of Inverter 1 tests the switching point of the inverter. Ideally, the switching point of the inverter is half of vdd. The spice code puts 5V through the inverter over a period of 1 ms.
+</p>
+
+<p align="center">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0c1a5793-9d12-4aea-bb0e-a4f5da5b8b4b">
+</p>
+<p align="center">
+    Figure 6 (Simulation schematic of the inverters in Electric VLSI)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation can be found in Figure .........
+</p>
+
+<p>
+    The results of the simulation were successful because the switching point was 2.416V. Because vdd was 5V, the switching point is roughly half of vdd. 
+</p>
+
+<p align="center">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a3d94e3a-0674-4530-a8ef-9927285f379d">
 </p>
 <p align="center">
     Figure 8 (Simulation results of Inverter 1 with no load in LTSpice)
