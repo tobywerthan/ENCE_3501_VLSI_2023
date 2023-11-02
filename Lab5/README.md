@@ -28,8 +28,6 @@ ENCE 3501
 4. [Conclusion](#conclusion)
 
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
-
-<p align="center" width="1000">
     
 <h2>Introduction</h2>  <a name="introduction"></a>
 
@@ -493,5 +491,4 @@ ENCE 3501
     Figure 22 (3D Rendering of both inverters in Fusion360)
 </p>
 
-</p>
 
