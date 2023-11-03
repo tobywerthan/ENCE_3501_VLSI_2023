@@ -1,4 +1,3 @@
-
 # Lab 5: CMOS Full Adder
 
 Toby Werthan
@@ -34,16 +33,16 @@ ENCE 3501
 <dl><dd>
 
 <p>
-   The purpose of this lab was to create a CMOS inverter with varying sizes in Electric VLSI. The inverters were constructed using NMOS, PMOS, NWell, and PWell components provided in the standard library. 
+   The purpose of this lab was to create a Full Adder using NAND, NOT, and XOR gates. Each gate was created and simulated in Electric VLSI. Each gate was constructed using NMOS, PMOS, NWell, and PWell components provided in the standard library. 
 </p>
 
 <p align="center">
-  <img width="400" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8de75467-340d-4dd3-829d-3e3eadee3387">
+  <img width="400" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/27473dcb-9bbf-484a-90b9-dddcc6808fa9">
 </p>
 <p align="center">
-    Figure 1 (Provided schematic of the Full Adde)
+    Figure 1 (Provided schematic of the Full Adder)
 </p>
-    
+
 </dd><dl>
 
 <h2> NAND </h2> <a name="nand"></a>
