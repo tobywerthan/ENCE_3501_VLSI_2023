@@ -219,7 +219,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b044e900-ff8b-49ef-8fa9-a380712cd8f1">
+  <img width="400" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b044e900-ff8b-49ef-8fa9-a380712cd8f1">
 </p>
 <p align="center">
     Figure 14 (Layout of the NOT gate created in Electric VLSI)
@@ -247,7 +247,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c6ff54a-7e58-4c51-ba94-fdf1ce5e6e57">
+  <img width="1000" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c6ff54a-7e58-4c51-ba94-fdf1ce5e6e57">
 </p>
 <p align="center">
     Figure 16 (Simulation schematic of the NOT gate in Electric VLSI)
