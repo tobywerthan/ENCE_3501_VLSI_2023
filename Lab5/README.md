@@ -37,7 +37,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="400" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/27473dcb-9bbf-484a-90b9-dddcc6808fa9">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/27473dcb-9bbf-484a-90b9-dddcc6808fa9">
 </p>
 <p align="center">
     Figure 1 (Provided schematic of the Full Adder)
@@ -52,7 +52,7 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    The provided schematic consists of an NMOS and a PMOS to form an inverter. To achieve the correct switching point, the PMOS is larger than the NMOS. For Inverter 1, the PMOS is 12 by 6 and the NMOS is 6 by 6 in drawn size. The schematic created in Electric VLSI reflects this in Figure 2. 
+    The provided schematic consists of an NMOS and a PMOS to form a NAND gate. The schematic created in Electric VLSI reflects this in Figure 2. 
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ ENCE 3501
 </p>
 
 <p>    
-    An icon was then generated from the schematic. This is an important step as the icon will be used to simulate the inverter. 
+    An icon was then generated from the schematic. This is an important step as the icon will be used to simulate the NAND gate. 
 </p>
 
 <p align="center">
@@ -108,14 +108,14 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>
-    The first simulation of the NAND gate tests the switching point of the inverter. Ideally, the switching point of the inverter is half of vdd. The spice code puts 5V through the inverter over a period of 1 ms.
+    The first simulation tests the switching point of the NAND gate. Ideally, the switching point of the inverter is half of vdd. The spice code puts 5V through one input and a pulse wave that goes from 0V to 5V, the transient is then recorded.
 </p>
     
 <p align="center">
   <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d83f51a1-1d7f-4878-bfbd-1609a9c2e226">
 </p>
 <p align="center">
-    Figure 6 (Simulation schematic of the NAND gate in Electric VLSI)
+    Figure 6 (Simulation schematic of the NAND gate switching point in Electric VLSI)
 </p>
 
 <p>
@@ -128,29 +128,29 @@ ENCE 3501
         vin in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
         .tran 0 40n
 <p align="center">
-    Figure 7 (Spice simulation code for the NAND gate with no load)
+    Figure 7 (Spice simulation code for the NAND gate switching point)
 </p>
 
 <p>
-    The results of the simulation were successful because the switching point was 2.416V. Because vdd was 5V, the switching point is roughly half of vdd. 
+    The results of the simulation were successful because the switching point was roughly half of vdd. 
 </p>
 
 <p align="center">
   <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/356808d3-3c64-468b-b137-259d1590656b">
 </p>
 <p align="center">
-    Figure 8 (Simulation results of the NAND gate with no load in LTSpice)
+    Figure 8 (Simulation results of the NAND gate switching point in LTSpice)
 </p>
 
 <p>
-    The second simulation of the NAND gate tests the behavior of the inverter with various load capacitor values. The spice code applies 5V to vdd, a pulse wave to vin, and analysis of the transient of the inverter with load values of 100f, 1p, 10p, and 100p. 
+    The second simulation of the NAND gate tests the behavior of the logic values. The spice code applies 5V to vdd, a pulse wave to both inputs, and the timing of the waves is offset so that the various input combinations can be viewed in relation to the output. The transient is then recorded. 
 </p>
 
 <p align="center">
   <img width="800" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a43e18a9-ca9c-4f4c-b2f3-95f81afb08c1">
 </p>
 <p align="center">
-    Figure 9 (Simulation schematic of the NAND gate with a load capacitor in Electric VLSI)
+    Figure 9 (Simulation schematic of the NAND gate logic values in Electric VLSI)
 </p>
 
 <p>
@@ -164,18 +164,18 @@ ENCE 3501
     vb vb 0 pulse(0v 5v 5n 1n 1n 10n 20n)
     .trans 0 40n
 <p align="center">
-    Figure 10 (Spice simulation code for the NAND gate with a load capacitor)
+    Figure 10 (Spice simulation code for the NAND gate logic values)
 </p>
 
 <p>
-    The results of the simulation show that the inverter's output is significantly affected by the load capacitors. 
+    The results of the simulation show that the constructed NAND in VLSI is working as a conventional NAND gate. 
 </p>
 
 <p align="center">
   <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e25beb75-d462-4dc9-961a-cb8dbe4a37ca">
 </p>
 <p align="center">
-    Figure 11 (Simulation results of the NAND gate with the first load in LTSpice)
+    Figure 11 (Simulation results of the NAND gate logic values in LTSpice)
 </p>
     
 </dd></dl></dd></dl>
