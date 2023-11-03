@@ -290,7 +290,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e17bcc01-4099-45cc-a087-7ed34e984dbb">
+  <img width="900" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e17bcc01-4099-45cc-a087-7ed34e984dbb">
 </p>
 <p align="center">
     Figure 19 (Schematic of the XOR gate in Electric VLSI)
@@ -318,7 +318,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cfa0177-c678-4031-bc3c-9402ac3bf95b">
+  <img width="1000" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7cfa0177-c678-4031-bc3c-9402ac3bf95b">
 </p>
 <p align="center">
     Figure 21 (Layout of the XOR gate created in Electric VLSI)
@@ -425,7 +425,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/37ff86fc-1aa0-411e-b58e-7656b94a550c">
+  <img width="850" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/37ff86fc-1aa0-411e-b58e-7656b94a550c">
 </p>
 <p align="center">
     Figure 29 (Schematic of the Full Adder in Electric VLSI)
@@ -436,7 +436,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7dd58241-c9ec-4bd2-a01e-81332df425ec">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7dd58241-c9ec-4bd2-a01e-81332df425ec">
 </p>
 <p align="center">
     Figure 30 (Icon generated from the Full Adder schematic in Electric VLSI)
@@ -453,7 +453,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="450" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cbd331d6-ced5-45e7-98aa-488a1d54cfc1">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cbd331d6-ced5-45e7-98aa-488a1d54cfc1">
 </p>
 <p align="center">
     Figure 31 (Layout of the Full Adder created in Electric VLSI)
@@ -481,7 +481,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3c19fa82-238c-4bc8-bb44-5804335452a1">
+  <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3c19fa82-238c-4bc8-bb44-5804335452a1">
 </p>
 <p align="center">
     Figure 33 (Simulation schematic of the Full Adder schematic logic values in Electric VLSI)
@@ -518,7 +518,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0c1a5793-9d12-4aea-bb0e-a4f5da5b8b4b">
+  <img width="1000" height="350" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0c1a5793-9d12-4aea-bb0e-a4f5da5b8b4b">
 </p>
 <p align="center">
     Figure 36 (Simulation schematic of the Full Adder layout logic values in Electric VLSI)
