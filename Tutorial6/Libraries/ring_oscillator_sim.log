@@ -1,4 +1,4 @@
-Circuit: *** SPICE deck for cell ring_oscillator_sim{lay} from library Werthan_Ring_Oscillator
+Circuit: *** SPICE deck for cell ring_oscillator_sim{sch} from library Werthan_Ring_Oscillator
 
 WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for vin.  Increasing period to 4.2e-08
 WARNING: Less than two connections to node d_in.  This node is used by vin.
@@ -6,41 +6,41 @@ Instance "m:ring_osc@0:not_gate@0:nmos@0": Length shorter than recommended for a
 Instance "m:ring_osc@0:not_gate@1:nmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@2:nmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@3:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@4:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@5:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@6:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@7:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@8:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@9:nmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@10:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@11:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@12:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@13:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@14:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@15:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@16:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@17:nmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@0:pmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@1:pmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@2:pmos@0": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:ring_osc@0:not_gate@3:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@4:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@5:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@6:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@7:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@8:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@9:pmos@0": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:ring_osc@0:not_gate@10:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@11:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@12:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@13:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@14:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@15:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@16:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:ring_osc@0:not_gate@17:pmos@0": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Nov  1 12:20:50 2023
-Total elapsed time: 0.723 seconds.
+Date: Wed Nov  8 21:47:55 2023
+Total elapsed time: 0.558 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 23597
-traniter = 23587
-tranpoints = 5136
-accept = 3167
-rejected = 1969
+totiter = 31198
+traniter = 31190
+tranpoints = 6620
+accept = 4585
+rejected = 2035
 matrix size = 15
 fillins = 16
 solver = Normal
-Avg thread counts: 2.2/2.9/2.1/1.2
-Matrix Compiler1:      81 opcodes  0.7/[0.5]/0.6
-Matrix Compiler2: off  [0.3]/0.6/0.5
+Avg thread counts: 2.1/2.7/1.9/1.2
+Matrix Compiler1:      81 opcodes  0.5/[0.4]/0.4
+Matrix Compiler2: 1.59 KB object code size  0.3/0.4/[0.3]
 

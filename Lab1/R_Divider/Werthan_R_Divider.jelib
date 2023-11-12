@@ -8,7 +8,7 @@ Vschematic|sch
 
 # Technologies:
 Tbicmos|ScaleFORbicmos()D300.0
-Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+Tmocmos|MoCMOSAlternateActivePolyRules()BT|ScaleFORmocmos()D300.0|mocmosNumberOfMetalLayers()I3|mocmosSecondPolysilicon()BF
 
 # Cell R_Divider;1{ic}
 CR_Divider;1{ic}||artwork|1695403090655|1695403246065|E
@@ -29,19 +29,11 @@ Eout||D5G2;X-1;|pin@4||U
 X
 
 # Cell R_Divider;1{lay}
-CR_Divider;1{lay}||mocmos|1695403838217|1695404270555||DRC_last_good_drc_area_date()G1695404275294|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1695404275294
+CR_Divider;1{lay}||mocmos|1695403838217|1699503066860||DRC_last_good_drc_area_date()G1695404275294|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1695404275294
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Pin|pin@0||-96|25||||
 NMetal-1-Pin|pin@1||89|-41||||
 NMetal-1-Pin|pin@2||-95|-20||||
-NN-Well-Resistor|resnwell@0||-3|12|134.44|3|||SCHEM_resistance(D5G8;)S10k
-NN-Well-Resistor|resnwell@1||-3|-9|134.44|3|||SCHEM_resistance(D5G8;)S10k
-NN-Well-Resistor|resnwell@2||-3|-30|134.44|3|||SCHEM_resistance(D5G8;)S10k
-AMetal-1|net@0|||S900|pin@0||-96|25|resnwell@0|left|-96|12
-AMetal-1|net@1|||S900|resnwell@2|right|89|-30|pin@1||89|-41
-AMetal-1|net@2|||S900|resnwell@0|right|89|12|resnwell@1|right|89|-9
-AMetal-1|net@3|||S900|resnwell@1|left|-95|-9|pin@2||-95|-20
-AMetal-1|net@4|||S900|pin@2||-95|-20|resnwell@2|left|-95|-30
 Ebot||D5G8;X1;Y-6;|pin@1||U
 Evin|in|D5G8;Y9;|pin@0||U
 Eout||D5G8;X-15;Y1;|pin@2||U

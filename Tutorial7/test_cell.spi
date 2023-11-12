@@ -1,0 +1,60 @@
+*** SPICE deck for cell test_cell{sch} from library Werthan_tutorial_7
+*** Created on Wed Nov 08, 2023 11:11:40
+*** Last revised on Wed Nov 08, 2023 11:25:05
+*** Written on Wed Nov 08, 2023 11:25:09 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_tutorial_7__inv_1x FROM CELL Werthan_tutorial_7:inv_1x{sch}
+.SUBCKT Werthan_tutorial_7__inv_1x a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd N_1u L=0.6U W=2.1U
+Mpmos@0 vdd a y vdd P_1u L=0.6U W=3U
+.ENDS Werthan_tutorial_7__inv_1x
+
+*** SUBCIRCUIT Werthan_tutorial_7__mux2_c_1x FROM CELL Werthan_tutorial_7:mux2_c_1x{sch}
+.SUBCKT Werthan_tutorial_7__mux2_c_1x d0 d1 s y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@3 d1 gnd gnd N_1u L=0.6U W=1.8U
+Mnmos@1 net@4 d0 gnd gnd N_1u L=0.6U W=1.8U
+Mnmos@2 net@5 s net@3 gnd N_1u L=0.6U W=1.8U
+Mnmos@3 net@5 sb net@4 gnd N_1u L=0.6U W=1.8U
+Mnmos@4 y net@5 gnd gnd N_1u L=0.6U W=2.1U
+Mnmos@5 sb s gnd gnd N_1u L=0.6U W=1.8U
+Mpmos@0 net@15 sb net@5 vdd P_1u L=0.6U W=2.7U
+Mpmos@1 vdd d1 net@15 vdd P_1u L=0.6U W=2.7U
+Mpmos@2 net@12 s net@5 vdd P_1u L=0.6U W=2.7U
+Mpmos@3 vdd d0 net@12 vdd P_1u L=0.6U W=2.7U
+Mpmos@4 vdd net@5 y vdd P_1u L=0.6U W=3U
+Mpmos@5 vdd s sb vdd P_1u L=0.6U W=2.7U
+.ENDS Werthan_tutorial_7__mux2_c_1x
+
+*** SUBCIRCUIT Werthan_tutorial_7__or2_1x FROM CELL Werthan_tutorial_7:or2_1x{sch}
+.SUBCKT Werthan_tutorial_7__or2_1x a b y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@8 net@58 b gnd gnd N_1u L=0.6U W=1.8U
+Mnmos@10 y net@58 gnd gnd N_1u L=0.6U W=2.1U
+Mnmos@11 net@58 a gnd gnd N_1u L=0.6U W=1.8U
+Mpmos@2 net@71 b net@58 vdd P_1u L=0.6U W=3.6U
+Mpmos@3 vdd a net@71 vdd P_1u L=0.6U W=3.6U
+Mpmos@4 vdd net@58 y vdd P_1u L=0.6U W=3U
+.ENDS Werthan_tutorial_7__or2_1x
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Werthan_tutorial_7:test_cell{sch}
+Xinv_1x@0 A net@4 Werthan_tutorial_7__inv_1x
+Xmux2_c_1@0 A net@2 S Y Werthan_tutorial_7__mux2_c_1x
+Xor2_1x@0 net@4 B net@2 Werthan_tutorial_7__or2_1x
+
+* Spice Code nodes in cell cell 'Werthan_tutorial_7:test_cell{sch}'
+vdd vdd 0 DC 5V
+va A 0 DC 5V
+vb B 0 DC 0V
+vs S 0 pulse(0 5V 0n 1n 1n 10n 20n)
+.tran 0 20n
+.include cmosedu_models.txt
+.END

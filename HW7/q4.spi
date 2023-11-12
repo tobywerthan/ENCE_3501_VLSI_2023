@@ -1,0 +1,30 @@
+*** SPICE deck for cell q4{sch} from library HW7Q1
+*** Created on Mon Nov 06, 2023 20:09:54
+*** Last revised on Mon Nov 06, 2023 20:30:59
+*** Written on Mon Nov 06, 2023 20:31:46 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: q4{sch}
+Mnmos@3 net@88 vinp net@48 gnd N_50n L=0.6U W=3U
+Mnmos@5 net@50 vinm net@48 gnd N_50n L=0.6U W=3U
+Mnmos@6 net@48 net@50 gnd gnd N_50n L=0.6U W=3U
+Mnmos@7 net@88 net@76 gnd gnd N_50n L=0.6U W=3U
+Mnmos@8 net@76 net@76 gnd gnd N_50n L=0.6U W=3U
+Mnmos@9 out net@88 gnd gnd N_50n L=0.6U W=3U
+Mpmos@3 net@88 net@50 vdd vdd P_50n L=0.6U W=6U
+Mpmos@5 net@50 net@50 vdd vdd P_50n L=0.6U W=6U
+Mpmos@6 net@76 vinm net@73 vdd P_50n L=0.6U W=6U
+Mpmos@7 net@88 vinp net@73 vdd P_50n L=0.6U W=6U
+Mpmos@8 net@73 net@76 vdd vdd P_50n L=0.6U W=6U
+Mpmos@9 out net@88 vdd vdd P_50n L=0.6U W=6U
+
+* Spice Code nodes in cell cell 'q4{sch}'
+vdd vdd 0 dc 1v
+vinm vinm 0 SIN(0 0.5 50)
+vinp vinp 0 dc 0v
+.trans 0.1n 100m
+.include cmosedu_models.txt
+.END

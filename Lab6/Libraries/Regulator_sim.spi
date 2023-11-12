@@ -1,0 +1,40 @@
+*** SPICE deck for cell regulator_sim{sch} from library Werthan_DC_to_DC
+*** Created on Sat Nov 11, 2023 18:38:23
+*** Last revised on Sat Nov 11, 2023 19:23:36
+*** Written on Sat Nov 11, 2023 19:23:40 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_DC_to_DC__NOT FROM CELL NOT{sch}
+.SUBCKT Werthan_DC_to_DC__NOT A Y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 Y A gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 Y A vdd vdd P_50n L=0.6U W=6U
+.ENDS Werthan_DC_to_DC__NOT
+
+*** SUBCIRCUIT Werthan_DC_to_DC__regulator FROM CELL regulator{sch}
+.SUBCKT Werthan_DC_to_DC__regulator En vout
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@14 net@3 gnd gnd N_50n L=0.3U W=3U
+Mpmos@0 net@14 gnd vdd vdd P_50n L=12U W=6U
+Mpmos@1 net@14 net@26 vdd vdd P_50n L=12U W=6U
+Rresnwell@0 vdd net@3 20MEG
+Rresnwell@1 net@3 vout 3MEG
+XNOT@0 net@14 net@26 Werthan_DC_to_DC__NOT
+XNOT@1 net@26 En Werthan_DC_to_DC__NOT
+.ENDS Werthan_DC_to_DC__regulator
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: regulator_sim{sch}
+Xregulato@0 en vout Werthan_DC_to_DC__regulator
+
+* Spice Code nodes in cell cell 'regulator_sim{sch}'
+vdd vdd 0 dc 1v
+vout vout 0 SIN(1.5 1.5 50) 
+.tran 0 1
+.include cmosedu_models.txt
+.include C5_models.txt
+.END

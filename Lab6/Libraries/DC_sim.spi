@@ -1,0 +1,58 @@
+*** SPICE deck for cell DC_sim{sch} from library Lab06
+*** Created on Sat Nov 11, 2023 15:17:06
+*** Last revised on Sat Nov 11, 2023 19:12:01
+*** Written on Sat Nov 11, 2023 19:12:04 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Lab06__3Stage_ChargePump FROM CELL Lab06:3Stage_ChargePump{sch}
+.SUBCKT Lab06__3Stage_ChargePump osc1 osc2 vout
+** GLOBAL gnd
+** GLOBAL vdd
+Ccap@0 osc1 net@2 100u
+Ccap@1 osc2 net@9 100u
+Ccap@2 osc1 net@12 100u
+Ccap@3 gnd vout 100u
+Mnmos@0 vdd vdd net@2 gnd N_50n L=0.3U W=3U
+Mnmos@1 net@2 net@2 net@9 gnd N_50n L=0.3U W=3U
+Mnmos@2 net@9 net@9 net@12 gnd N_50n L=0.3U W=3U
+Mnmos@3 net@12 net@12 vout gnd N_50n L=0.3U W=3U
+Rresnwell@0 gnd vout 2MEG
+.ENDS Lab06__3Stage_ChargePump
+
+*** SUBCIRCUIT Lab06__inv_1x FROM CELL Lab06:inv_1x{sch}
+.SUBCKT Lab06__inv_1x a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 y a vdd vdd P_50n L=0.6U W=6U
+.ENDS Lab06__inv_1x
+
+*** SUBCIRCUIT Lab06__Regulator FROM CELL Lab06:Regulator{sch}
+.SUBCKT Lab06__Regulator En vout
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@13 net@6 gnd gnd N_50n L=0.3U W=3U
+Mpmos@0 net@13 gnd vdd vdd P_50n L=12U W=6U
+Mpmos@1 net@13 net@17 vdd vdd P_50n L=12U W=6U
+Rresnwell@0 net@6 vdd 20MEG
+Rresnwell@1 vout net@6 3MEG
+Xinv_1x@0 net@13 net@17 Lab06__inv_1x
+Xinv_1x@1 net@17 En Lab06__inv_1x
+.ENDS Lab06__Regulator
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Lab06:DC_sim{sch}
+X_3Stage_C@0 osc1 osc2 vout Lab06__3Stage_ChargePump
+XRegulato@0 vEn vout Lab06__Regulator
+
+* Spice Code nodes in cell cell 'Lab06:DC_sim{sch}'
+vdd vdd 0 dc 1v
+vEn en 0 dc 1v
+Vosc1 osc1 0 PULSE(0 1 0 1p 1p 25m 50m)
+Vosc2 osc2 0 PULSE(0 1 25m 1p 1p 25m 50m)
+.tran 0 200 10m
+.include cmosedu_models.txt
+.include C5_models.txt
+.END

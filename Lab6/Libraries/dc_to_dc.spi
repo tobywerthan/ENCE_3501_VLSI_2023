@@ -1,0 +1,77 @@
+*** SPICE deck for cell dc_to_dc{sch} from library Werthan_DC_to_DC
+*** Created on Sat Nov 11, 2023 10:38:04
+*** Last revised on Sat Nov 11, 2023 19:30:09
+*** Written on Sat Nov 11, 2023 19:31:11 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_DC_to_DC__charge_pump_3_stage FROM CELL charge_pump_3_stage{sch}
+.SUBCKT Werthan_DC_to_DC__charge_pump_3_stage osc osc2 vout
+** GLOBAL gnd
+** GLOBAL vdd
+Ccap@0 osc net@136 100u
+Ccap@1 osc2 net@133 100u
+Ccap@2 osc net@130 100u
+Ccap@3 gnd vout 100u
+Mnmos@0 vdd vdd net@136 gnd N_50n L=0.3U W=3U
+Mnmos@1 net@136 net@136 net@133 gnd N_50n L=0.3U W=3U
+Mnmos@2 net@133 net@133 net@130 gnd N_50n L=0.3U W=3U
+Mnmos@3 net@130 net@130 vout gnd N_50n L=0.3U W=3U
+Rresnwell@0 vout gnd 2MEG
+.ENDS Werthan_DC_to_DC__charge_pump_3_stage
+
+*** SUBCIRCUIT Werthan_DC_to_DC__NOT FROM CELL NOT{sch}
+.SUBCKT Werthan_DC_to_DC__NOT A Y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 Y A gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 Y A vdd vdd P_50n L=0.6U W=6U
+.ENDS Werthan_DC_to_DC__NOT
+
+*** SUBCIRCUIT Werthan_DC_to_DC__regulator FROM CELL regulator{sch}
+.SUBCKT Werthan_DC_to_DC__regulator En vout
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@14 net@3 gnd gnd N_50n L=0.3U W=3U
+Mpmos@0 net@14 gnd vdd vdd P_50n L=12U W=6U
+Mpmos@1 net@14 net@26 vdd vdd P_50n L=12U W=6U
+Rresnwell@0 vdd net@3 20MEG
+Rresnwell@1 net@3 vout 3MEG
+XNOT@0 net@14 net@26 Werthan_DC_to_DC__NOT
+XNOT@1 net@26 En Werthan_DC_to_DC__NOT
+.ENDS Werthan_DC_to_DC__regulator
+
+*** SUBCIRCUIT Werthan_DC_to_DC__ring_oscillator FROM CELL ring_oscillator{sch}
+.SUBCKT Werthan_DC_to_DC__ring_oscillator En osc osc2
+** GLOBAL gnd
+** GLOBAL vdd
+Ccap@0 gnd net@61 10u
+Ccap@1 gnd net@67 10u
+Ccap@2 gnd net@73 10u
+Mnmos@0 net@61 En net@77 gnd N_50n L=0.6U W=3U
+Mnmos@1 net@77 osc gnd gnd N_50n L=0.6U W=3U
+Mnmos@2 net@73 net@61 gnd gnd N_50n L=0.6U W=3U
+Mnmos@3 net@67 net@73 gnd gnd N_50n L=0.6U W=3U
+Mnmos@4 osc2 net@67 gnd gnd N_50n L=0.6U W=3U
+Mnmos@5 osc osc2 gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 net@61 En vdd vdd P_50n L=0.6U W=6U
+Mpmos@1 net@61 osc vdd vdd P_50n L=0.6U W=6U
+Mpmos@2 net@73 net@61 vdd vdd P_50n L=0.6U W=6U
+Mpmos@3 net@67 net@73 vdd vdd P_50n L=0.6U W=6U
+Mpmos@4 osc2 net@67 vdd vdd P_50n L=0.6U W=6U
+Mpmos@5 osc osc2 vdd vdd P_50n L=0.6U W=6U
+.ENDS Werthan_DC_to_DC__ring_oscillator
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: dc_to_dc{sch}
+Xcharge_p@1 net@1 net@2 vout Werthan_DC_to_DC__charge_pump_3_stage
+Xregulato@1 ven vout Werthan_DC_to_DC__regulator
+Xring_osc@1 en net@1 net@2 Werthan_DC_to_DC__ring_oscillator
+
+* Spice Code nodes in cell cell 'dc_to_dc{sch}'
+vdd vdd 0 dc 1v
+ven ven 0 dc 1v
+.tran 0 500 10m
+.include cmosedu_models.txt
+.END

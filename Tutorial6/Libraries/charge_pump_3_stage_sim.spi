@@ -1,0 +1,33 @@
+*** SPICE deck for cell charge_pump_3_stage_sim{sch} from library Werthan_DC_to_DC
+*** Created on Wed Nov 08, 2023 21:44:42
+*** Last revised on Wed Nov 08, 2023 21:46:24
+*** Written on Wed Nov 08, 2023 21:46:27 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_DC_to_DC__charge_pump_3_stage FROM CELL Werthan_DC_to_DC:charge_pump_3_stage{sch}
+.SUBCKT Werthan_DC_to_DC__charge_pump_3_stage osc osc2 vdd vout
+** GLOBAL gnd
+Ccap@0 osc net@36 100u
+Ccap@1 osc2 net@31 100u
+Ccap@2 osc net@18 100u
+Ccap@3 gnd net@20 100u
+Mnmos@0 vdd vdd net@36 gnd N_50n L=0.6U W=6U
+Mnmos@1 net@36 net@4 net@31 gnd N_50n L=0.6U W=6U
+Mnmos@2 net@31 net@17 net@18 gnd N_50n L=0.6U W=6U
+Mnmos@3 net@18 net@18 net@20 gnd N_50n L=0.6U W=6U
+Mnmos@7 net@20 net@20 vout gnd N_50n L=0.6U W=6U
+Rresnwell@0 vout gnd 2MEG
+.ENDS Werthan_DC_to_DC__charge_pump_3_stage
+
+.global gnd
+
+*** TOP LEVEL CELL: Werthan_DC_to_DC:charge_pump_3_stage_sim{sch}
+Xcharge_p@0 osc osc2 vdd vout Werthan_DC_to_DC__charge_pump_3_stage
+
+* Spice Code nodes in cell cell 'Werthan_DC_to_DC:charge_pump_3_stage_sim{sch}'
+vdd vdd 0 DC 1v
+osc d_in 0 pulse(0v 1v 10n 1n 1n 40n 40n)
+.tran 0 40n
+.include cmosedu_models.txt
+.END

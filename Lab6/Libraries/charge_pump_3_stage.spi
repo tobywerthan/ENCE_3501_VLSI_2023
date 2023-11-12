@@ -1,0 +1,28 @@
+*** SPICE deck for cell charge_pump_3_stage{sch} from library Werthan_DC_to_DC
+*** Created on Wed Nov 08, 2023 20:33:32
+*** Last revised on Sat Nov 11, 2023 10:36:16
+*** Written on Sat Nov 11, 2023 10:36:22 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: charge_pump_3_stage{sch}
+Ccap@0 osc net@136 100u
+Ccap@1 osc2 net@133 100u
+Ccap@2 osc net@130 100u
+Ccap@3 gnd vout 100u
+Ccap@4 osc2 net@178 100u
+Ccap@5 osc net@191 100u
+Ccap@6 osc2 net@206 100u
+Ccap@7 osc net@216 100u
+Mnmos@0 vdd vdd net@136 gnd N_50n L=0.6U W=6U
+Mnmos@1 net@136 net@136 net@133 gnd N_50n L=0.6U W=6U
+Mnmos@2 net@133 net@133 net@130 gnd N_50n L=0.6U W=6U
+Mnmos@3 net@130 net@130 net@178 gnd N_50n L=0.6U W=6U
+Mnmos@4 net@178 net@178 net@191 gnd N_50n L=0.6U W=6U
+Mnmos@5 net@191 net@191 net@206 gnd N_50n L=0.6U W=6U
+Mnmos@6 net@206 net@206 net@216 gnd N_50n L=0.6U W=6U
+Mnmos@7 net@216 net@216 vout gnd N_50n L=0.6U W=6U
+Rresnwell@0 vout gnd 2MEG
+.END

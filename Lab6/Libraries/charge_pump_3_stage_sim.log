@@ -1,0 +1,22 @@
+Circuit: *** SPICE deck for cell charge_pump_3_stage_sim{sch} from library Werthan_DC_to_DC
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 11 19:30:42 2023
+Total elapsed time: 5.003 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 666290
+traniter = 666282
+tranpoints = 137116
+accept = 92741
+rejected = 44375
+matrix size = 26
+fillins = 1
+solver = Normal
+Avg thread counts: 1.0/1.0/1.1/1.0
+Matrix Compiler1: 2.75 KB object code size  0.9/0.7/[0.4]
+Matrix Compiler2: 2.46 KB object code size  0.6/0.6/[0.3]
+

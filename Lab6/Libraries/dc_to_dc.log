@@ -1,0 +1,24 @@
+Circuit: *** SPICE deck for cell dc_to_dc{sch} from library Werthan_DC_to_DC
+
+WARNING: Node EN is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 11 19:31:14 2023
+Total elapsed time: 2.202 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 63989
+traniter = 63942
+tranpoints = 16062
+accept = 11458
+rejected = 4604
+matrix size = 110
+fillins = 19
+solver = Normal
+Avg thread counts: 2.1/2.3/1.4/1.1
+Matrix Compiler1: 15.23 KB object code size  4.5/2.7/[1.8]
+Matrix Compiler2: 13.14 KB object code size  1.9/2.0/[1.3]
+

@@ -1,30 +1,41 @@
-*** SPICE deck for cell ring_oscillator{lay} from library Werthan_Ring_Oscillator
-*** Created on Wed Nov 01, 2023 11:33:45
-*** Last revised on Wed Nov 01, 2023 11:46:30
-*** Written on Wed Nov 01, 2023 11:46:38 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell ring_oscillator{sch} from library Werthan_DC_to_DC
+*** Created on Thu Nov 09, 2023 15:32:22
+*** Last revised on Sat Nov 11, 2023 10:39:42
+*** Written on Sat Nov 11, 2023 10:39:56 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT Werthan_Ring_Oscillator__NOT_gate FROM CELL NOT_gate{lay}
-.SUBCKT Werthan_Ring_Oscillator__NOT_gate A gnd vdd Y
-Mnmos@0 gnd A Y gnd N_1u L=0.6U W=3U AS=7.425P AD=13.5P PS=12.3U PD=23.7U
-Mpmos@0 Y A vdd vdd P_1u L=0.6U W=6U AS=18.45P AD=7.425P PS=29.7U PD=12.3U
-.ENDS Werthan_Ring_Oscillator__NOT_gate
+*** SUBCIRCUIT Werthan_DC_to_DC__NAND FROM CELL Werthan_DC_to_DC:NAND{sch}
+.SUBCKT Werthan_DC_to_DC__NAND A B Y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 Y A net@11 gnd NMOS L=0.6U W=1.8U
+Mnmos@1 net@11 B gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@1 Y A vdd vdd PMOS L=0.6U W=1.8U
+Mpmos@2 Y B vdd vdd PMOS L=0.6U W=1.8U
+.ENDS Werthan_DC_to_DC__NAND
 
-*** TOP LEVEL CELL: ring_oscillator{lay}
-XNOT_gate@0 net@0 gnd vdd net@1 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@1 net@1 gnd vdd net@2 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@2 osc_out gnd vdd net@0 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@3 net@3 gnd vdd net@4 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@4 net@4 gnd vdd net@5 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@5 net@2 gnd vdd net@3 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@6 net@6 gnd vdd net@7 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@7 net@7 gnd vdd net@8 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@8 net@5 gnd vdd net@6 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@9 net@8 gnd vdd net@9 Werthan_Ring_Oscillator__NOT_gate
-XNOT_gate@10 net@9 gnd vdd osc_out Werthan_Ring_Oscillator__NOT_gate
+*** SUBCIRCUIT Werthan_DC_to_DC__NOT FROM CELL Werthan_DC_to_DC:NOT{sch}
+.SUBCKT Werthan_DC_to_DC__NOT A Y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 Y A gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 Y A vdd vdd PMOS L=0.6U W=1.8U
+.ENDS Werthan_DC_to_DC__NOT
 
-* Spice Code nodes in cell cell 'ring_oscillator{lay}'
+.global gnd vdd
+
+*** TOP LEVEL CELL: Werthan_DC_to_DC:ring_oscillator{sch}
+Ccap@0 gnd net@59 10u
+Ccap@1 gnd net@65 10u
+Ccap@2 gnd net@71 10u
+XNAND@0 En osc net@59 Werthan_DC_to_DC__NAND
+XNOT@0 net@59 net@71 Werthan_DC_to_DC__NOT
+XNOT@1 net@71 net@65 Werthan_DC_to_DC__NOT
+XNOT@2 net@65 osc2 Werthan_DC_to_DC__NOT
+XNOT@3 osc2 osc Werthan_DC_to_DC__NOT
+
+* Spice Code nodes in cell cell 'Werthan_DC_to_DC:ring_oscillator{sch}'
 vdd vdd 0 DC 5v
 vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
 .tran 0 40n

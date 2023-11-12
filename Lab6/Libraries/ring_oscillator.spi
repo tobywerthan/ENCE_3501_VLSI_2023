@@ -1,0 +1,42 @@
+*** SPICE deck for cell ring_oscillator{sch} from library Werthan_DC_to_DC
+*** Created on Thu Nov 09, 2023 15:32:22
+*** Last revised on Sat Nov 11, 2023 18:22:18
+*** Written on Sat Nov 11, 2023 18:22:43 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: ring_oscillator{sch}
+Ccap@0 gnd net@61 10u
+Ccap@1 gnd net@67 10u
+Ccap@2 gnd net@73 10u
+Mnmos@0 net@61 En net@77 gnd N_50n L=0.6U W=3U
+Mnmos@1 net@77 osc gnd gnd N_50n L=0.6U W=3U
+Mnmos@2 net@73 net@61 gnd gnd N_50n L=0.6U W=3U
+Mnmos@3 net@67 net@73 gnd gnd N_50n L=0.6U W=3U
+Mnmos@4 osc2 net@67 gnd gnd N_50n L=0.6U W=3U
+Mnmos@5 osc osc2 gnd gnd N_50n L=0.6U W=3U
+Mnmos@6 net@182 net@157 gnd gnd N_50n L=0.6U W=13.5U
+Mnmos@7 out in net@174 gnd N_50n L=0.6U W=9U
+Mnmos@8 net@174 net@170 gnd gnd N_50n L=0.6U W=9U
+Mpmos@0 net@61 En vdd vdd P_50n L=0.6U W=6U
+Mpmos@1 net@61 osc vdd vdd P_50n L=0.6U W=6U
+Mpmos@2 net@73 net@61 vdd vdd P_50n L=0.6U W=6U
+Mpmos@3 net@67 net@73 vdd vdd P_50n L=0.6U W=6U
+Mpmos@4 osc2 net@67 vdd vdd P_50n L=0.6U W=6U
+Mpmos@5 osc osc2 vdd vdd P_50n L=0.6U W=6U
+Mpmos@6 net@182 net@157 vdd vdd P_50n L=0.6U W=1.5U
+Mpmos@7 out in vdd vdd P_50n L=0.6U W=3U
+Mpmos@8 out net@170 vdd vdd P_50n L=0.6U W=3U
+
+* Spice Code nodes in cell cell 'ring_oscillator{sch}'
+vdd vdd 0 DC 1v
+ven en 0 dc 1v
+.tran 0 10
+.include cmosedu_models.txt
+*vdd vdd 0 DC 1v
+*vin in 0 pulse(0v 1v 10n 1n 1n 40n 40n)
+*.tran 0 40n
+*.include cmosedu_models.txt
+.END

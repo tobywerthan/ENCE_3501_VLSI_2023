@@ -1,0 +1,14 @@
+# header information:
+Hnoname|9.07
+
+# Views:
+Vschematic|sch
+
+# Technologies:
+Tbicmos|ScaleFORbicmos()D300.0
+Tmocmos|MoCMOSAlternateActivePolyRules()BT|ScaleFORmocmos()D300.0|mocmosNumberOfMetalLayers()I3|mocmosSecondPolysilicon()BF
+
+# Cell charge_pump_3_stage;1{sch}
+Ccharge_pump_3_stage;1{sch}||schematic|1699500812661|1699500812661|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X

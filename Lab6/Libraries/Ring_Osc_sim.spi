@@ -1,0 +1,50 @@
+*** SPICE deck for cell Ring_Osc_sim{sch} from library Lab06
+*** Created on Sat Nov 11, 2023 15:11:51
+*** Last revised on Sat Nov 11, 2023 19:09:15
+*** Written on Sat Nov 11, 2023 19:13:26 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Lab06__inv_1x FROM CELL Lab06:inv_1x{sch}
+.SUBCKT Lab06__inv_1x a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 y a vdd vdd P_50n L=0.6U W=6U
+.ENDS Lab06__inv_1x
+
+*** SUBCIRCUIT Lab06__nand2_1x FROM CELL Lab06:nand2_1x{sch}
+.SUBCKT Lab06__nand2_1x a b y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y b net@5 gnd N_50n L=0.6U W=3U
+Mnmos@1 net@5 a gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 y b vdd vdd P_50n L=0.6U W=6U
+Mpmos@1 y a vdd vdd P_50n L=0.6U W=6U
+.ENDS Lab06__nand2_1x
+
+*** SUBCIRCUIT Lab06__Ring_Oscillator FROM CELL Lab06:Ring_Oscillator{sch}
+.SUBCKT Lab06__Ring_Oscillator En osc1 osc2
+** GLOBAL gnd
+** GLOBAL vdd
+Ccap@0 cap@0_b gnd 10u
+Ccap@1 gnd net@7 10u
+Ccap@2 gnd cap@2_a 10u
+Xinv_1x@0 gnd net@7 Lab06__inv_1x
+Xinv_1x@1 net@7 gnd Lab06__inv_1x
+Xinv_1x@2 gnd osc2 Lab06__inv_1x
+Xinv_1x@3 osc2 osc1 Lab06__inv_1x
+Xnand2_1x@0 En osc1 gnd Lab06__nand2_1x
+.ENDS Lab06__Ring_Oscillator
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Lab06:Ring_Osc_sim{sch}
+XRing_Osc@0 en osc1 osc2 Lab06__Ring_Oscillator
+
+* Spice Code nodes in cell cell 'Lab06:Ring_Osc_sim{sch}'
+vdd vdd 0 dc 1v
+ven en 0 dc 1v
+.tran 0 10
+.include cmosedu_models.txt
+.END

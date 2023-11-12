@@ -1,0 +1,13 @@
+*** SPICE deck for cell inv_1x{sch} from library Lab06
+*** Created on Wed Oct 11, 2006 17:45:21
+*** Last revised on Sat Nov 11, 2023 19:06:49
+*** Written on Sat Nov 11, 2023 19:06:54 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Lab06:inv_1x{sch}
+Mnmos@0 y a gnd gnd N_50n L=0.6U W=3U
+Mpmos@0 y a vdd vdd P_50n L=0.6U W=6U
+.END

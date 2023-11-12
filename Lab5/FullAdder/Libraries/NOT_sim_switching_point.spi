@@ -1,0 +1,26 @@
+*** SPICE deck for cell NOT_sim_switching_point{sch} from library Werthan_full_adder
+*** Created on Fri Oct 20, 2023 10:06:16
+*** Last revised on Wed Nov 01, 2023 20:54:49
+*** Written on Sat Nov 11, 2023 10:41:21 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_full_adder__NOT FROM CELL NOT{sch}
+.SUBCKT Werthan_full_adder__NOT A Y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 Y A gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 Y A vdd vdd PMOS L=0.6U W=1.8U
+.ENDS Werthan_full_adder__NOT
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: NOT_sim_switching_point{sch}
+XNOT@0 d_in not_d_out Werthan_full_adder__NOT
+
+* Spice Code nodes in cell cell 'NOT_sim_switching_point{sch}'
+vdd vdd 0 dc 5
+vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) 
+.tran 0 40n 
+.include C5_models.txt
+.END

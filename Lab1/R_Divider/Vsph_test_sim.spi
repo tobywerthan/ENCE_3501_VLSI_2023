@@ -1,0 +1,32 @@
+*** SPICE deck for cell Vsph_test_sim{sch} from library HW7Q1
+*** Created on Sun Nov 05, 2023 19:39:10
+*** Last revised on Mon Nov 06, 2023 19:50:45
+*** Written on Mon Nov 06, 2023 19:53:51 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT HW7Q1__Vsph_test FROM CELL Vsph_test{sch}
+.SUBCKT HW7Q1__Vsph_test input output
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 output input net@19 gnd N_50n L=0.6U W=21U
+Mnmos@1 net@19 input gnd gnd N_50n L=0.6U W=21U
+Mnmos@2 vdd output net@19 gnd N_50n L=0.6U W=9.333U
+Mpmos@0 output input net@16 vdd P_50n L=0.6U W=33U
+Mpmos@1 net@16 input vdd vdd P_50n L=0.6U W=25.266U
+Mpmos@2 gnd output net@16 vdd P_50n L=0.6U W=33U
+.ENDS HW7Q1__Vsph_test
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Vsph_test_sim{sch}
+Ccap@1 gnd vin 6.1p
+Rresnwell@0 vout vin 20k
+XVsph_tes@0 vin vout HW7Q1__Vsph_test
+
+* Spice Code nodes in cell cell 'Vsph_test_sim{sch}'
+vdd vdd 0 dc 1V
+vin vin 0 SIN(0.5 0.5 50)
+.trans 0 40m
+.include cmosedu_models.txt
+.END

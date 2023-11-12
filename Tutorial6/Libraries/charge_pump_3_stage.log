@@ -1,0 +1,9 @@
+Circuit: *** SPICE deck for cell charge_pump_3_stage{sch} from library Werthan_DC_to_DC
+
+Error on line 21 : osc d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n)
+	 Unable to find definition of model "5v"
+O: lossy line series resistance not given, assumed zero
+O: using linear interpolation because trytocompact option specified
+O: lossy line series inductance not given, assumed zero
+O: lossy line parallel capacitance not given, assumed zero
+Fatal Error: O: At least two of R,L,G,C must be specified and nonzero

@@ -1,0 +1,27 @@
+Circuit: *** SPICE deck for cell Ring_Osc_sim{sch} from library Lab06
+
+WARNING: Node RING_OSC@0:CAP@0_B is floating.
+WARNING: Node RING_OSC@0:CAP@2_A is floating.
+
+WARNING: Less than two connections to node ring_osc@0:cap@0_b.  This node is used by c:ring_osc@0:cap@0.
+WARNING: Less than two connections to node ring_osc@0:cap@2_a.  This node is used by c:ring_osc@0:cap@2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 11 19:13:27 2023
+Total elapsed time: 0.243 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2122
+traniter = 2096
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 58
+fillins = 0
+solver = Normal
+Avg thread counts: 4.2/6.6/6.6/3.8
+Matrix Compiler1: 5.19 KB object code size  1.5/1.2/[0.7]
+Matrix Compiler2: 5.81 KB object code size  0.9/1.2/[0.6]
+

@@ -1,0 +1,30 @@
+Circuit: *** SPICE deck for cell regulator{sch} from library Werthan_DC_to_DC
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 11 18:15:49 2023
+Total elapsed time: 0.521 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 30997
+traniter = 30980
+tranpoints = 8438
+accept = 5931
+rejected = 2507
+matrix size = 20
+fillins = 0
+solver = Normal
+Avg thread counts: 2.2/1.7/1.8/1.2
+Matrix Compiler1: 1.89 KB object code size  0.6/0.5/[0.4]
+Matrix Compiler2: 2.07 KB object code size  0.4/0.5/[0.3]
+

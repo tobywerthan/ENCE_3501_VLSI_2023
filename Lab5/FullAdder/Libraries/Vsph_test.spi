@@ -1,0 +1,23 @@
+*** SPICE deck for cell Vsph_test{sch} from library HW7Q1
+*** Created on Sun Nov 05, 2023 17:06:19
+*** Last revised on Sun Nov 05, 2023 17:15:45
+*** Written on Sun Nov 05, 2023 17:15:48 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Vsph_test{sch}
+Mnmos@0 out in net@19 gnd N L=0.6U W=0.6U
+Mnmos@1 net@19 in gnd gnd N L=0.6U W=0.6U
+Mnmos@2 vdd out net@19 gnd N L=0.6U W=0.6U
+Mpmos@0 out in net@16 vdd P L=0.6U W=0.6U
+Mpmos@1 net@16 in vdd vdd P L=0.6U W=0.6U
+Mpmos@2 gnd out net@16 vdd P L=0.6U W=0.6U
+
+* Spice Code nodes in cell cell 'Vsph_test{sch}'
+.include cmosedu_models.txt
+vdd vdd 0 DC 1V
+in in 0 SIN(0.5 0.5 50)
+.trans 0 40m
+.END
