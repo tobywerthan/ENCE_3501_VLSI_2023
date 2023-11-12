@@ -33,8 +33,9 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/27473dcb-9bbf-484a-90b9-dddcc6808fa9">
-</p>
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e1b34333-5534-4a7e-a500-9dc2bd5943bc">
+</p>![dc_to_dc_schematic2](https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e1b34333-5534-4a7e-a500-9dc2bd5943bc)
+
 <p align="center">
     Figure 1 (Provided schematic of the Full Adder)
 </p>
