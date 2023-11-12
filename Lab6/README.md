@@ -53,7 +53,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/34305b8e-0911-408d-b24a-5ed6cedf9bc3">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/34305b8e-0911-408d-b24a-5ed6cedf9bc3">
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/42c24cbd-69c0-46a0-bb0c-96e24d083bd7">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/42c24cbd-69c0-46a0-bb0c-96e24d083bd7">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the charge pump schematic in Electric VLSI)
@@ -127,7 +127,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f8f5bc-e984-4c6b-bbcc-9f5ed3cb6994">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f8f5bc-e984-4c6b-bbcc-9f5ed3cb6994">
 </p>
 <p align="center">
     Figure 12 (Schematic of the ring oscillator in Electric VLSI)
@@ -198,7 +198,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="900" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c0d92c7-6ec9-40d0-9005-36d0c6d85327">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c0d92c7-6ec9-40d0-9005-36d0c6d85327">
 </p>
 <p align="center">
     Figure 19 (Schematic of the voltage regulator in Electric VLSI)
@@ -226,7 +226,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4676facc-8625-40a3-927c-ebfce46a723e">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4676facc-8625-40a3-927c-ebfce46a723e">
 </p>
 <p align="center">
     Figure 23 (Simulation schematic of the voltage regulator in Electric VLSI)
@@ -269,7 +269,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b05d288e-c591-4e32-985f-7a0a62349927">
+  <img width="900" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b05d288e-c591-4e32-985f-7a0a62349927">
 </p>
 <p align="center">
     Figure 29 (Schematic of the DC-to-DC regulator in Electric VLSI)
@@ -286,7 +286,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f511a7c-adb7-44e5-8a13-b45405e5ebd0">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f511a7c-adb7-44e5-8a13-b45405e5ebd0">
 </p>
 <p align="center">
     Figure 33 (Simulation schematic of the DC-to-DC regulator in Electric VLSI)
