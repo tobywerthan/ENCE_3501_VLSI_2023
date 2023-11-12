@@ -127,7 +127,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f8f5bc-e984-4c6b-bbcc-9f5ed3cb6994">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f8f5bc-e984-4c6b-bbcc-9f5ed3cb6994">
 </p>
 <p align="center">
     Figure 12 (Schematic of the ring oscillator in Electric VLSI)
