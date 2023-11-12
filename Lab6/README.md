@@ -52,8 +52,9 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f642b1fe-d95a-4673-abd2-294617d220da">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/34305b8e-0911-408d-b24a-5ed6cedf9bc3">
 </p>
+
 <p align="center">
     Figure 2 (Schematic of the NAND gate in Electric VLSI)
 </p>
@@ -63,7 +64,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c0a8b634-59cf-4933-a59c-ff557f1db653">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/42c24cbd-69c0-46a0-bb0c-96e24d083bd7">
 </p>
 <p align="center">
     Figure 3 (Icon generated from the NAND schematic in Electric VLSI)
@@ -80,7 +81,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d83f51a1-1d7f-4878-bfbd-1609a9c2e226">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cd6ecc9d-3c43-4293-9798-0b4052aae2c3">
 </p>
 <p align="center">
     Figure 6 (Simulation schematic of the NAND gate switching point in Electric VLSI)
@@ -104,8 +105,9 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/356808d3-3c64-468b-b137-259d1590656b">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/23b8cb12-79da-4a20-861b-d4928ad37bd2">
 </p>
+
 <p align="center">
     Figure 8 (Simulation results of the NAND gate switching point in LTSpice)
 </p>
@@ -123,7 +125,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/befcb96f-4a2d-494f-b5e2-77f299955ef8">
+  <img width="525" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d9f8f5bc-e984-4c6b-bbcc-9f5ed3cb6994">
 </p>
 <p align="center">
     Figure 12 (Schematic of the Inverter 1 in Electric VLSI)
@@ -134,7 +136,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e9539ba7-1199-45fe-b434-4537553142c2">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/38e16430-6d38-4873-8fb4-4c6c519ced8d">
 </p>
 <p align="center">
     Figure 13 (Icon generated from the Inverter 1 schematic in Electric VLSI)
@@ -151,7 +153,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="1000" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c6ff54a-7e58-4c51-ba94-fdf1ce5e6e57">
+  <img width="1000" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f568cd0d-a0c1-4356-aa48-9e244c2535df">
 </p>
 <p align="center">
     Figure 16 (Simulation schematic of the NOT gate in Electric VLSI)
@@ -175,7 +177,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/986759aa-8381-4635-8cda-c278be0b17f0">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cd568de1-1724-47e0-8d1c-4ba29473f9cc">
 </p>
 <p align="center">
     Figure 18 (Simulation results of the NOT gate switching point in LTSpice)
@@ -194,7 +196,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="900" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/e17bcc01-4099-45cc-a087-7ed34e984dbb">
+  <img width="900" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7c0d92c7-6ec9-40d0-9005-36d0c6d85327">
 </p>
 <p align="center">
     Figure 19 (Schematic of the XOR gate in Electric VLSI)
@@ -205,7 +207,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/276c2eaa-6769-4dc3-a00b-a05148fbc62d">
+  <img width="500" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/dde9b9c1-c6c0-49d1-98de-624d2a989074">
 </p>
 <p align="center">
     Figure 20 (Icon generated from the XOR gate schematic in Electric VLSI)
@@ -222,7 +224,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/41c0dd6a-baf2-4819-a8cc-ede1fc182388">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4676facc-8625-40a3-927c-ebfce46a723e">
 </p>
 <p align="center">
     Figure 23 (Simulation schematic of the XOR gate in Electric VLSI)
@@ -246,7 +248,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68bdaefd-9717-4015-9f08-0cd6eb04f311">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6f17f31c-f55a-4f8a-a859-8f4715f0b8d1">
 </p>
 <p align="center">
     Figure 25 (Simulation results of the XOR gate switching point in LTSpice)
@@ -265,22 +267,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/37ff86fc-1aa0-411e-b58e-7656b94a550c">
+  <img width="850" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b05d288e-c591-4e32-985f-7a0a62349927">
 </p>
 <p align="center">
     Figure 29 (Schematic of the Full Adder in Electric VLSI)
 </p>
 
-<p>    
-    An icon was then generated from the schematic. This is an important step as the icon will be used to simulate the Full Adder. 
-</p>
-
-<p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/7dd58241-c9ec-4bd2-a01e-81332df425ec">
-</p>
-<p align="center">
-    Figure 30 (Icon generated from the Full Adder schematic in Electric VLSI)
-</p>
 
 </dd></dl></dd></dl>
 
@@ -293,7 +285,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/3c19fa82-238c-4bc8-bb44-5804335452a1">
+  <img width="500" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f511a7c-adb7-44e5-8a13-b45405e5ebd0">
 </p>
 <p align="center">
     Figure 33 (Simulation schematic of the Full Adder schematic logic values in Electric VLSI)
@@ -319,12 +311,12 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/a09e5a1c-dc23-4567-a5a9-3c92d6bae55e">
+  <img width="1000" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0f383b13-c002-4385-80e5-9f9f1412c475">
 </p>
 <p align="center">
     Figure 35 (Simulation results of the Full Adder schematic logic values)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 <h2>Conclusion</h3>  <a name="conclusion"></a>
