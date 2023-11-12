@@ -17,7 +17,7 @@ ENCE 3501
 4. [Voltage Regulator](#xor)
     1. [Schematic](#xorSchem)
     2. [Simulation](#xorSim)
-5. [DC to DC Converter](#fulladder)
+5. [DC to DC Regulator](#fulladder)
     1. [Schematic](#fulladderSchem)
     2. [Simulation](#fulladderSim)
 6. [Conclusion](#conclusion)
@@ -29,7 +29,7 @@ ENCE 3501
 <dl><dd>
 
 <p>
-   The purpose of this lab was to create a Full Adder using NAND, NOT, and XOR gates. Each gate was created and simulated in Electric VLSI. Each gate was constructed using NMOS, PMOS, NWell, and PWell components provided in the standard library. 
+   The purpose of this lab was to create a DC-to-DC regulator in Electric VLSI. This lab only outlines the schematics and simulations of the individual components that make up the DC-to-DC regulator. The components outlined include a three-stage charge pump, a ring oscillator with an enabling capability, and a voltage regulator that works as a comparator. 
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 1 (Provided schematic of the Full Adder)
+    Figure 1 (Provided schematic of the DC-to-DC Regulator)
 </p>
 
 </dd><dl>
@@ -49,7 +49,7 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    A NAND gate was created in Electric VLSI. This will be used to construct the Full Adder in order to complete the lab. The schematic for the NAND gate can be seen in Figure 2.
+    The first component created for the DC-to-DC regulator was a three-stage charge pump. This schematic will ideally have an output voltage three times that of the input. In this case, the input voltage is one volt, so the output of this schematic would be three volts.
 </p>
 
 <p align="center">
