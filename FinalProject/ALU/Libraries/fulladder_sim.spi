@@ -1,0 +1,54 @@
+*** SPICE deck for cell fulladder_sim{sch} from library Werthan_ALU
+*** Created on Mon Nov 13, 2023 00:15:22
+*** Last revised on Mon Nov 13, 2023 00:51:50
+*** Written on Mon Nov 13, 2023 00:51:54 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_ALU__fulladder FROM CELL fulladder{sch}
+.SUBCKT Werthan_ALU__fulladder a b c cout s
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@1 a gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@1 net@1 b gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@2 coutb c net@1 gnd N_50n L=0.6U W=2.4U
+Mnmos@3 net@11 a gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@4 coutb b net@11 gnd N_50n L=0.6U W=2.4U
+Mnmos@5 net@23 a gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@6 net@23 b gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@7 net@23 c gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@8 sb coutb net@23 gnd N_50n L=0.6U W=2.4U
+Mnmos@9 net@33 a gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@10 net@32 b net@33 gnd N_50n L=0.6U W=2.4U
+Mnmos@11 sb c net@32 gnd N_50n L=0.6U W=2.4U
+Mnmos@12 cout coutb gnd gnd N_50n L=0.6U W=2.4U
+Mnmos@13 s sb gnd gnd N_50n L=0.6U W=2.4U
+Mpmos@1 net@92 c sb vdd P_50n L=0.6U W=4.8U
+Mpmos@2 net@90 b net@92 vdd P_50n L=0.6U W=4.8U
+Mpmos@3 vdd a net@90 vdd P_50n L=0.6U W=4.8U
+Mpmos@4 net@94 coutb sb vdd P_50n L=0.6U W=4.8U
+Mpmos@5 vdd b net@94 vdd P_50n L=0.6U W=4.8U
+Mpmos@6 vdd c net@94 vdd P_50n L=0.6U W=4.8U
+Mpmos@7 vdd a net@94 vdd P_50n L=0.6U W=4.8U
+Mpmos@8 vdd coutb cout vdd P_50n L=0.6U W=4.8U
+Mpmos@9 vdd a net@95 vdd P_50n L=0.6U W=4.8U
+Mpmos@10 net@95 b coutb vdd P_50n L=0.6U W=4.8U
+Mpmos@11 vdd a net@111 vdd P_50n L=0.6U W=4.8U
+Mpmos@12 vdd b net@111 vdd P_50n L=0.6U W=4.8U
+Mpmos@13 net@111 c coutb vdd P_50n L=0.6U W=4.8U
+Mpmos@14 vdd sb s vdd P_50n L=0.6U W=4.8U
+.ENDS Werthan_ALU__fulladder
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: fulladder_sim{sch}
+Xfulladde@0 a b c cout s Werthan_ALU__fulladder
+
+* Spice Code nodes in cell cell 'fulladder_sim{sch}'
+vdd vdd 0 dc 1
+va a 0 pulse(0v 1v 0n 1n 1n 10n 20n)
+vb b 0 pulse(0v 1v 5n 1n 1n 10n 20n) 
+vc c 0 pulse(0v 1v 2n 1n 1n 10n 20n)
+.tran 0 60n
+.include cmosedu_models.txt
+.END
