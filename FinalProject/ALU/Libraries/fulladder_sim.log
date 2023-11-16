@@ -1,22 +1,50 @@
-Circuit: *** SPICE deck for cell fulladder_sim{sch} from library Werthan_ALU
+Circuit: *** SPICE deck for cell fulladder_sim{lay} from library Werthan_ALU
 
+Instance "m:fulladde@0:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:nmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:fulladde@0:pmos@13": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration for .op point succeeded.
 
-Date: Mon Nov 13 00:51:54 2023
-Total elapsed time: 0.239 seconds.
+Date: Tue Nov 14 15:05:33 2023
+Total elapsed time: 0.384 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2831
-traniter = 2806
-tranpoints = 1197
-accept = 1162
-rejected = 35
-matrix size = 134
+totiter = 5364
+traniter = 5343
+tranpoints = 1644
+accept = 1427
+rejected = 217
+matrix size = 22
 fillins = 0
 solver = Normal
-Avg thread counts: 4.2/5.8/5.9/3.1
-Matrix Compiler1: 17.10 KB object code size  5.6/2.2/[1.8]
-Matrix Compiler2: 17.10 KB object code size  2.1/1.9/[1.4]
+Avg thread counts: 2.9/4.5/4.6/2.1
+Matrix Compiler1: 1.55 KB object code size  0.9/0.5/[0.4]
+Matrix Compiler2: 2.75 KB object code size  0.6/0.9/[0.3]
 

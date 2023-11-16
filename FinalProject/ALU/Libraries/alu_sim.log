@@ -1,2 +1,286 @@
 Circuit: *** SPICE deck for cell alu_sim{sch} from library Werthan_ALU
 
+Instance "m:alu@0:buftri_c@0:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:nmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:nmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:nmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:nmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@0:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@1:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@2:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@3:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@0": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:nmos@5": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@0": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:nmos@5": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@0": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:nmos@5": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@0": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:nmos@5": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@0": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@2": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@3": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:nmos@5": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@0:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@1:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@2:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:buftri_c@3:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@3:pmos@14": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@4:pmos@14": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@5:pmos@14": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@6": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@7": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@8": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@9": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@10": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@11": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@12": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@13": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:fulladde@6:pmos@14": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@0:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@1:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@2:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:inv_1x@3:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@0:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@1:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@2:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@3:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@0": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:alu@0:mux2_c_1@4:pmos@5": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Nov 15 17:42:40 2023
+Total elapsed time: 0.654 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2863
+traniter = 2096
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 137
+fillins = 34
+solver = Normal
+Avg thread counts: 5.2/6.6/6.6/3.8
+Matrix Compiler1: 19.51 KB object code size  6.7/3.4/[2.2]
+Matrix Compiler2: 18.63 KB object code size  3.3/3.3/[2.1]
+

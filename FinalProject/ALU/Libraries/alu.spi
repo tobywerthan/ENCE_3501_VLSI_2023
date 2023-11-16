@@ -1,7 +1,7 @@
-*** SPICE deck for cell alu_sim{sch} from library Werthan_ALU
-*** Created on Mon Nov 13, 2023 00:12:46
-*** Last revised on Wed Nov 15, 2023 17:42:34
-*** Written on Wed Nov 15, 2023 17:42:38 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell alu{sch} from library Werthan_ALU
+*** Created on Sat Nov 11, 2023 11:18:20
+*** Last revised on Wed Nov 15, 2023 17:21:56
+*** Written on Wed Nov 15, 2023 17:22:02 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
@@ -79,10 +79,9 @@ Mpmos@4 vdd net@5 y vdd P_1u L=0.6U W=3U
 Mpmos@5 vdd s sb vdd P_1u L=0.6U W=2.7U
 .ENDS Werthan_ALU__mux2_c_1x
 
-*** SUBCIRCUIT Werthan_ALU__alu FROM CELL alu{sch}
-.SUBCKT Werthan_ALU__alu A[0] A[1] A[2] A[3] AddSub B[0] B[1] B[2] B[3] carry Enable IB[0] IB[1] IB[2] IB[3]
-** GLOBAL gnd
-** GLOBAL vdd
+.global gnd vdd
+
+*** TOP LEVEL CELL: alu{sch}
 Xbuftri_c@0 net@368 Enable IB[3] Werthan_ALU__buftri_c_1x
 Xbuftri_c@1 net@364 Enable IB[2] Werthan_ALU__buftri_c_1x
 Xbuftri_c@2 net@359 Enable IB[1] Werthan_ALU__buftri_c_1x
@@ -102,26 +101,5 @@ Xmux2_c_1@3 A[0] net@320 AddSub net@78 Werthan_ALU__mux2_c_1x
 Xmux2_c_1@4 vdd gnd AddSub net@354 Werthan_ALU__mux2_c_1x
 
 * Spice Code nodes in cell cell 'alu{sch}'
-.include cmosedu_models.txt
-.ENDS Werthan_ALU__alu
-
-.global gnd vdd
-
-*** TOP LEVEL CELL: alu_sim{sch}
-Xalu@0 A[0] A[1] A[2] A[3] op B[0] B[1] B[2] B[3] c en IB[0] IB[1] IB[2] IB[3] Werthan_ALU__alu
-
-* Spice Code nodes in cell cell 'alu_sim{sch}'
-vdd vdd 0 dc 5
-ven en 0 dc 5
-vop op 0 dc 5
-vB[0] B[0] 0 dc 5
-vB[1] B[1] 0 dc 0
-vB[2] B[2] 0 dc 0
-vB[3] B[3] 0 dc 5
-vA[0] A[0] 0 dc 0
-vA[1] A[1] 0 dc 0
-vA[2] A[2] 0 dc 5
-vA[3] A[3] 0 dc 5
-.tran 0 10
 .include cmosedu_models.txt
 .END

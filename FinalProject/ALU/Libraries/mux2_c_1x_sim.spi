@@ -1,0 +1,34 @@
+*** SPICE deck for cell mux2_c_1x_sim{lay} from library Werthan_ALU
+*** Created on Mon Nov 13, 2023 00:17:27
+*** Last revised on Tue Nov 14, 2023 15:29:49
+*** Written on Tue Nov 14, 2023 15:29:58 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_ALU__mux2_c_1x FROM CELL mux2_c_1x{lay}
+.SUBCKT Werthan_ALU__mux2_c_1x d0 d1 gnd s vdd y
+Mnmos@1 net@189 d1 gnd gnd N_1u L=0.6U W=1.8U AS=5.153P AD=1.148P PS=14.85U PD=3.45U
+Mnmos@2 net@80 s net@189 gnd N_1u L=0.6U W=1.8U AS=1.148P AD=2.025P PS=3.45U PD=4.05U
+Mnmos@3 net@188 net@114 net@80 gnd N_1u L=0.6U W=1.8U AS=2.025P AD=1.148P PS=4.05U PD=3.45U
+Mnmos@4 gnd d0 net@188 gnd N_1u L=0.6U W=1.8U AS=1.148P AD=5.153P PS=3.45U PD=14.85U
+Mnmos@5 gnd s net@114 gnd N_1u L=0.6U W=1.8U AS=3.375P AD=5.153P PS=7.5U PD=14.85U
+Mnmos@6 y net@80 gnd gnd N_1u L=0.6U W=2.1U AS=5.153P AD=3.825P PS=14.85U PD=8.1U
+Mpmos@0 net@187 d1 vdd vdd P_1u L=0.6U W=2.7U AS=6.233P AD=1.553P PS=16.2U PD=4.35U
+Mpmos@1 net@80 net@114 net@187 vdd P_1u L=0.6U W=2.7U AS=1.553P AD=2.025P PS=4.35U PD=4.05U
+Mpmos@2 net@186 s net@80 vdd P_1u L=0.6U W=2.7U AS=2.025P AD=1.553P PS=4.05U PD=4.35U
+Mpmos@3 vdd d0 net@186 vdd P_1u L=0.6U W=2.7U AS=1.553P AD=6.233P PS=4.35U PD=16.2U
+Mpmos@4 vdd s net@114 vdd P_1u L=0.6U W=2.7U AS=3.375P AD=6.233P PS=7.5U PD=16.2U
+Mpmos@5 y net@80 vdd vdd P_1u L=0.6U W=3U AS=6.233P AD=3.825P PS=16.2U PD=8.1U
+.ENDS Werthan_ALU__mux2_c_1x
+
+*** TOP LEVEL CELL: mux2_c_1x_sim{lay}
+Xmux2_c_1@0 d0 d1 gnd s vdd y Werthan_ALU__mux2_c_1x
+
+* Spice Code nodes in cell cell 'mux2_c_1x_sim{lay}'
+vdd vdd 0 dc 5
+vd0 d0 0 pulse(0v 5v 0n 1n 1n 10n 20n)
+vd1 d1 0 pulse(0v 5v 3n 1n 1n 10n 20n) 
+vs s 0 pulse(0v 5v 6n 1n 1n 10n 20n)
+.tran 0 60n
+.include cmosedu_models.txt
+.END

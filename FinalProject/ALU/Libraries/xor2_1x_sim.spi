@@ -1,0 +1,41 @@
+*** SPICE deck for cell xor2_1x_sim{sch} from library Werthan_ALU
+*** Created on Wed Nov 15, 2023 12:36:48
+*** Last revised on Wed Nov 15, 2023 12:43:54
+*** Written on Wed Nov 15, 2023 12:43:59 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_ALU__xor2_1x FROM CELL xor2_1x{sch}
+.SUBCKT Werthan_ALU__xor2_1x a b y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@3 a gnd gnd N_1u L=0.6U W=4.2U
+Mnmos@1 net@4 ab gnd gnd N_1u L=0.6U W=4.2U
+Mnmos@2 y b net@3 gnd N_1u L=0.6U W=4.2U
+Mnmos@3 y bb net@4 gnd N_1u L=0.6U W=4.2U
+Mnmos@4 bb b gnd gnd N_1u L=0.6U W=1.8U
+Mnmos@5 ab a gnd gnd N_1u L=0.6U W=1.8U
+Mpmos@0 net@7 b y vdd P_1u L=0.6U W=6U
+Mpmos@1 vdd ab net@7 vdd P_1u L=0.6U W=6U
+Mpmos@2 net@8 bb y vdd P_1u L=0.6U W=6U
+Mpmos@3 vdd a net@8 vdd P_1u L=0.6U W=6U
+Mpmos@4 vdd b bb vdd P_1u L=0.6U W=2.7U
+Mpmos@5 vdd a ab vdd P_1u L=0.6U W=2.7U
+.ENDS Werthan_ALU__xor2_1x
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: xor2_1x_sim{sch}
+Xxor2_1x@0 a b y Werthan_ALU__xor2_1x
+
+* Spice Code nodes in cell cell 'xor2_1x_sim{sch}'
+vdd vdd 0 dc 5
+va a 0 pulse(0v 5v 10n 1n 1n 40n 40n) 
+vb b 0 dc 5
+.tran 0 40n 
+.include cmosedu_models.txt
+*vdd vdd 0 dc 5
+*va a 0 pulse(0v 5v 0n 1n 1n 10n 20n)
+*vb b 0 pulse(0v 5v 3n 1n 1n 10n 20n) 
+*.tran 0 60n
+.END

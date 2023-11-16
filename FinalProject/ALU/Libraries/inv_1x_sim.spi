@@ -1,0 +1,25 @@
+*** SPICE deck for cell inv_1x_sim{lay} from library Werthan_ALU
+*** Created on Mon Nov 13, 2023 00:16:18
+*** Last revised on Tue Nov 14, 2023 15:16:25
+*** Written on Tue Nov 14, 2023 15:16:29 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Werthan_ALU__inv_1x FROM CELL inv_1x{lay}
+.SUBCKT Werthan_ALU__inv_1x a gnd vdd y
+Mnmos@0 y a gnd gnd N_1u L=0.6U W=2.1U AS=6.03P AD=3.825P PS=16.8U PD=8.1U
+Mpmos@0 y a vdd vdd P_1u L=0.6U W=3U AS=7.38P AD=3.825P PS=18.6U PD=8.1U
+.ENDS Werthan_ALU__inv_1x
+
+*** TOP LEVEL CELL: inv_1x_sim{lay}
+Xinv_1x@0 d_in gnd vdd y Werthan_ALU__inv_1x
+
+* Spice Code nodes in cell cell 'inv_1x_sim{lay}'
+*vdd vdd 0 dc 5
+*vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) 
+*.tran 0 40n 
+.include cmosedu_models.txt
+vdd vdd 0 dc 5
+vin d_in 0 dc 5
+.tran 0 40n 
+.END
