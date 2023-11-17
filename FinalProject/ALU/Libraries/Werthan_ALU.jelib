@@ -803,7 +803,7 @@ AMetal-1|vdd|D5G8;X-31;|5|S0|alu@1|vdd|-136|248.5|pin@0||-168|248.5
 X
 
 # Cell alu_sim;1{sch}
-Calu_sim;1{sch}||schematic|1699859566563|1700104829701|
+Calu_sim;1{sch}||schematic|1699859566563|1700202573836|
 Ialu;1{ic}|alu@0||9|0|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NWire_Pin|pin@0||-10|4||||
@@ -820,7 +820,7 @@ NBus_Pin|pin@11||-10|-6.5||||
 NBus_Pin|pin@12||-18.5|-6.5||||
 NBus_Pin|pin@13||32.5|3.5||||
 NWire_Pin|pin@20||30.5|0.5||||
-Ngeneric:Invisible-Pin|pin@25||-40.5|-8.5|||||SIM_spice_card(D5FVerdana;G1.25;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vop op 0 pulse(0 5 5 1p 1p 5 10),"vB[0] B[0] 0 dc 5","vB[1] B[1] 0 dc 0","vB[2] B[2] 0 dc 0","vB[3] B[3] 0 dc 5","vA[0] A[0] 0 dc 0","vA[1] A[1] 0 dc 0","vA[2] A[2] 0 dc 5","vA[3] A[3] 0 dc 5",.tran 0 10]
+Ngeneric:Invisible-Pin|pin@25||-40.5|-8.5|||||SIM_spice_card(D5FVerdana;G1.25;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vop op 0 pulse(0 5 5 1p 1p 5 10),"vB[0] B[0] 0 dc 5","vB[1] B[1] 0 dc 0","vB[2] B[2] 0 dc 0","vB[3] B[3] 0 dc 5","vA[0] A[0] 0 dc 5","vA[1] A[1] 0 dc 5","vA[2] A[2] 0 dc 0","vA[3] A[3] 0 dc 0",.tran 0 10]
 Ngeneric:Invisible-Pin|pin@26||-40.5|1.5|||||ART_message(BD5FVerdana;G1.5;L)SALU Logic Value Spice Code
 Ngeneric:Invisible-Pin|pin@27||-40.5|7.5|||||SIM_spice_card(D5FVerdana;G1.25;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@28||-40.5|10.5|||||ART_message(BD5FVerdana;G1.5;L)SImported Model Parameters
@@ -1083,7 +1083,7 @@ Ey||D5G2;|pin@6||O
 X
 
 # Cell buftri_c_1x_sim;1{lay}
-Cbuftri_c_1x_sim;1{lay}||mocmos|1699859603462|1700001547917||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700001550270
+Cbuftri_c_1x_sim;1{lay}||mocmos|1699859603462|1700201330159||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700001550270
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ibuftri_c_1x;1{lay}|buftri_c@0||3.5|-42.5|||D5G4;
 NMetal-1-Pin|pin@0||-12|-0.5||||
@@ -1092,7 +1092,7 @@ NMetal-1-Pin|pin@3||71|-8.5||||
 NMetal-1-Pin|pin@5||-13.5|47.5||||
 NMetal-1-Pin|pin@6||-12|-42.5||||
 Ngeneric:Invisible-Pin|pin@7||-53|-9.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vd d 0 pulse(0v 5v 0 1n 1n 10n 20n) ,.tran 0 60n]
-Ngeneric:Invisible-Pin|pin@8||-53|0|||||ART_message(BD5FVerdana;G3;L)SFull Adder Logic Value Spice Code
+Ngeneric:Invisible-Pin|pin@8||-53|0|||||ART_message(BD5FVerdana;G3;L)SControlled Buffer Logic Value Spice Code
 Ngeneric:Invisible-Pin|pin@9||-53|7|||||SIM_spice_card(D5FVerdana;G2.75;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@10||-53|12|||||ART_message(BD5FVerdana;G3;L)SImported Model Parameters
 AMetal-1|d|D5G3;X5;|1|S1800|buftri_c@0|d|52.5|-8.5|pin@3||71|-8.5
@@ -1103,13 +1103,13 @@ AMetal-2|y|D5G3;X21;|1|S1800|buftri_c@0|y|21.5|9|pin@1||71|9
 X
 
 # Cell buftri_c_1x_sim;1{sch}
-Cbuftri_c_1x_sim;1{sch}||schematic|1699859593539|1700001180535|
+Cbuftri_c_1x_sim;1{sch}||schematic|1699859593539|1700201128432|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ibuftri_c_1x;1{ic}|buftri_c@0||8.5|-3|||D5G4;
-Ngeneric:Invisible-Pin|pin@0||-13|-5|||||SIM_spice_card(D5FVerdana;G1;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vd d 0 pulse(0v 5v 0 1n 1n 10n 20n) ,.tran 0 60n]
-Ngeneric:Invisible-Pin|pin@1||-13|0|||||ART_message(BD5FVerdana;G1.25;L)SFull Adder Logic Value Spice Code
-Ngeneric:Invisible-Pin|pin@2||-13|4|||||SIM_spice_card(D5FVerdana;G1;I)S.include cmosedu_models.txt
-Ngeneric:Invisible-Pin|pin@3||-13|7|||||ART_message(BD5FVerdana;G1.25;L)SImported Model Parameters
+Ngeneric:Invisible-Pin|pin@0||-15|-5|||||SIM_spice_card(D5FVerdana;G1;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vd d 0 pulse(0v 5v 0 1n 1n 10n 20n) ,.tran 0 60n]
+Ngeneric:Invisible-Pin|pin@1||-15|0|||||ART_message(BD5FVerdana;G1.25;L)SControlled Buffer Logic Value Spice Code
+Ngeneric:Invisible-Pin|pin@2||-15|4|||||SIM_spice_card(D5FVerdana;G1;I)S.include cmosedu_models.txt
+Ngeneric:Invisible-Pin|pin@3||-15|7|||||ART_message(BD5FVerdana;G1.25;L)SImported Model Parameters
 NWire_Pin|pin@4||2|0||||
 NWire_Pin|pin@5||10.5|7.5||||
 NWire_Pin|pin@6||20.5|0||||
@@ -1749,7 +1749,7 @@ Es||D5G2;|pin@99||O
 X
 
 # Cell fulladder_sim;1{lay}
-Cfulladder_sim;1{lay}||mocmos|1699859728728|1700095999591||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1699999624112
+Cfulladder_sim;1{lay}||mocmos|1699859728728|1700201684248|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ifulladder;1{lay}|fulladde@0||30|-44|||D5G4;
 Ngeneric:Invisible-Pin|pin@0||-38|-9|||||SIM_spice_card(D5FVerdana;G2.75;I)S[vdd vdd 0 dc 5,va a 0 pulse(0v 5v 0n 1n 1n 10n 20n),vb b 0 pulse(0v 5v 3n 1n 1n 10n 20n) ,vc c 0 pulse(0v 5v 6n 1n 1n 10n 20n),.tran 0 60n]
@@ -1762,12 +1762,15 @@ NMetal-1-Pin|pin@6||12|5||||
 NMetal-1-Pin|pin@7||12|13||||
 NMetal-1-Pin|pin@8||12|46||||
 NMetal-1-Pin|pin@9||12|-44||||
-NMetal-2-Pin|pin@12||12|-32||||
+NMetal-2-Pin|pin@14||134|-33||||
+NMetal-2-Pin|pin@15||10|-33||||
 AMetal-1|a|D5G4;|1|S0|fulladde@0|a|30|-10|pin@4||12|-10
 AMetal-1|b|D5G4;|1|S0|fulladde@0|b|38|-3|pin@5||12|-3
 AMetal-1|c|D5G4;|1|S0|fulladde@0|c|140|5|pin@6||12|5
 AMetal-1|cout|D5G4;|1|S0|fulladde@0|cout|150.5|13|pin@7||12|13
 AMetal-1|gnd|D5G4;|5|S0|fulladde@0|gnd|30|-44|pin@9||12|-44
+AMetal-2|net@2||1|S900|fulladde@0|s|134|-10|pin@14||134|-33
+AMetal-2|s|D5G1;|1|S0|pin@14||134|-33|pin@15||10|-33
 AMetal-1|vdd|D5G4;|5|S0|fulladde@0|vdd|30|46|pin@8||12|46
 X
 
@@ -1884,14 +1887,14 @@ Ey||D5G2;|pin@3||O
 X
 
 # Cell inv_1x_sim;1{lay}
-Cinv_1x_sim;1{lay}||mocmos|1699859778715|1700105011057||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700000008062
+Cinv_1x_sim;1{lay}||mocmos|1699859778715|1700202128277||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700000008062
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Iinv_1x;1{lay}|inv_1x@0||-6|-44.5|||D5G4;
-Ngeneric:Invisible-Pin|pin@0||-70|-4.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[*vdd vdd 0 dc 5,*vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) ,*.tran 0 40n ]
+Ngeneric:Invisible-Pin|pin@0||-70|-4.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[vdd vdd 0 dc 5,vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) ,.tran 0 40n ]
 Ngeneric:Invisible-Pin|pin@1||-70|4.5|||||ART_message(BD5FVerdana;G3;L)SInverter Switching Point Spice Code
 Ngeneric:Invisible-Pin|pin@2||-70.5|13|||||SIM_spice_card(D5FVerdana;G2.75;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@3||-70.5|20.5|||||ART_message(BD5FVerdana;G3;L)SImported Model Parameters
-Ngeneric:Invisible-Pin|pin@4||-70|-23.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[vdd vdd 0 dc 5,vin d_in 0 dc 5,.tran 0 40n ]
+Ngeneric:Invisible-Pin|pin@4||-70|-23.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[*vdd vdd 0 dc 5,*vin d_in 0 dc 5,*.tran 0 40n ]
 Ngeneric:Invisible-Pin|pin@5||-70|-14.5|||||ART_message(BD5FVerdana;G3;L)SInverter Logic Values Spice Code
 NMetal-1-Pin|pin@7||20|-5||||
 NMetal-1-Pin|pin@8||-25|45.5||||
@@ -1904,17 +1907,17 @@ AMetal-1|y|D5G3;X5;|1|S1800|inv_1x@0|y|5|-5|pin@7||20|-5
 X
 
 # Cell inv_1x_sim;1{sch}
-Cinv_1x_sim;1{sch}||schematic|1699859770801|1699999744141|
+Cinv_1x_sim;1{sch}||schematic|1699859770801|1700201889081|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Iinv_1x;1{ic}|inv_1x@0||13.5|0|||D5G4;
 NWire_Pin|pin@1||5.5|0||||
 NWire_Pin|pin@2||23.5|0||||
-Ngeneric:Invisible-Pin|pin@3||-15|0.5|||||SIM_spice_card(D5FVerdana;G1;I)S[*vdd vdd 0 dc 5,*vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) ,*.tran 0 40n ]
+Ngeneric:Invisible-Pin|pin@3||-15|0.5|||||SIM_spice_card(D5FVerdana;G1;I)S[vdd vdd 0 dc 5,vin d_in 0 pulse(0v 5v 10n 1n 1n 40n 40n) ,.tran 0 40n ]
 Ngeneric:Invisible-Pin|pin@4||-15|4.5|||||ART_message(BD5FVerdana;G1.25;L)SInverter Switching Point Spice Code
 Ngeneric:Invisible-Pin|pin@5||-15.5|8|||||SIM_spice_card(D5FVerdana;G1;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@6||-15.5|10.5|||||ART_message(BD5FVerdana;G1.25;L)SImported Model Parameters
-Ngeneric:Invisible-Pin|pin@7||-15|-8.5|||||SIM_spice_card(D5FVerdana;G1;I)S[vdd vdd 0 dc 5,vin d_in 0 dc 5,.tran 0 40n ]
-Ngeneric:Invisible-Pin|pin@8||-15|-4.5|||||ART_message(BD5FVerdana;G1.25;L)SInverter Logic Values Spice Code
+Ngeneric:Invisible-Pin|pin@7||-15|-7.5|||||SIM_spice_card(D5FVerdana;G1;I)S[*vdd vdd 0 dc 5,*vin d_in 0 dc 5,*.tran 0 40n ]
+Ngeneric:Invisible-Pin|pin@8||-15|-3.5|||||ART_message(BD5FVerdana;G1.25;L)SInverter Logic Values Spice Code
 Awire|d_in|BD5FVerdana;G1;X-3.5;||0|inv_1x@0|a|8.5|0|pin@1||5.5|0
 Awire|y|BD5FVerdana;G1;X3.5;||1800|inv_1x@0|y|19.5|0|pin@2||23.5|0
 X
@@ -2275,7 +2278,7 @@ Ey||D5G2;|pin@22||O
 X
 
 # Cell mux2_c_1x_sim;1{lay}
-Cmux2_c_1x_sim;1{lay}||mocmos|1699859847961|1700000989889||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700000992988
+Cmux2_c_1x_sim;1{lay}||mocmos|1699859847961|1700202314828||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700000992988
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Imux2_c_1x;1{lay}|mux2_c_1@0||-4.5|-44.5|||D5G4;
 NMetal-1-Pin|pin@1||-21|45.5||||
@@ -2285,7 +2288,7 @@ NMetal-2-Pin|pin@5||70|7.5||||
 NMetal-1-Pin|pin@6||70|-4.5||||
 NMetal-2-Pin|pin@7||70|-17.5||||
 Ngeneric:Invisible-Pin|pin@8||-63|-11.5|||||SIM_spice_card(D5FVerdana;G2.75;I)S[vdd vdd 0 dc 5,vd0 d0 0 pulse(0v 5v 0n 1n 1n 10n 20n),vd1 d1 0 pulse(0v 5v 3n 1n 1n 10n 20n) ,vs s 0 pulse(0v 5v 6n 1n 1n 10n 20n),.tran 0 60n]
-Ngeneric:Invisible-Pin|pin@9||-63|1|||||ART_message(BD5FVerdana;G3;L)SFull Adder Logic Value Spice Code
+Ngeneric:Invisible-Pin|pin@9||-63|1|||||ART_message(BD5FVerdana;G3;L)S2 x 1 MUX Logic Value Spice Code
 Ngeneric:Invisible-Pin|pin@10||-63|9|||||SIM_spice_card(D5FVerdana;G2.75;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@11||-63|15|||||ART_message(BD5FVerdana;G3;L)SImported Model Parameters
 AMetal-2|d0|D5G3;|1|S1800|mux2_c_1@0|d0|38|-17.5|pin@7||70|-17.5
