@@ -37,15 +37,15 @@ ENCE 3501
 <dl><dd>
 
 <p>
-   The purpose of this lab was to create a DC-to-DC regulator in Electric VLSI. This lab only outlines the schematics and simulations of the individual components that make up the DC-to-DC regulator. The components outlined include a three-stage charge pump, a ring oscillator with an enabling capability, and a voltage regulator that works as a comparator. 
+   The purpose of this project was to create an Arithmetic Logic Unit in Electric VLSI. This report outlines each component used to construct the ALU as well as their designs. The ALU design is then broken down by schematic and layout with aided visual representations of the circuit. The design is also simulated and tested. 
 </p>
 
 <p align="center">
-  <img width="900" height="500" src="">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/238591f5-ef24-420b-bd58-39ac919c709c">
 </p>
 
 <p align="center">
-    Figure 1 (Provided schematic of the DC-to-DC Regulator)
+    Figure 1 (Provided schematic of the ALU)
 </p>
 
 </dd><dl>
@@ -716,48 +716,48 @@ ENCE 3501
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Layout</h3> <a name="bufLay"></a></dd></dl> 
+<dl><dd><h3>Layout</h3> <a name="aluLay"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>    
-    The layout of the controlled buffer was also provided by the "muddlib07.jelib" library. The layout can viewed below. 
+    The layout of the ALU consists of four sections that each pertain to the calculation of one of the output bits. Each section includes an inverter, a 2x1 multiplexer, a full adder, and a controlled buffer. Power rails are also lined through individual components and the entire circuit for easy access. The exports for the ALU are also located in such a way that wiring them to a pad will both be easier and intuitive. The layout of the ALU can be seen below.  
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/880c2f2e-4725-425c-96fe-e3f0e2d804b6">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/82082160-6653-43df-bf61-3d4faa32da0d">
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the controlled buffer)
+    Figure 2 (Layout of the ALU)
 </p>
 
 <p>    
-   A 3D view of the controlled buffer is provided below.
+   A 3D view of the ALU is provided below.
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2bc210e0-ca10-49e2-aa48-c5bd385db227">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0ff3515c-3751-4b1b-9259-d756a115ea5c">
 </p>
 <p align="center">
-    Figure 3 (3D View of the controlled buffer)
+    Figure 3 (3D View of the ALU)
 </p>
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Simulation</h3> <a name="bufSim"></a></dd></dl> 
+<dl><dd><h3>Simulation</h3> <a name="aluSim"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>
-    The simulation of the schematic of the controlled buffer tests the logic values of the circuit. 
+    The simulation of the schematic of the ALU tests the logic values of the circuit. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5d3d2883-9ec4-4f01-b2e3-acf0daeb409e">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1b54cb91-bd97-4bff-ab31-1eecbb19320b">
 </p>
 <p align="center">
-    Figure 6 (Schematic simulation of the controlled buffer)
+    Figure 6 (Schematic simulation of the ALU)
 </p>
 
 <p>
@@ -768,33 +768,41 @@ ENCE 3501
         
         vdd vdd 0 dc 5
         ven en 0 dc 5
-        vd d 0 pulse(0 5 0 1n 1n 10n 20n)
-        .tran 0 60n
+        vop op 0 pulse(0 5 5 1p 1p 5 10)
+        vB[0] B[0] 0 dc 5
+        vB[1] B[1] 0 dc 0
+        vB[2] B[2] 0 dc 0
+        vB[3] B[3] 0 dc 5
+        vA[0] A[0] 0 dc 5
+        vA[1] A[1] 0 dc 5
+        vA[2] A[2] 0 dc 0
+        vA[3] A[3] 0 dc 0
+        .tran 0 10
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the controlled buffer)
+    Figure 7 (Spice code for the schematic simulation of the ALU)
 </p>
 
 <p>
-    The result of the simulation was successful. The output of the controlled buffer behaves as expected, the result can be seen below. 
+    The result of the simulation may or may not be successful. Upon inspection, the output of the ALU schematic simulation seemed to be incorrect. However, after double and triple-checking the correctness of the ALU circuit, no issue was found. This has led me to believe that I have either missed something when debugging the schematic or that I have misinterpreted the simulation results. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6e72e804-5243-4755-bfe5-216d9e880582">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68571355-1fcd-4c77-992e-64040b0cb3df">
 </p>
 
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the controlled buffer)
+    Figure 8 (Results of the schematic simulation of the ALU)
 </p>
 
 <p>
-    The simulation of the layout of the controlled buffer tests the logic values of the circuit. 
+    The simulation of the layout of the ALU tests the logic values of the circuit. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/db63ebc4-2d1e-4cea-af69-c054418e744e">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b24f8432-d780-4387-af63-b99f17366f33">
 </p>
 <p align="center">
-    Figure 6 (Layout simulation of the controlled buffer)
+    Figure 6 (Layout simulation of the ALU)
 </p>
 
 <p>
@@ -805,23 +813,31 @@ ENCE 3501
         
         vdd vdd 0 dc 5
         ven en 0 dc 5
-        vd d 0 pulse(0 5 0 1n 1n 10n 20n)
-        .tran 0 60n
+        vop op 0 pulse(0 5 5 1p 1p 5 10)
+        vB[0] B[0] 0 dc 5
+        vB[1] B[1] 0 dc 0
+        vB[2] B[2] 0 dc 0
+        vB[3] B[3] 0 dc 5
+        vA[0] A[0] 0 dc 5
+        vA[1] A[1] 0 dc 5
+        vA[2] A[2] 0 dc 0
+        vA[3] A[3] 0 dc 0
+        .tran 0 10
 <p align="center">
-    Figure 7 (Spice code for the layout simulation of the controlled buffer)
+    Figure 7 (Spice code for the layout simulation of the ALU)
 </p>
 
 <p>
-    The result of the simulation was successful. The output of the controlled buffer behaves as expected, the result can be seen below. 
+    The results of the simulation were the same as the schematic. While it is unclear if the schematic is correct, the layout matches the topology and simulates in the same fashion as the schematic. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/35c22cf6-f1db-435d-b88f-dc0ea2d531ec">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57a4d8c4-41b6-4397-baf3-27199b23fe75">
 </p>
 <p align="center">
-    Figure 8 (Results of the layout simulation of the controlled buffer)
+    Figure 8 (Results of the layout simulation of the ALU)
 </p>
-    
+
 </dd></dl></dd></dl>
 
 
@@ -831,7 +847,7 @@ ENCE 3501
 <h2>Conclusion</h3>  <a name="conclusion"></a>
 
 <p>
-    CONCLUSION
+    The goal of this final project was the create a functioning ALU in Electric VSLI. It is unclear if the results of the simulations are correct or not. If they are, the layout matches the schematic, so the ALU will have been successfully constructed. This project combined many different aspects not only learned in the VLSI course, but also in our degree as a whole from digital design, circuits, and all the way to embedded systems.
 </p>
 
 
