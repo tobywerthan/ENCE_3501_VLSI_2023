@@ -104,57 +104,145 @@ ENCE 3501
 </p>
 
 <p>    
-   The 3D view of the inverter 
+   The 3D view of the inverter is also provided below
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9c12a270-8409-401f-83cb-aa2e1648b1aa">
 </p>
 <p align="center">
-    Figure 3 (3D TITLE)
+    Figure 3 (3D View of the inverter)
 </p>
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Simulation</h3> <a name="invSim"></a></dd></dl> 
+<dl><dd><h3>Simulations</h3> <a name="invSim"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>
-    SIMULATION DESCRIPTION
+    The two simulations of the schematic of the inverter test both the logic values as well as the switching point. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
 </p>
+
 <p align="center">
-    Figure 6 (SIMULATION TITLE)
+    Figure 6 (Schematic simulation of the inverter)
 </p>
 
 <p>
-    A snippet of the spice code for the simulation is provided below:
+    A snippet of the spice code for the logic value simulation is provided below:
 </p>
 
         .include cmosedu_models.txt
         
-        vdd vdd 0 DC 1
-        vosc osc 0 pulse(0 1 0 1p 1p 0.025 0.05)
-        vosc2 osc2 0 pulse(0 1 0.025 1p 1p 0.025 0.05)
-        .tran 0 1000 1m
+        vdd vdd 0 dc 5
+        vin d_in 0 pulse(0 5 10n 1n 1n 40n 40n)
+        .tran 0 40n
 <p align="center">
-    Figure 7 (SPICE CODE TITLE)
+    Figure 7 (Spice code for the switching point simulation of the inverter)
 </p>
 
 <p>
-    SIM RESULT DESCRIPTION
+    A snippet of the spice code for the switching point simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        vin d_in 0 dc 5
+        .tran 0 40n
+<p align="center">
+    Figure 8 (Spice code for the logic value simulation of the inverter)
+</p>
+
+<p>
+    The result of the simulated logic values of the schematic of the inverter were successful. The input value of the inverter is negated in the output. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9ef19aca-1a50-4b69-aa80-73de32f4c2e7">
 </p>
 
 <p align="center">
-    Figure 8 (RESULT TITLE)
+    Figure 8 (Schematic simulation of the logic values of the inverter)
+</p>
+
+<p>
+    The result of the simulated switching point of the schematic of the inverter was successful. The switching point can be seen to be roughly half of 5V. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/dd8d149f-a52d-4efb-86b9-2e15e5a8855d">
+</p>
+
+<p align="center">
+    Figure 8 (Schematic simulation of the switching point of the inverter)
+</p>
+
+
+<p>
+    The two simulations of the layout of the inverter test both the logic values as well as the switching point. 
+</p>
+    
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8bf1e0f1-418c-487f-aca5-cadcd62afb4c">
+</p>
+
+<p align="center">
+    Figure 6 (Layout simulation of the inverter)
+</p>
+
+<p>
+    A snippet of the spice code for the logic value simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        vin d_in 0 pulse(0 5 10n 1n 1n 40n 40n)
+        .tran 0 40n
+<p align="center">
+    Figure 7 (Spice code for the switching point simulation of the inverter)
+</p>
+
+<p>
+    A snippet of the spice code for the switching point simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        vin d_in 0 dc 5
+        .tran 0 40n
+<p align="center">
+    Figure 8 (Spice code for the logic value simulation of the inverter)
+</p>
+
+<p>
+    The result of the simulated logic values of the layout of the inverter was successful. The input value of the inverter is negated in the output. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/37e3ceab-4420-41e6-a506-9ebf062794a2">
+</p>
+
+<p align="center">
+    Figure 8 (Layout simulation of the logic values of the inverter)
+</p>
+
+<p>
+    The result of the simulated switching point of the layout of the inverter was successful. The switching point can be seen to be roughly half of 5V. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cd4577ed-5810-41b0-8a5a-74e4e042fc13">
+</p>
+
+<p align="center">
+    Figure 8 (Layout simulation of the switching point of the inverter)
 </p>
     
 </dd></dl></dd></dl>
