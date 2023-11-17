@@ -685,79 +685,79 @@ ENCE 3501
 
 
 
-<h2> Inverter </h2> <a name="alu"></a>
+<h2> Arithmetic Logic Unit </h2> <a name="alu"></a>
 
 <dl><dd><h3>Schematic</h3> <a name="aluSchem"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>    
-    SCHEMATIC DESCRIPTION
+    The components in the schematic for the ALU were used from the "muddlib07.jelib" library. The schematic is based on the provided ALU schematic. The unit can perform 4-but addition and subtraction and operates on 5V. The schematic can be seen below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b457ee4b-3312-48ec-bae3-2938ac2ba24b">
+</p>
+<p align="center">
+    Figure 2 (Schematic of the ALU)
 </p>
 
-<p align="center">
-    Figure 2 (SCHEMATIC TITLE)
-</p>
 
 <p>    
-    ICON DESCRIPTION
+    An icon was generated from the schematic of the ALU. The icon can be seen below. 
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/66e677c6-47ec-47ac-a5aa-e8958d9fc330">
 </p>
 <p align="center">
-    Figure 3 (ICON TITLE)
+    Figure 3 (Icon of the ALU)
 </p>
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Layout</h3> <a name="aluLay"></a></dd></dl> 
+<dl><dd><h3>Layout</h3> <a name="bufLay"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>    
-    LAYOUT DESCRIPTION
+    The layout of the controlled buffer was also provided by the "muddlib07.jelib" library. The layout can viewed below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/880c2f2e-4725-425c-96fe-e3f0e2d804b6">
 </p>
 
 <p align="center">
-    Figure 2 (LAYOUT TITLE)
+    Figure 2 (Layout of the controlled buffer)
 </p>
 
 <p>    
-   3D DESCRIPTION
+   A 3D view of the controlled buffer is provided below.
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2bc210e0-ca10-49e2-aa48-c5bd385db227">
 </p>
 <p align="center">
-    Figure 3 (3D TITLE)
+    Figure 3 (3D View of the controlled buffer)
 </p>
 
 </dd></dl></dd></dl>
 
-<dl><dd><h3>Simulation</h3> <a name="aluSim"></a></dd></dl> 
+<dl><dd><h3>Simulation</h3> <a name="bufSim"></a></dd></dl> 
 
 <dl><dd><dl><dd>
     
 <p>
-    SIMULATION DESCRIPTION
+    The simulation of the schematic of the controlled buffer tests the logic values of the circuit. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5d3d2883-9ec4-4f01-b2e3-acf0daeb409e">
 </p>
 <p align="center">
-    Figure 6 (SIMULATION TITLE)
+    Figure 6 (Schematic simulation of the controlled buffer)
 </p>
 
 <p>
@@ -766,28 +766,63 @@ ENCE 3501
 
         .include cmosedu_models.txt
         
-        vdd vdd 0 DC 1
-        vosc osc 0 pulse(0 1 0 1p 1p 0.025 0.05)
-        vosc2 osc2 0 pulse(0 1 0.025 1p 1p 0.025 0.05)
-        .tran 0 1000 1m
+        vdd vdd 0 dc 5
+        ven en 0 dc 5
+        vd d 0 pulse(0 5 0 1n 1n 10n 20n)
+        .tran 0 60n
 <p align="center">
-    Figure 7 (SPICE CODE TITLE)
+    Figure 7 (Spice code for the schematic simulation of the controlled buffer)
 </p>
 
 <p>
-    SIM RESULT DESCRIPTION
+    The result of the simulation was successful. The output of the controlled buffer behaves as expected, the result can be seen below. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/6e72e804-5243-4755-bfe5-216d9e880582">
 </p>
 
 <p align="center">
-    Figure 8 (RESULT TITLE)
+    Figure 8 (Results of the schematic simulation of the controlled buffer)
+</p>
+
+<p>
+    The simulation of the layout of the controlled buffer tests the logic values of the circuit. 
+</p>
+    
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/db63ebc4-2d1e-4cea-af69-c054418e744e">
+</p>
+<p align="center">
+    Figure 6 (Layout simulation of the controlled buffer)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        ven en 0 dc 5
+        vd d 0 pulse(0 5 0 1n 1n 10n 20n)
+        .tran 0 60n
+<p align="center">
+    Figure 7 (Spice code for the layout simulation of the controlled buffer)
+</p>
+
+<p>
+    The result of the simulation was successful. The output of the controlled buffer behaves as expected, the result can be seen below. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/35c22cf6-f1db-435d-b88f-dc0ea2d531ec">
+</p>
+<p align="center">
+    Figure 8 (Results of the layout simulation of the controlled buffer)
 </p>
     
 </dd></dl></dd></dl>
-
 
 
 
