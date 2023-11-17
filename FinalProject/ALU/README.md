@@ -167,7 +167,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Schematic simulation of the logic values of the inverter)
+    Figure 9 (Schematic simulation of the logic values of the inverter)
 </p>
 
 <p>
@@ -179,7 +179,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Schematic simulation of the switching point of the inverter)
+    Figure 10 (Schematic simulation of the switching point of the inverter)
 </p>
 
 
@@ -192,7 +192,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 6 (Layout simulation of the inverter)
+    Figure 11 (Layout simulation of the inverter)
 </p>
 
 <p>
@@ -205,7 +205,7 @@ ENCE 3501
         vin d_in 0 pulse(0 5 10n 1n 1n 40n 40n)
         .tran 0 40n
 <p align="center">
-    Figure 7 (Spice code for the switching point simulation of the inverter)
+    Figure 12 (Spice code for the switching point simulation of the inverter)
 </p>
 
 <p>
@@ -218,7 +218,7 @@ ENCE 3501
         vin d_in 0 dc 5
         .tran 0 40n
 <p align="center">
-    Figure 8 (Spice code for the logic value simulation of the inverter)
+    Figure 13 (Spice code for the logic value simulation of the inverter)
 </p>
 
 <p>
@@ -230,7 +230,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Layout simulation of the logic values of the inverter)
+    Figure 14 (Layout simulation of the logic values of the inverter)
 </p>
 
 <p>
@@ -242,7 +242,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Layout simulation of the switching point of the inverter)
+    Figure 15 (Layout simulation of the switching point of the inverter)
 </p>
     
 </dd></dl></dd></dl>
@@ -266,7 +266,7 @@ ENCE 3501
   <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2d5673c4-5d4f-4d7b-b109-13bb660b9924">
 </p>
 <p align="center">
-    Figure 2 (Schematic of the multiplexer)
+    Figure 16 (Schematic of the multiplexer)
 </p>
 
 <p>    
@@ -277,7 +277,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5072e7b3-a71a-4c63-9005-a2abe29db949">
 </p>
 <p align="center">
-    Figure 3 (Icon of the multiplexer)
+    Figure 17 (Icon of the multiplexer)
 </p>
 
 </dd></dl></dd></dl>
@@ -295,7 +295,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the multiplexer)
+    Figure 18 (Layout of the multiplexer)
 </p>
 
 <p>    
@@ -306,7 +306,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eb4fff30-47b7-4d98-9529-e9d3279536e3">
 </p>
 <p align="center">
-    Figure 3 (3D View of the multiplexer)
+    Figure 19 (3D View of the multiplexer)
 </p>
 
 </dd></dl></dd></dl>
@@ -323,7 +323,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8de572d-4251-44b7-a2e6-4e3cb9b452f3">
 </p>
 <p align="center">
-    Figure 6 (Schematic simulation of the multiplexer)
+    Figure 20 (Schematic simulation of the multiplexer)
 </p>
 
 <p>
@@ -338,7 +338,7 @@ ENCE 3501
         vs s 0 pulse(0 5 6n 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the multiplexer)
+    Figure 21 (Spice code for the schematic simulation of the multiplexer)
 </p>
 
 <p>
@@ -350,7 +350,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the multiplexer)
+    Figure 22 (Results of the schematic simulation of the multiplexer)
 </p>
 
 <p>
@@ -361,7 +361,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ded990ef-9f2a-4aac-9566-5fce7e081afb">
 </p>
 <p align="center">
-    Figure 6 (Layout simulation of the multiplexer)
+    Figure 23 (Layout simulation of the multiplexer)
 </p>
 
 <p>
@@ -376,7 +376,7 @@ ENCE 3501
         vs s 0 pulse(0 5 6n 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the layout simulation of the multiplexer)
+    Figure 24 (Spice code for the layout simulation of the multiplexer)
 </p>
 
 <p>
@@ -387,7 +387,7 @@ ENCE 3501
   <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/430cfa3d-c3e8-48ec-a2bf-9a28d4852203">
 </p>
 <p align="center">
-    Figure 8 (Results of the layout simulation of the multiplexer)
+    Figure 25 (Results of the layout simulation of the multiplexer)
 </p>
     
 </dd></dl></dd></dl>
@@ -411,7 +411,7 @@ ENCE 3501
   <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/332a5529-a21f-4889-8a77-c5ba433232db">
 </p>
 <p align="center">
-    Figure 2 (Schematic of the full adder)
+    Figure 26 (Schematic of the full adder)
 </p>
 
 <p>    
@@ -422,7 +422,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/26974203-9fa4-4ae2-96be-7ab7ad04df29">
 </p>
 <p align="center">
-    Figure 3 (Icon of the full adder)
+    Figure 27 (Icon of the full adder)
 </p>
 
 </dd></dl></dd></dl>
@@ -440,7 +440,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the full adder)
+    Figure 28 (Layout of the full adder)
 </p>
 
 <p>    
@@ -451,7 +451,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b857fed4-21a4-40c9-ae94-0cce50d8d0a3">
 </p>
 <p align="center">
-    Figure 3 (3D View of the full adder)
+    Figure 29 (3D View of the full adder)
 </p>
 
 </dd></dl></dd></dl>
@@ -468,7 +468,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c9bb9451-b1c8-4d70-af72-9af6948b20d0">
 </p>
 <p align="center">
-    Figure 6 (Schematic simulation of the full adder)
+    Figure 30 (Schematic simulation of the full adder)
 </p>
 
 <p>
@@ -483,7 +483,7 @@ ENCE 3501
         vc c 0 pulse(0 5 6n 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the full adder)
+    Figure 31 (Spice code for the schematic simulation of the full adder)
 </p>
 
 <p>
@@ -495,7 +495,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the full adder)
+    Figure 32 (Results of the schematic simulation of the full adder)
 </p>
 
 <p>
@@ -506,7 +506,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5ff6cab1-8c6c-4275-9898-73721881ff57">
 </p>
 <p align="center">
-    Figure 6 (Layout simulation of the full adder)
+    Figure 33 (Layout simulation of the full adder)
 </p>
 
 <p>
@@ -521,7 +521,7 @@ ENCE 3501
         vc c 0 pulse(0 5 6n 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the layout simulation of the full adder)
+    Figure 34 (Spice code for the layout simulation of the full adder)
 </p>
 
 <p>
@@ -532,7 +532,7 @@ ENCE 3501
   <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4f9c81cb-7a16-4251-b72c-63f355a9834e3">
 </p>
 <p align="center">
-    Figure 8 (Results of the layout simulation of the full adder)
+    Figure 35 (Results of the layout simulation of the full adder)
 </p>
 
     
@@ -557,7 +557,7 @@ ENCE 3501
   <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/219a3ba6-2c16-4cf3-8acc-f5bbbe529a39">
 </p>
 <p align="center">
-    Figure 2 (Schematic of the controlled buffer)
+    Figure 36 (Schematic of the controlled buffer)
 </p>
 
 <p>    
@@ -568,7 +568,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/93c77cea-5a4d-4f50-ab01-22dbd391bf01">
 </p>
 <p align="center">
-    Figure 3 (Icon of the controlled buffer)
+    Figure 37 (Icon of the controlled buffer)
 </p>
 
 </dd></dl></dd></dl>
@@ -586,7 +586,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the controlled buffer)
+    Figure 38 (Layout of the controlled buffer)
 </p>
 
 <p>    
@@ -597,7 +597,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2bc210e0-ca10-49e2-aa48-c5bd385db227">
 </p>
 <p align="center">
-    Figure 3 (3D View of the controlled buffer)
+    Figure 39 (3D View of the controlled buffer)
 </p>
 
 </dd></dl></dd></dl>
@@ -614,7 +614,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5d3d2883-9ec4-4f01-b2e3-acf0daeb409e">
 </p>
 <p align="center">
-    Figure 6 (Schematic simulation of the controlled buffer)
+    Figure 40 (Schematic simulation of the controlled buffer)
 </p>
 
 <p>
@@ -628,7 +628,7 @@ ENCE 3501
         vd d 0 pulse(0 5 0 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the controlled buffer)
+    Figure 41 (Spice code for the schematic simulation of the controlled buffer)
 </p>
 
 <p>
@@ -640,7 +640,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the controlled buffer)
+    Figure 42 (Results of the schematic simulation of the controlled buffer)
 </p>
 
 <p>
@@ -651,7 +651,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/db63ebc4-2d1e-4cea-af69-c054418e744e">
 </p>
 <p align="center">
-    Figure 6 (Layout simulation of the controlled buffer)
+    Figure 43 (Layout simulation of the controlled buffer)
 </p>
 
 <p>
@@ -665,7 +665,7 @@ ENCE 3501
         vd d 0 pulse(0 5 0 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the layout simulation of the controlled buffer)
+    Figure 44 (Spice code for the layout simulation of the controlled buffer)
 </p>
 
 <p>
@@ -676,7 +676,7 @@ ENCE 3501
   <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/35c22cf6-f1db-435d-b88f-dc0ea2d531ec">
 </p>
 <p align="center">
-    Figure 8 (Results of the layout simulation of the controlled buffer)
+    Figure 45 (Results of the layout simulation of the controlled buffer)
 </p>
     
 </dd></dl></dd></dl>
@@ -699,7 +699,7 @@ ENCE 3501
   <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b457ee4b-3312-48ec-bae3-2938ac2ba24b">
 </p>
 <p align="center">
-    Figure 2 (Schematic of the ALU)
+    Figure 46 (Schematic of the ALU)
 </p>
 
 
@@ -711,7 +711,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/66e677c6-47ec-47ac-a5aa-e8958d9fc330">
 </p>
 <p align="center">
-    Figure 3 (Icon of the ALU)
+    Figure 47 (Icon of the ALU)
 </p>
 
 </dd></dl></dd></dl>
@@ -729,7 +729,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the ALU)
+    Figure 48 (Layout of the ALU)
 </p>
 
 <p>    
@@ -740,7 +740,7 @@ ENCE 3501
   <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0ff3515c-3751-4b1b-9259-d756a115ea5c">
 </p>
 <p align="center">
-    Figure 3 (3D View of the ALU)
+    Figure 49 (3D View of the ALU)
 </p>
 
 </dd></dl></dd></dl>
@@ -757,7 +757,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1b54cb91-bd97-4bff-ab31-1eecbb19320b">
 </p>
 <p align="center">
-    Figure 6 (Schematic simulation of the ALU)
+    Figure 50 (Schematic simulation of the ALU)
 </p>
 
 <p>
@@ -779,7 +779,7 @@ ENCE 3501
         vA[3] A[3] 0 dc 0
         .tran 0 10
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the ALU)
+    Figure 51 (Spice code for the schematic simulation of the ALU)
 </p>
 
 <p>
@@ -791,7 +791,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the ALU)
+    Figure 52 (Results of the schematic simulation of the ALU)
 </p>
 
 <p>
@@ -802,7 +802,7 @@ ENCE 3501
   <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b24f8432-d780-4387-af63-b99f17366f33">
 </p>
 <p align="center">
-    Figure 6 (Layout simulation of the ALU)
+    Figure 53 (Layout simulation of the ALU)
 </p>
 
 <p>
@@ -824,7 +824,7 @@ ENCE 3501
         vA[3] A[3] 0 dc 0
         .tran 0 10
 <p align="center">
-    Figure 7 (Spice code for the layout simulation of the ALU)
+    Figure 54 (Spice code for the layout simulation of the ALU)
 </p>
 
 <p>
@@ -835,7 +835,7 @@ ENCE 3501
   <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57a4d8c4-41b6-4397-baf3-27199b23fe75">
 </p>
 <p align="center">
-    Figure 8 (Results of the layout simulation of the ALU)
+    Figure 55 (Results of the layout simulation of the ALU)
 </p>
 
 </dd></dl></dd></dl>
