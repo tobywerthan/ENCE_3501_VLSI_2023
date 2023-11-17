@@ -159,7 +159,7 @@ ENCE 3501
 </p>
 
 <p>
-    The result of the simulated logic values of the schematic of the inverter were successful. The input value of the inverter is negated in the output. 
+    The result of the simulated logic values of the schematic of the inverter was successful. The input value of the inverter is negated in the output. 
 </p>
 
 <p align="center">
@@ -259,26 +259,25 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    SCHEMATIC DESCRIPTION
+    The multiplexer used in the schematic for the ALU was provided by the "muddLib07.jelib" library provided before the Final Project. The multiplexer was modeled using the provided spice models, "cmosedu_models.txt". The model used was the P_1u and N_1u transistors because the working voltage of the ALU will be 5 volts. The schematic for the inverter is shown below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2d5673c4-5d4f-4d7b-b109-13bb660b9924">
 </p>
-
 <p align="center">
-    Figure 2 (SCHEMATIC TITLE)
+    Figure 2 (Schematic of the multiplexer)
 </p>
 
 <p>    
-    ICON DESCRIPTION
+    An icon that is generated from the schematic was also provided with the library. The icon is shown below. 
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5072e7b3-a71a-4c63-9005-a2abe29db949">
 </p>
 <p align="center">
-    Figure 3 (ICON TITLE)
+    Figure 3 (Icon of the multiplexer)
 </p>
 
 </dd></dl></dd></dl>
@@ -288,26 +287,26 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    LAYOUT DESCRIPTION
+    The layout of the multiplexer was also provided by the "muddlib07.jelib" library. The layout can viewed below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cfd173eb-3860-48b1-81ac-aa3788eca86a">
 </p>
 
 <p align="center">
-    Figure 2 (LAYOUT TITLE)
+    Figure 2 (Layout of the multiplexer)
 </p>
 
 <p>    
-   3D DESCRIPTION
+   A 3D view of the multiplexer is provided below.
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eb4fff30-47b7-4d98-9529-e9d3279536e3">
 </p>
 <p align="center">
-    Figure 3 (3D TITLE)
+    Figure 3 (3D View of the multiplexer)
 </p>
 
 </dd></dl></dd></dl>
@@ -317,14 +316,14 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>
-    SIMULATION DESCRIPTION
+    The simulation of the schematic of the multiplexer tests the logic values of the circuit. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8de572d-4251-44b7-a2e6-4e3cb9b452f3">
 </p>
 <p align="center">
-    Figure 6 (SIMULATION TITLE)
+    Figure 6 (Schematic simulation of the multiplexer)
 </p>
 
 <p>
@@ -333,24 +332,62 @@ ENCE 3501
 
         .include cmosedu_models.txt
         
-        vdd vdd 0 DC 1
-        vosc osc 0 pulse(0 1 0 1p 1p 0.025 0.05)
-        vosc2 osc2 0 pulse(0 1 0.025 1p 1p 0.025 0.05)
-        .tran 0 1000 1m
+        vdd vdd 0 dc 5
+        vd0 d0 0 pulse(0 5 0 1n 1n 10n 20n)
+        vd1 d1 0 pulse(0 5 3n 1n 1n 10n 20n)
+        vs s 0 pulse(0 5 6n 1n 1n 10n 20n)
+        .tran 0 60n
 <p align="center">
-    Figure 7 (SPICE CODE TITLE)
+    Figure 7 (Spice code for the schematic simulation of the multiplexer)
 </p>
 
 <p>
-    SIM RESULT DESCRIPTION
+    The result of the simulation was successful. The output of the multiplexer behaves as expected, the result can be seen below. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ab5a0fe4-f2ca-4628-82e7-e1692de290e0">
 </p>
 
 <p align="center">
-    Figure 8 (RESULT TITLE)
+    Figure 8 (Results of the schematic simulation of the multiplexer)
+</p>
+
+<p>
+    The simulation of the layout of the multiplexer tests the logic values of the circuit. 
+</p>
+    
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ded990ef-9f2a-4aac-9566-5fce7e081afb">
+</p>
+<p align="center">
+    Figure 6 (Layout simulation of the multiplexer)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        vd0 d0 0 pulse(0 5 0 1n 1n 10n 20n)
+        vd1 d1 0 pulse(0 5 3n 1n 1n 10n 20n)
+        vs s 0 pulse(0 5 6n 1n 1n 10n 20n)
+        .tran 0 60n
+<p align="center">
+    Figure 7 (Spice code for the schematic simulation of the multiplexer)
+</p>
+
+<p>
+    The result of the simulation was successful. The output of the multiplexer behaves as expected, the result can be seen below. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/430cfa3d-c3e8-48ec-a2bf-9a28d4852203">
+</p>
+<p align="center">
+    Figure 8 (Results of the schematic simulation of the multiplexer)
 </p>
     
 </dd></dl></dd></dl>
