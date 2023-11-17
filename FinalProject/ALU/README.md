@@ -272,7 +272,7 @@ ENCE 3501
 
 
 
-<h2> Inverter </h2> <a name="fa"></a>
+<h2> Full Adder </h2> <a name="fa"></a>
 
 <dl><dd><h3>Schematic</h3> <a name="faSchem"></a></dd></dl> 
 
