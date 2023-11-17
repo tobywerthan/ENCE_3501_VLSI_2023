@@ -847,7 +847,7 @@ ENCE 3501
 <h2>Conclusion</h3>  <a name="conclusion"></a>
 
 <p>
-    The goal of this final project was the create a functioning ALU in Electric VSLI. It is unclear if the results of the simulations are correct or not. If they are, the layout matches the schematic, so the ALU will have been successfully constructed. This project combined many different aspects not only learned in the VLSI course, but also in our degree as a whole from digital design, circuits, and all the way to embedded systems.
+    The goal of this final project was the create a functioning ALU in Electric VSLI. It is unclear if the results of the simulations are correct or not. If they are, the layout matches the schematic, so the ALU will have been successfully constructed. This project combined many different aspects not only learned in the VLSI course, but also in our degree as a whole from digital design, circuits, and all the way to microprocessors.
 </p>
 
 
