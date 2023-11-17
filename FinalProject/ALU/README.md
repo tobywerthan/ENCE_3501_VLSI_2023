@@ -125,7 +125,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="850" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
+  <img width="850" height="450" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
 </p>
 
 <p align="center">
@@ -188,7 +188,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="700" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8bf1e0f1-418c-487f-aca5-cadcd62afb4c">
+  <img width="650" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8bf1e0f1-418c-487f-aca5-cadcd62afb4c">
 </p>
 
 <p align="center">
