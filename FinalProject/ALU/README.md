@@ -259,7 +259,7 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    The multiplexer used in the schematic for the ALU was provided by the "muddLib07.jelib" library provided before the Final Project. The multiplexer was modeled using the provided spice models, "cmosedu_models.txt". The model used was the P_1u and N_1u transistors because the working voltage of the ALU will be 5 volts. The schematic for the inverter is shown below. 
+    The multiplexer used in the schematic for the ALU was provided by the "muddLib07.jelib" library provided before the Final Project. The multiplexer was modeled using the provided spice models, "cmosedu_models.txt". The model used was the P_1u and N_1u transistors because the working voltage of the ALU will be 5 volts. The schematic for the multiplexer is shown below. 
 </p>
 
 <p align="center">
@@ -376,7 +376,7 @@ ENCE 3501
         vs s 0 pulse(0 5 6n 1n 1n 10n 20n)
         .tran 0 60n
 <p align="center">
-    Figure 7 (Spice code for the schematic simulation of the multiplexer)
+    Figure 7 (Spice code for the layout simulation of the multiplexer)
 </p>
 
 <p>
@@ -387,7 +387,7 @@ ENCE 3501
   <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/430cfa3d-c3e8-48ec-a2bf-9a28d4852203">
 </p>
 <p align="center">
-    Figure 8 (Results of the schematic simulation of the multiplexer)
+    Figure 8 (Results of the layout simulation of the multiplexer)
 </p>
     
 </dd></dl></dd></dl>
@@ -404,26 +404,25 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    SCHEMATIC DESCRIPTION
+    The full adder used in the schematic for the ALU was provided by the "muddLib07.jelib" library provided before the Final Project. The full adder was modeled using the provided spice models, "cmosedu_models.txt". The model used was the P_1u and N_1u transistors because the working voltage of the ALU will be 5 volts. The schematic for the full adder is shown below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/332a5529-a21f-4889-8a77-c5ba433232db">
 </p>
-
 <p align="center">
-    Figure 2 (SCHEMATIC TITLE)
+    Figure 2 (Schematic of the full adder)
 </p>
 
 <p>    
-    ICON DESCRIPTION
+    An icon that is generated from the schematic was also provided with the library. The icon is shown below. 
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/26974203-9fa4-4ae2-96be-7ab7ad04df29">
 </p>
 <p align="center">
-    Figure 3 (ICON TITLE)
+    Figure 3 (Icon of the full adder)
 </p>
 
 </dd></dl></dd></dl>
@@ -433,26 +432,26 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    LAYOUT DESCRIPTION
+    The layout of the full adder was also provided by the "muddlib07.jelib" library. The layout can viewed below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/f136d5f6-5c89-4ebd-9751-f019d4cb8470">
 </p>
 
 <p align="center">
-    Figure 2 (LAYOUT TITLE)
+    Figure 2 (Layout of the full adder)
 </p>
 
 <p>    
-   3D DESCRIPTION
+   A 3D view of the full adder is provided below.
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b857fed4-21a4-40c9-ae94-0cce50d8d0a3">
 </p>
 <p align="center">
-    Figure 3 (3D TITLE)
+    Figure 3 (3D View of the full adder)
 </p>
 
 </dd></dl></dd></dl>
@@ -462,14 +461,14 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>
-    SIMULATION DESCRIPTION
+    The simulation of the schematic of the full adder tests the logic values of the circuit. 
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c9bb9451-b1c8-4d70-af72-9af6948b20d0">
 </p>
 <p align="center">
-    Figure 6 (SIMULATION TITLE)
+    Figure 6 (Schematic simulation of the full adder)
 </p>
 
 <p>
@@ -478,25 +477,64 @@ ENCE 3501
 
         .include cmosedu_models.txt
         
-        vdd vdd 0 DC 1
-        vosc osc 0 pulse(0 1 0 1p 1p 0.025 0.05)
-        vosc2 osc2 0 pulse(0 1 0.025 1p 1p 0.025 0.05)
-        .tran 0 1000 1m
+        vdd vdd 0 dc 5
+        va a 0 pulse(0 5 0 1n 1n 10n 20n)
+        vb b 0 pulse(0 5 3n 1n 1n 10n 20n)
+        vc c 0 pulse(0 5 6n 1n 1n 10n 20n)
+        .tran 0 60n
 <p align="center">
-    Figure 7 (SPICE CODE TITLE)
+    Figure 7 (Spice code for the schematic simulation of the full adder)
 </p>
 
 <p>
-    SIM RESULT DESCRIPTION
+    The result of the simulation was successful. The output of the full adder behaves as expected, the result can be seen below. 
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/088a85a9-b7d6-45d3-a4b0-d314b612317d">
 </p>
 
 <p align="center">
-    Figure 8 (RESULT TITLE)
+    Figure 8 (Results of the schematic simulation of the full adder)
 </p>
+
+<p>
+    The simulation of the layout of the full adder tests the logic values of the circuit. 
+</p>
+    
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5ff6cab1-8c6c-4275-9898-73721881ff57">
+</p>
+<p align="center">
+    Figure 6 (Layout simulation of the full adder)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        va a 0 pulse(0 5 0 1n 1n 10n 20n)
+        vb b 0 pulse(0 5 3n 1n 1n 10n 20n)
+        vc c 0 pulse(0 5 6n 1n 1n 10n 20n)
+        .tran 0 60n
+<p align="center">
+    Figure 7 (Spice code for the layout simulation of the full adder)
+</p>
+
+<p>
+    The result of the simulation was successful. The output of the full adder behaves as expected, the result can be seen below. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4f9c81cb-7a16-4251-b72c-63f355a9834e3">
+</p>
+<p align="center">
+    Figure 8 (Results of the layout simulation of the full adder)
+</p>
+
     
 </dd></dl></dd></dl>
 
