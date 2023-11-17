@@ -63,26 +63,26 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    SCHEMATIC DESCRIPTION
+    The inverter used in the schematic for the ALU was provided by the "muddLib07.jelib" library provided before the Final Project. The inverter was modeled using the provided spice models, "cmosedu_models.txt". The model used was the P_1u and N_1u transistors because the working voltage of the ALU will be 5 volts. The schematic for the inverter is shown below.  
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5bb922ef-1923-44da-ac6c-b2d6874ca3e0">
 </p>
 
 <p align="center">
-    Figure 2 (SCHEMATIC TITLE)
+    Figure 2 (Schematic of the inverter)
 </p>
 
 <p>    
-    ICON DESCRIPTION
+    An icon that is generated from the schematic was also provided with the library. The icon is shown below. 
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="">
+  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57f695ba-4f2e-45da-8dbf-9267fe0ed5e7">
 </p>
 <p align="center">
-    Figure 3 (ICON TITLE)
+    Figure 3 (Icon of the inverter)
 </p>
 
 </dd></dl></dd></dl>
@@ -92,19 +92,19 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    LAYOUT DESCRIPTION
+    The layout of the inverter was also provided by the "muddlib07.jelib" library. The layout can viewed below. 
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="">
+  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cb8717a2-b710-472d-8b4f-11deeb986b58">
 </p>
 
 <p align="center">
-    Figure 2 (LAYOUT TITLE)
+    Figure 2 (Layout of the inverter)
 </p>
 
 <p>    
-   3D DESCRIPTION
+   The 3D view of the inverter 
 </p>
 
 <p align="center">
