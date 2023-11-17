@@ -67,7 +67,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5bb922ef-1923-44da-ac6c-b2d6874ca3e0">
+  <img width="550" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5bb922ef-1923-44da-ac6c-b2d6874ca3e0">
 </p>
 
 <p align="center">
@@ -79,7 +79,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57f695ba-4f2e-45da-8dbf-9267fe0ed5e7">
+  <img width="450" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57f695ba-4f2e-45da-8dbf-9267fe0ed5e7">
 </p>
 <p align="center">
     Figure 3 (Icon of the inverter)
@@ -96,11 +96,11 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cb8717a2-b710-472d-8b4f-11deeb986b58">
+  <img width="300" height="850" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cb8717a2-b710-472d-8b4f-11deeb986b58">
 </p>
 
 <p align="center">
-    Figure 2 (Layout of the inverter)
+    Figure 4 (Layout of the inverter)
 </p>
 
 <p>    
@@ -108,10 +108,10 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9c12a270-8409-401f-83cb-aa2e1648b1aa">
+  <img width="650" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9c12a270-8409-401f-83cb-aa2e1648b1aa">
 </p>
 <p align="center">
-    Figure 3 (3D View of the inverter)
+    Figure 5 (3D View of the inverter)
 </p>
 
 </dd></dl></dd></dl>
@@ -125,7 +125,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
+  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
 </p>
 
 <p align="center">
