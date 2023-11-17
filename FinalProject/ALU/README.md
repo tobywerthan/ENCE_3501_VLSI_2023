@@ -554,7 +554,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/219a3ba6-2c16-4cf3-8acc-f5bbbe529a39">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/219a3ba6-2c16-4cf3-8acc-f5bbbe529a39">
 </p>
 <p align="center">
     Figure 36 (Schematic of the controlled buffer)
@@ -582,7 +582,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/880c2f2e-4725-425c-96fe-e3f0e2d804b6">
+  <img width="600" height="850" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/880c2f2e-4725-425c-96fe-e3f0e2d804b6">
 </p>
 
 <p align="center">
@@ -594,7 +594,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2bc210e0-ca10-49e2-aa48-c5bd385db227">
+  <img width="650" height="750" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2bc210e0-ca10-49e2-aa48-c5bd385db227">
 </p>
 <p align="center">
     Figure 39 (3D View of the controlled buffer)
@@ -611,7 +611,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5d3d2883-9ec4-4f01-b2e3-acf0daeb409e">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/5d3d2883-9ec4-4f01-b2e3-acf0daeb409e">
 </p>
 <p align="center">
     Figure 40 (Schematic simulation of the controlled buffer)
@@ -696,7 +696,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b457ee4b-3312-48ec-bae3-2938ac2ba24b">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b457ee4b-3312-48ec-bae3-2938ac2ba24b">
 </p>
 <p align="center">
     Figure 46 (Schematic of the ALU)
@@ -708,7 +708,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/66e677c6-47ec-47ac-a5aa-e8958d9fc330">
+  <img width="700" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/66e677c6-47ec-47ac-a5aa-e8958d9fc330">
 </p>
 <p align="center">
     Figure 47 (Icon of the ALU)
@@ -725,7 +725,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/82082160-6653-43df-bf61-3d4faa32da0d">
+  <img width="850" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/82082160-6653-43df-bf61-3d4faa32da0d">
 </p>
 
 <p align="center">
@@ -737,7 +737,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0ff3515c-3751-4b1b-9259-d756a115ea5c">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0ff3515c-3751-4b1b-9259-d756a115ea5c">
 </p>
 <p align="center">
     Figure 49 (3D View of the ALU)
@@ -754,7 +754,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1b54cb91-bd97-4bff-ab31-1eecbb19320b">
+  <img width="900" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1b54cb91-bd97-4bff-ab31-1eecbb19320b">
 </p>
 <p align="center">
     Figure 50 (Schematic simulation of the ALU)
