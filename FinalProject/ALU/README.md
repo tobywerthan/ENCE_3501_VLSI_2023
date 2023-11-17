@@ -125,7 +125,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="800" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
+  <img width="850" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/d8db8074-e71e-4e9f-8a51-d42e433f5b4d">
 </p>
 
 <p align="center">
@@ -188,7 +188,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8bf1e0f1-418c-487f-aca5-cadcd62afb4c">
+  <img width="700" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/8bf1e0f1-418c-487f-aca5-cadcd62afb4c">
 </p>
 
 <p align="center">
@@ -263,7 +263,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2d5673c4-5d4f-4d7b-b109-13bb660b9924">
+  <img width="700" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2d5673c4-5d4f-4d7b-b109-13bb660b9924">
 </p>
 <p align="center">
     Figure 16 (Schematic of the multiplexer)
@@ -291,7 +291,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="850" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cfd173eb-3860-48b1-81ac-aa3788eca86a">
+  <img width="750" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cfd173eb-3860-48b1-81ac-aa3788eca86a">
 </p>
 
 <p align="center">
@@ -303,7 +303,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eb4fff30-47b7-4d98-9529-e9d3279536e3">
+  <img width="800" height="650" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/eb4fff30-47b7-4d98-9529-e9d3279536e3">
 </p>
 <p align="center">
     Figure 19 (3D View of the multiplexer)
