@@ -291,7 +291,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="750" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cfd173eb-3860-48b1-81ac-aa3788eca86a">
+  <img width="700" height="700" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/cfd173eb-3860-48b1-81ac-aa3788eca86a">
 </p>
 
 <p align="center">
@@ -320,7 +320,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8de572d-4251-44b7-a2e6-4e3cb9b452f3">
+  <img width="900" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c8de572d-4251-44b7-a2e6-4e3cb9b452f3">
 </p>
 <p align="center">
     Figure 20 (Schematic simulation of the multiplexer)
@@ -448,7 +448,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="300" height="250" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b857fed4-21a4-40c9-ae94-0cce50d8d0a3">
+  <img width="850" height="700" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b857fed4-21a4-40c9-ae94-0cce50d8d0a3">
 </p>
 <p align="center">
     Figure 29 (3D View of the full adder)
@@ -465,7 +465,7 @@ ENCE 3501
 </p>
     
 <p align="center">
-  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c9bb9451-b1c8-4d70-af72-9af6948b20d0">
+  <img width="900" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/c9bb9451-b1c8-4d70-af72-9af6948b20d0">
 </p>
 <p align="center">
     Figure 30 (Schematic simulation of the full adder)
