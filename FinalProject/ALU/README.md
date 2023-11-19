@@ -914,7 +914,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2949b61c-836e-41bb-9c58-5aa6284ecc6f">
+  <img width="950" height="650" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2949b61c-836e-41bb-9c58-5aa6284ecc6f">
 </p>
 <p align="center">
     Figure 46 (Corrected ALU schematic simulation results)
@@ -925,7 +925,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9bceb1ca-0f58-4c39-8723-2de24e6c3cdc">
+  <img width="700" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9bceb1ca-0f58-4c39-8723-2de24e6c3cdc">
 </p>
 <p align="center">
     Figure 46 (Corrected ALU layout in ElectricVLSI)
@@ -947,7 +947,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ef3deeaa-d9a7-49c9-9ca0-dc0f4992ac00">
+  <img width="950" height="650" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ef3deeaa-d9a7-49c9-9ca0-dc0f4992ac00">
 </p>
 <p align="center">
     Figure 46 (Corrected ALU layout simulation results)
