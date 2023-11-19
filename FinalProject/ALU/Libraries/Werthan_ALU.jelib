@@ -42,7 +42,7 @@ Ecarry||D5G2;Y3.5;|pin@13||U
 X
 
 # Cell alu;1{lay}
-Calu;1{lay}||mocmos|1699753460188|1700101763561||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700101764618
+Calu;1{lay}||mocmos|1699753460188|1700422269833||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1700422269995
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ibuftri_c_1x;1{lay}|buftri_c@5||157|-138.5|||D5G4;
 Ibuftri_c_1x;1{lay}|buftri_c@9||157|-239.5|||D5G4;
@@ -140,8 +140,6 @@ NMetal-1-Metal-2-Con|contact@118||255|-53.5||||
 NMetal-1-Metal-2-Con|contact@119||255|-60.5||||
 NMetal-1-Metal-2-Con|contact@120||255|-67.5||||
 NMetal-1-Metal-2-Con|contact@121||255|-74.5||||
-NMetal-1-Metal-2-Con|contact@122||-70|-508.5||||
-NMetal-1-Metal-2-Con|contact@123||-70|-522.5||||
 Ifulladder;1{lay}|fulladde@1||17|-138.5|||D5G4;
 Ifulladder;1{lay}|fulladde@2||17|-239.5|||D5G4;
 Ifulladder;1{lay}|fulladde@3||17|-340.5|||D5G4;
@@ -180,7 +178,6 @@ NMetal-1-Pin|pin@30||152|-384.5||||
 NMetal-1-Pin|pin@31||152|-392.5||||
 NMetal-1-Pin|pin@32||2|-393.5||||
 NMetal-1-Pin|pin@33||-70|-497.5||||
-NMetal-1-Pin|pin@36||-82|-515.5||||
 NMetal-1-Pin|pin@38||2|-502.5||||
 NMetal-1-Pin|pin@39||2|-461.5||||
 NMetal-1-Pin|pin@61||-112|-69||||
@@ -249,8 +246,10 @@ NMetal-1-Pin|pin@209||-102|-138.5||||
 NMetal-1-Pin|pin@210||218|-351.5||||
 NMetal-1-Pin|pin@211||218|-250.5||||
 NMetal-1-Pin|pin@212||218|-149.5||||
-NMetal-1-Pin|pin@213||-82|-452.5||||
 NMetal-1-Pin|pin@214||-70|-542.5||||
+NMetal-1-Pin|pin@215||-70|-452.5||||
+NMetal-1-Pin|pin@216||-68|-515.5||||
+NMetal-1-Pin|pin@217||-68|-542.5||||
 AMetal-1|net@0||1|S1800|contact@1||-71.5|-111.5|mux2_c_1@1|d0|-21|-111.5
 AMetal-1|net@1||1|S2700|contact@2||-91|-111.5|inv_1x@0|a|-91|-98.5
 AMetal-2|net@2||1|S0|contact@1||-71.5|-111.5|contact@2||-91|-111.5
@@ -340,7 +339,6 @@ AMetal-2|net@158||1|S900|contact@38||-14|-321.5|contact@56||-14|-374
 AMetal-2|net@159||1|S2700|contact@57||152|-360.5|contact@42||152|-331.5
 AMetal-2|net@160||1|S2700|contact@41||152|-259.5|contact@26||152|-230.5
 AMetal-1|net@161||1|S0|mux2_c_1@8|d1|-53|-497.5|pin@33||-70|-497.5
-AMetal-1|net@166||1|S0|mux2_c_1@8|d0|-21|-515.5|pin@36||-82|-515.5
 AMetal-1|net@174||1|S1800|mux2_c_1@8|y|-5|-502.5|pin@38||2|-502.5
 AMetal-1|net@175||1|S2700|pin@38||2|-502.5|pin@39||2|-461.5
 AMetal-1|net@176||1|S1800|pin@39||2|-461.5|contact@68||152|-461.5
@@ -496,12 +494,12 @@ AMetal-1|net@620||5|S1800|inv_1x@5|gnd|-91|-239.5|mux2_c_1@5|gnd|-61|-239.5
 AMetal-1|net@622||5|S0|fulladde@2|gnd|17|-239.5|mux2_c_1@5|gnd|-61|-239.5
 AMetal-1|net@623||5|S0|buftri_c@9|gnd|159|-239.5|fulladde@2|gnd|17|-239.5
 AMetal-1|net@624||5|S0|buftri_c@5|gnd|159|-138.5|fulladde@1|gnd|17|-138.5
-AMetal-1|net@625||1|S2700|pin@36||-82|-515.5|pin@213||-82|-452.5
-AMetal-1|net@626||1|S1800|pin@213||-82|-452.5|mux2_c_1@8|vdd|-61|-452.5
-AMetal-1|net@627||1|S900|pin@33||-70|-497.5|contact@122||-70|-508
-AMetal-2|net@628||1|S2700|contact@123||-70|-522.5|contact@122||-70|-508.5
-AMetal-1|net@629||1|S900|contact@123||-70|-522.5|pin@214||-70|-542.5
 AMetal-1|net@630||5|S0|mux2_c_1@8|gnd|-61|-542.5|pin@214||-70|-542.5
+AMetal-1|net@631||1|S2700|pin@33||-70|-497.5|pin@215||-70|-452.5
+AMetal-1|net@632||1|S1800|pin@215||-70|-452.5|mux2_c_1@8|vdd|-61|-452.5
+AMetal-1|net@633||1|S0|mux2_c_1@8|d0|-21|-515.5|pin@216||-68|-515.5
+AMetal-1|net@634||1|S900|pin@216||-68|-515.5|pin@217||-68|-542.5
+AMetal-1|net@635||5|S0|mux2_c_1@8|gnd|-61|-542.5|pin@217||-68|-542.5
 EA[0]||D5G4;X-7;|contact@107||U
 EA[1]||D5G4;X-7;|contact@109||U
 EA[2]||D5G4;X-7;|contact@111||U
@@ -522,8 +520,8 @@ Evdd||D5G4;X-9;|contact@69||U
 X
 
 # Cell alu;1{sch}
-Calu;1{sch}||schematic|1699726700803|1700171047882|
-Ialu;1{ic}|alu@0||81|39|||D5G4;
+Calu;1{sch}||schematic|1699726700803|1700422365966|
+Ialu;1{ic}|alu@0||103|-74|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 Ibuftri_c_1x;1{ic}|buftri_c@0||25|7|||D5G4;
 Ibuftri_c_1x;1{ic}|buftri_c@1||25|-9.5|||D5G4;
@@ -539,7 +537,7 @@ Ifulladder;1{ic}|fulladde@3||10|-39.5|X||D5G4;
 Ifulladder;1{ic}|fulladde@4||10|-21.5|X||D5G4;
 Ifulladder;1{ic}|fulladde@5||10|-4.5|X||D5G4;
 Ifulladder;1{ic}|fulladde@6||10|12|X||D5G4;
-NGround|gnd@1||-18|-46|||RR|
+NGround|gnd@2||-18|-58||||
 Iinv_1x;1{ic}|inv_1x@0||-48|10|||D5G4;
 Iinv_1x;1{ic}|inv_1x@1||-48|-6|||D5G4;
 Iinv_1x;1{ic}|inv_1x@2||-48|-22|||D5G4;
@@ -633,7 +631,7 @@ NWire_Pin|pin@192||55|-41.5||||
 NWire_Pin|pin@207||-10.5|-62||||
 NWire_Pin|pin@208||-18|-50||||
 NWire_Pin|pin@210||-18|-54||||
-NPower|pwr@1||-18|-57||||
+NPower|pwr@2||-18|-46||||
 Abus|A[0:3]|D5G3;X9;||IJ1800|conn@4|y|-95|4|pin@133||-89|4
 Awire|A[0]|D5G2;||0|pin@105||-69|-4|pin@132||-75.5|-4
 Awire|A[1]|D5G2;X-2;||0|pin@101||-65|0|pin@131||-75.5|0
@@ -748,8 +746,8 @@ Awire|net@375|||1800|pin@73||-25|-62|pin@207||-10.5|-62
 Awire|net@376|||2700|pin@207||-10.5|-62|mux2_c_1@4|s|-10.5|-58
 Awire|net@377|||0|mux2_c_1@4|d1|-14|-50|pin@208||-18|-50
 Awire|net@379|||0|mux2_c_1@4|d0|-14|-54|pin@210||-18|-54
-Awire|net@383|||900|gnd@1||-18|-48|pin@208||-18|-50
-Awire|net@384|||2700|pwr@1||-18|-57|pin@210||-18|-54
+Awire|net@385|||900|pin@210||-18|-54|gnd@2||-18|-56
+Awire|net@386|||2700|pin@208||-18|-50|pwr@2||-18|-46
 EA[0:3]||D5G2;X3;|conn@4|a|U
 EAddSub||D5G2;X-4.5;|conn@0|y|U
 EB[0:3]||D5G2;X3;|conn@5|a|U
@@ -803,8 +801,8 @@ AMetal-1|vdd|D5G8;X-31;|5|S0|alu@1|vdd|-136|248.5|pin@0||-168|248.5
 X
 
 # Cell alu_sim;1{sch}
-Calu_sim;1{sch}||schematic|1699859566563|1700202573836|
-Ialu;1{ic}|alu@0||9|0|||D5G4;
+Calu_sim;1{sch}||schematic|1699859566563|1700423078628|
+Ialu;1{ic}|alu@1||9.5|0|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NWire_Pin|pin@0||-10|4||||
 NWire_Pin|pin@1||-10|7||||
@@ -818,25 +816,25 @@ NWire_Pin|pin@9||-19|-3.5||||
 NBus_Pin|pin@10||-10|-3.5||||
 NBus_Pin|pin@11||-10|-6.5||||
 NBus_Pin|pin@12||-18.5|-6.5||||
-NBus_Pin|pin@13||32.5|3.5||||
-NWire_Pin|pin@20||30.5|0.5||||
+NBus_Pin|pin@13||35|3.5||||
+NWire_Pin|pin@20||33|0.5||||
 Ngeneric:Invisible-Pin|pin@25||-40.5|-8.5|||||SIM_spice_card(D5FVerdana;G1.25;I)S[vdd vdd 0 dc 5,ven en 0 dc 5,vop op 0 pulse(0 5 5 1p 1p 5 10),"vB[0] B[0] 0 dc 5","vB[1] B[1] 0 dc 0","vB[2] B[2] 0 dc 0","vB[3] B[3] 0 dc 5","vA[0] A[0] 0 dc 5","vA[1] A[1] 0 dc 5","vA[2] A[2] 0 dc 0","vA[3] A[3] 0 dc 0",.tran 0 10]
 Ngeneric:Invisible-Pin|pin@26||-40.5|1.5|||||ART_message(BD5FVerdana;G1.5;L)SALU Logic Value Spice Code
 Ngeneric:Invisible-Pin|pin@27||-40.5|7.5|||||SIM_spice_card(D5FVerdana;G1.25;I)S.include cmosedu_models.txt
 Ngeneric:Invisible-Pin|pin@28||-40.5|10.5|||||ART_message(BD5FVerdana;G1.5;L)SImported Model Parameters
 Abus|A[0:3]|D5G1;||IJ0|pin@11||-10|-6.5|pin@12||-18.5|-6.5
 Abus|B[0:3]|D5G1;||IJ0|pin@4||-14|4|pin@5||-19|4
-Abus|IB[0:3]|D5G1;||IJ1800|alu@0|IB[0:3]|20|3.5|pin@13||32.5|3.5
-Awire|c|D5G1;||1800|alu@0|carry|20|0.5|pin@20||30.5|0.5
+Abus|IB[0:3]|D5G1;||IJ0|pin@13||35|3.5|alu@1|IB[0:3]|20.5|3.5
+Awire|c|D5G1;||0|pin@20||33|0.5|alu@1|carry|20.5|0.5
 Awire|en|D5G1;||0|pin@1||-10|7|pin@2||-19|7
-Awire|net@0|||0|alu@0|Enable|-2|4|pin@0||-10|4
 Awire|net@1|||2700|pin@0||-10|4|pin@1||-10|7
-Abus|net@3|||IJ0|alu@0|B[0:3]|-2|1.5|pin@3||-14|1.5
 Abus|net@4|||IJ2700|pin@3||-14|1.5|pin@4||-14|4
-Awire|net@6|||0|alu@0|AddSub|-4|-1|pin@6||-14|-1
 Awire|net@7|||900|pin@6||-14|-1|pin@7||-14|-3.5
-Abus|net@10|||IJ0|alu@0|A[0:3]|-2|-3.5|pin@10||-10|-3.5
 Abus|net@11|||IJ900|pin@10||-10|-3.5|pin@11||-10|-6.5
+Abus|net@24|||IJ0|alu@1|B[0:3]|-1.5|1.5|pin@3||-14|1.5
+Awire|net@26|||0|alu@1|Enable|-1.5|4|pin@0||-10|4
+Abus|net@27|||IJ0|alu@1|A[0:3]|-1.5|-3.5|pin@10||-10|-3.5
+Awire|net@31|||1800|pin@6||-14|-1|alu@1|AddSub|-3.5|-1
 Awire|op|D5G1;||0|pin@7||-14|-3.5|pin@9||-19|-3.5
 X
 
