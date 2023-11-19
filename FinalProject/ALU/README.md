@@ -879,14 +879,14 @@ ENCE 3501
 <dl><dd><dl><dd>
     
 <p>    
-    In the Electric design, if the AddSub input is set to high, addition is performed. While this is definitely one of the issues, it is not the full story. When interpreting the simulation inputs and results, the index of 0 was treated as the least significant bit. In reality, the least significant bit has an index of 3. 
+    In the Electric design, if the AddSub input is set to high, addition is performed. While this is definitely one of the issues, it is not the full story. When interpreting the simulation inputs and results, it was not clear if the index of 0 or 3 was the least significant bit in both inputs and outputs. The Logisim test indicated that a bit with an index of 3 is the most significant bit. 
 </p>
 <p>    
     A flowchart of the ALU's ideal operation now that there is a better understanding of both the mistakes in the Electric schematic and layout as well as the misinterpretation of the simulation results. 
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/defaa911-6561-43c3-aa15-ae4bfde0ca2f">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57bc1145-bd17-4029-8293-f96619610607">
 </p>
 <p align="center">
     Figure 46 (Flowchart of the ALU operation)
