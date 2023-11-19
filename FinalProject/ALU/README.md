@@ -28,6 +28,10 @@ ENCE 3501
     1. [Schematic](#aluSchem)
     2. [Layout](#aluLay)
     3. [Simulation](#aluSim)
+6. [Further Investigation](#debug)
+    1. [Testing in Logisim](#debugLogisim)
+    2. [Finding the Problem](#debugProblem)
+    3. [Implementing the Solution](#debugSuccess)
 7. [Conclusion](#conclusion)
 
 *Note: If images are hard to view, please click on them. A new tab will open, displaying the full-size image.*
@@ -839,6 +843,175 @@ ENCE 3501
 </p>
 
 </dd></dl></dd></dl>
+
+
+
+
+
+
+
+<h2> Further Investigation </h2> <a name="debug"></a>
+
+<dl><dd><h3>Testing in Logisim</h3> <a name="debugLogisim"></a></dd></dl> 
+
+<dl><dd><dl><dd>
+    
+<p>    
+    To further understand what is going on with the seemingly dysfunctional ALU created in ELectric, an ALU was created in Logisim. This will help debug the issues that are present in the circuit created in Electric. 
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b4066f7c-9a75-4d56-818e-9654b4e6a1a9">
+</p>
+<p align="center">
+    Figure 46 (Schematic of the ALU created in Logisim)
+</p>
+
+
+<p>    
+    When comparing the schematic from Electric to the schematic in Logisim it's clear that there is an issue. The inputs are flipped for that multiplexer responsible for the two's complement carry bit. This would indicate that the simulation results in Electric VLSI were misinterpreted.
+</p>
+<p>    
+    In the Electric design, if the AddSub input is set to high, addition is performed. While this is definitely one of the issues, it is not the full story. When interpreting the simulation inputs and results, the index of 0 was treated as the least significant bit. In reality, the least significant bit has an index of 3. 
+</p>
+<p>    
+    A flowchart of the ALU's ideal operation now that there is a better understanding of both the mistakes in the Electric schematic and layout as well as the misinterpretation of the simulation results. 
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/defaa911-6561-43c3-aa15-ae4bfde0ca2f">
+</p>
+<p align="center">
+    Figure 46 (Flowchart of the ALU operation)
+</p>
+
+</dd></dl></dd></dl>
+
+<dl><dd><h3>Layout</h3> <a name="aluLay"></a></dd></dl> 
+
+<dl><dd><dl><dd>
+    
+<p>    
+    The layout of the ALU consists of four sections that each pertain to the calculation of one of the output bits. Each section includes an inverter, a 2x1 multiplexer, a full adder, and a controlled buffer. Power rails are also lined through individual components and the entire circuit for easy access. The exports for the ALU are also located in such a way that wiring them to a pad will both be easier and intuitive. The layout of the ALU can be seen below.  
+</p>
+
+<p align="center">
+  <img width="850" height="900" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/82082160-6653-43df-bf61-3d4faa32da0d">
+</p>
+
+<p align="center">
+    Figure 48 (Layout of the ALU)
+</p>
+
+<p>    
+   A 3D view of the ALU is provided below.
+</p>
+
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0ff3515c-3751-4b1b-9259-d756a115ea5c">
+</p>
+<p align="center">
+    Figure 49 (3D View of the ALU)
+</p>
+
+</dd></dl></dd></dl>
+
+<dl><dd><h3>Simulation</h3> <a name="aluSim"></a></dd></dl> 
+
+<dl><dd><dl><dd>
+    
+<p>
+    The simulation of the schematic of the ALU tests the logic values of the circuit. 
+</p>
+    
+<p align="center">
+  <img width="900" height="400" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/1b54cb91-bd97-4bff-ab31-1eecbb19320b">
+</p>
+<p align="center">
+    Figure 50 (Schematic simulation of the ALU)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        ven en 0 dc 5
+        vop op 0 pulse(0 5 5 1p 1p 5 10)
+        vB[0] B[0] 0 dc 5
+        vB[1] B[1] 0 dc 0
+        vB[2] B[2] 0 dc 0
+        vB[3] B[3] 0 dc 5
+        vA[0] A[0] 0 dc 5
+        vA[1] A[1] 0 dc 5
+        vA[2] A[2] 0 dc 0
+        vA[3] A[3] 0 dc 0
+        .tran 0 10
+<p align="center">
+    Figure 51 (Spice code for the schematic simulation of the ALU)
+</p>
+
+<p>
+    The result of the simulation may or may not be successful. Upon inspection, the output of the ALU schematic simulation seemed to be incorrect. However, after double and triple-checking the correctness of the ALU circuit, no issue was found. This has led me to believe that I have either missed something when debugging the schematic or that I have misinterpreted the simulation results. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68571355-1fcd-4c77-992e-64040b0cb3df">
+</p>
+
+<p align="center">
+    Figure 52 (Results of the schematic simulation of the ALU)
+</p>
+
+<p>
+    The simulation of the layout of the ALU tests the logic values of the circuit. 
+</p>
+    
+<p align="center">
+  <img width="900" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/b24f8432-d780-4387-af63-b99f17366f33">
+</p>
+<p align="center">
+    Figure 53 (Layout simulation of the ALU)
+</p>
+
+<p>
+    A snippet of the spice code for the simulation is provided below:
+</p>
+
+        .include cmosedu_models.txt
+        
+        vdd vdd 0 dc 5
+        ven en 0 dc 5
+        vop op 0 pulse(0 5 5 1p 1p 5 10)
+        vB[0] B[0] 0 dc 5
+        vB[1] B[1] 0 dc 0
+        vB[2] B[2] 0 dc 0
+        vB[3] B[3] 0 dc 5
+        vA[0] A[0] 0 dc 5
+        vA[1] A[1] 0 dc 5
+        vA[2] A[2] 0 dc 0
+        vA[3] A[3] 0 dc 0
+        .tran 0 10
+<p align="center">
+    Figure 54 (Spice code for the layout simulation of the ALU)
+</p>
+
+<p>
+    The results of the simulation were the same as the schematic. While it is unclear if the schematic is correct, the layout matches the topology and simulates in the same fashion as the schematic. 
+</p>
+
+<p align="center">
+  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57a4d8c4-41b6-4397-baf3-27199b23fe75">
+</p>
+<p align="center">
+    Figure 55 (Results of the layout simulation of the ALU)
+</p>
+
+</dd></dl></dd></dl>
+
+
 
 
 
