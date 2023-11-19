@@ -791,7 +791,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68571355-1fcd-4c77-992e-64040b0cb3df">
+  <img width="1500" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/68571355-1fcd-4c77-992e-64040b0cb3df">
 </p>
 
 <p align="center">
@@ -836,7 +836,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="1500" height="500" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57a4d8c4-41b6-4397-baf3-27199b23fe75">
+  <img width="1500" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57a4d8c4-41b6-4397-baf3-27199b23fe75">
 </p>
 <p align="center">
     Figure 55 (Results of the layout simulation of the ALU)
@@ -886,7 +886,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57bc1145-bd17-4029-8293-f96619610607">
+  <img width="600" height="800" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/57bc1145-bd17-4029-8293-f96619610607">
 </p>
 <p align="center">
     Figure 46 (Flowchart of the ALU operation)
@@ -936,7 +936,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0e543417-61b1-4ed4-b322-617699bb285d">
+  <img width="950" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0e543417-61b1-4ed4-b322-617699bb285d">
 </p>
 <p align="center">
     Figure 46 (NCC check of the layout and schematic of the ALU)
@@ -947,7 +947,7 @@ ENCE 3501
 </p>
 
 <p align="center">
-  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ef3deeaa-d9a7-49c9-9ca0-dc0f4992ac00">
+  <img width="950" height="550" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ef3deeaa-d9a7-49c9-9ca0-dc0f4992ac00">
 </p>
 <p align="center">
     Figure 46 (Corrected ALU layout simulation results)
@@ -962,7 +962,7 @@ ENCE 3501
 <h2>Conclusion</h3>  <a name="conclusion"></a>
 
 <p>
-    The goal of this final project was the create a functioning ALU in Electric VSLI. It is unclear if the results of the simulations are correct or not. If they are, the layout matches the schematic, so the ALU will have been successfully constructed. This project combined many different aspects not only learned in the VLSI course, but also in our degree as a whole from digital design, circuits, and all the way to microprocessors.
+    The goal of this final project was the create a functioning ALU in Electric VSLI. The simulation results were initially misinterpreted, and the multiplexer responsible for the carry bit had its inputs flipped in both the schematic and layout of the ALU. Both of these issues were corrected and the ALU is seen to be functioning correctly. It is now ready to be connected to the rest of the components created by other students in the course. The end goal is to create a very simple microprocessor. This project combined many different aspects not only learned in the VLSI course, but also in our degree as a whole from digital design, circuits, and all the way to microprocessors.
 </p>
 
 
