@@ -898,11 +898,62 @@ ENCE 3501
 
 <dl><dd><dl><dd>
     
+<p>    
+    To fix the schematic of the ALU in Electric, the inputs of the multiplexer responsible for the carry bit in the two's complement operation were flipped. 
+</p>
 
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/4afed632-26ee-484a-8cd9-436d87149c5b">
+</p>
+<p align="center">
+    Figure 46 (Corrected ALU schematic in ElectricVLSI)
+</p>
+
+<p>    
+    The same simulation was performed on the ALU updated schematic and the obtained results are below. The output of the addition operation is 1100, or 12 in decimal. This means that the addition operation was performed successfully because 1001 summed with 0011 is 1100. The subtraction operation was also successful because the output of the ALU was 0110 with a carry bit of 1 indicating a subtraction was performed. Notice, 1001 summed with 1101 is 10110. 
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/2949b61c-836e-41bb-9c58-5aa6284ecc6f">
+</p>
+<p align="center">
+    Figure 46 (Corrected ALU schematic simulation results)
+</p>
+
+<p>    
+    To fix the layout of the ALU in Electric, the inputs of the multiplexer responsible for the carry bit in the two's complement operation were flipped. 
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/9bceb1ca-0f58-4c39-8723-2de24e6c3cdc">
+</p>
+<p align="center">
+    Figure 46 (Corrected ALU layout in ElectricVLSI)
+</p>
+
+<p>    
+    The NCC check was performed on the layout of the simulation of the ALU. The test was successful indicating the two match in topologies.  
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/0e543417-61b1-4ed4-b322-617699bb285d">
+</p>
+<p align="center">
+    Figure 46 (NCC check of the layout and schematic of the ALU)
+</p>
+
+<p>    
+    The same simulation was performed on the ALU updated layout and the obtained results are below. The results of the simulation are the same as the schematic indicating a successful layout. 
+</p>
+
+<p align="center">
+  <img width="950" height="600" src="https://github.com/tobywerthan/ENCE_3501_VLSI_2023/assets/55803740/ef3deeaa-d9a7-49c9-9ca0-dc0f4992ac00">
+</p>
+<p align="center">
+    Figure 46 (Corrected ALU layout simulation results)
+</p>
 
 </dd></dl></dd></dl>
-
-
 
 
 
